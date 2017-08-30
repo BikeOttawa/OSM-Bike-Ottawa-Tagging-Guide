@@ -4,13 +4,13 @@
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
-| Multi-Use Path (MUP)                                            | highway=path              | ![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)
-| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> highway=path   |
-| One way protected lanes. Each side has its own way.             | cycletrack=yes <br> oneway=yes |
-| Bi-directional protected lanes. Separate way for the lane.      | cycletrack=yes |
+| Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] | ![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)
+| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
+| One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes |
+| Bi-directional protected lanes. Separate way for the lane.      | [cycletrack][cycletrack]=yes |
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no |
 | Sharrows, may be faded or green                                 | sharrows=left/right/both
-| Lane on one side                                                | cycleway:right=lane | 
+| Lane on one side                                                | [cycleway][cycleway]:right=lane |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
 
 ## Parking
@@ -43,7 +43,7 @@
 - amenity=bicycle_parking , capacity=N
 - amenity=drinking_fountain
 - amenity=bench
-- amenity=wastebasket 
+- amenity=wastebasket
 
 ## Intersections
 
@@ -53,3 +53,9 @@
 | Two-way stop              |
 | Cycleway crosses highway  |
 | Bicycle box               |
+
+
+[cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
+[cycletrack]: http://wiki.openstreetmap.org/wiki/Tag:cycletrack
+[highway]: http://wiki.openstreetmap.org/wiki/Tag:highway
+[path]: http://wiki.openstreetmap.org/wiki/Tag:highway=path
