@@ -4,7 +4,7 @@
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
-| Multi-Use Path (MUP)                                            | highway=path              |
+| Multi-Use Path (MUP)                                            | highway=path              | ![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> highway=path   |
 | One way protected lanes. Each side has its own way.             | cycletrack=yes <br> oneway=yes |
 | Bi-directional protected lanes. Separate way for the lane.      | cycletrack=yes |
