@@ -6,8 +6,8 @@
 |-----------------------------------------------------------------|---------------------------|------------|
 | Multi-Use Path (MUP)                                            | highway=path              |
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> highway=path   |
-| One way protected lanes. <br> Each side has its own way.        | cycletrack=yes <br> oneway=yes |
-| Bi-directional protected lanes. <br> Separate way for the lane. | cycletrack=yes |
+| One way protected lanes. Each side has its own way.             | cycletrack=yes <br> oneway=yes |
+| Bi-directional protected lanes. Separate way for the lane.      | cycletrack=yes |
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no |
 | Sharrows, may be faded or green                                 | sharrows=left/right/both
 | Lane on one side                                                | cycleway:right=lane | 
@@ -25,9 +25,9 @@
 
 | Feature                                | OSM Scheme                | Photos     |
 |----------------------------------------|---------------------------|------------|
-| Two lanes<br>Most residential streets. | lanes=2     |
-| Multiple lanes<br>Include turning lanes| lanes=5     |
-| Speed limit<br>Only show if the speed is posted different than 50. | maxspeed=40  |
+| Two lanes. Most residential streets. | lanes=2     |
+| Multiple lanes. Include turning lanes| lanes=5     |
+| Speed limit. Only show if the speed is posted different than 50. | maxspeed=40  |
 
 ## Other tags for ways not shown:
 
