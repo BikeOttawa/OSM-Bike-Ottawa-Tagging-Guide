@@ -14,6 +14,10 @@
 | Painted bike lane on one side                                   | [cycleway][cycleway]:right=lane |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
 
+## Plowing
+
+If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a conditional restriction of [access:conditional][access:conditional]=no @ Dec-Mar to indicate the period when the way is typically unavailable <br> If poorly plowed: add a conditional restriction of [smoothness:conditional][smoothness]=bad @ Dec-Mar 
+
 ## Parking
 
 | Feature                    | OSM Scheme                | Photos     |
@@ -65,3 +69,4 @@
 [fine_gravel]: https://wiki.openstreetmap.org/wiki/tag:surface=fine_gravel
 [asphalt]: https://wiki.openstreetmap.org/wiki/tag:surface=asphalt
 [smoothness]: https://wiki.openstreetmap.org/wiki/Key:smoothness
+[access:conditional]:http://wiki.openstreetmap.org/wiki/Conditional_restrictions
