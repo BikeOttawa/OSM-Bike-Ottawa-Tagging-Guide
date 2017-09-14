@@ -61,3 +61,5 @@
 [cycletrack]: http://wiki.openstreetmap.org/wiki/Tag:cycletrack
 [highway]: http://wiki.openstreetmap.org/wiki/Tag:highway
 [path]: http://wiki.openstreetmap.org/wiki/Tag:highway=path
+[surface]: https://wiki.openstreetmap.org/wiki/Key:surface
+[fine_gravel]: https://wiki.openstreetmap.org/wiki/tag:surface=fine_gravel
