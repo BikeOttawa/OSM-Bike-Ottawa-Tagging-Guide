@@ -35,15 +35,16 @@
 - bridge=yes
 - Tunnel=yes
 - lit=yes
-- operator=NCC or City of Ottawa
+- operator=NCC or City of Ottawa or Ville de Gatineau
 - name=*
 
 ## Points of Interset (Nodes)
 
-- amenity=bicycle_parking , capacity=N
-- amenity=drinking_fountain
-- amenity=bench
-- amenity=wastebasket
+- amenity=bicycle_parking , capacity=N https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbicycle_parking
+- amenity=drinking_water https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
+- amenity=bench https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbench
+- amenity=waste_basket https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket
+- amenity=bicycle_repair_station https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station
 
 ## Intersections
 
