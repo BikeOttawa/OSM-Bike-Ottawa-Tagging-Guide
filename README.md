@@ -18,6 +18,10 @@
 
 If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a conditional restriction of [access:conditional][access:conditional]=no @ Dec-Mar to indicate the period when the way is typically unavailable <br> If poorly plowed: add a conditional restriction of [smoothness:conditional][smoothness]=bad @ Dec-Mar 
 
+## Flooding
+
+Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you may wish to add conditional access restrictions to indicate times of the year when the way should be avoided; example: [access:conditional][access:conditional]=no @ May 1-15 
+
 ## Parking
 
 | Feature                    | OSM Scheme                | Photos     |
@@ -69,4 +73,5 @@ If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a condit
 [fine_gravel]: https://wiki.openstreetmap.org/wiki/tag:surface=fine_gravel
 [asphalt]: https://wiki.openstreetmap.org/wiki/tag:surface=asphalt
 [smoothness]: https://wiki.openstreetmap.org/wiki/Key:smoothness
-[access:conditional]:http://wiki.openstreetmap.org/wiki/Conditional_restrictions
+[access:conditional]: http://wiki.openstreetmap.org/wiki/Conditional_restrictions
+[flood_prone]: http://wiki.openstreetmap.org/wiki/Key:flood_prone
