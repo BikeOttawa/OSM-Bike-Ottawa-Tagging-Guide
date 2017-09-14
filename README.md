@@ -4,14 +4,14 @@
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
-| Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
-| Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
+| Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt] <br> optionally, set a value for [smoothness][smoothness]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
+| Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
 | One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes |
-| Bi-directional protected lanes. Separate way for the lane.      | [cycletrack][cycletrack]=yes |
+| Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes |
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no |
 | Sharrows, may be faded or green                                 | sharrows=left/right/both
-| Lane on one side                                                | [cycleway][cycleway]:right=lane |
+| Painted bike lane on one side                                   | [cycleway][cycleway]:right=lane |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
 
 ## Parking
@@ -63,3 +63,5 @@
 [path]: http://wiki.openstreetmap.org/wiki/Tag:highway=path
 [surface]: https://wiki.openstreetmap.org/wiki/Key:surface
 [fine_gravel]: https://wiki.openstreetmap.org/wiki/tag:surface=fine_gravel
+[asphalt]: https://wiki.openstreetmap.org/wiki/tag:surface=asphalt
+[smoothness]: https://wiki.openstreetmap.org/wiki/Key:smoothness
