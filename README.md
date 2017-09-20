@@ -68,11 +68,11 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 ## Points of Interest (Nodes)
 
-- amenity=bicycle_parking , capacity=N https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbicycle_parking
-- amenity=drinking_water https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
-- amenity=bench https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbench
-- amenity=waste_basket https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket
-- amenity=bicycle_repair_station https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station
+- [amenity=bicycle_parking](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking) , [capacity=N](https://wiki.openstreetmap.org/wiki/Key:capacity)
+- [amenity=drinking_water](https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water)
+- [amenity=bench](https://wiki.openstreetmap.org/wiki/Tag:amenity=bench)
+- [amenity=waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)
+- [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
 
 ## Intersections, Barricades, and Obstacles
 
