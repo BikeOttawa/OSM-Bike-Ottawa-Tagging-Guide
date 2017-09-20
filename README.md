@@ -4,15 +4,18 @@
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
-| Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt] <br> optionally, set a value for [smoothness][smoothness]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
+| Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
 | Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
-| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
 | One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes |
 | Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes |
-| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no |
-| Sharrows, may be faded or green                                 | sharrows=left/right/both
-| Painted bike lane on one side                                   | [cycleway][cycleway]:right=lane |
+| Painted bike lane, on a divided road                             | [cycleway][cycleway]:right=lane  |
+| Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |
+| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
+| Buffered bike lane                                   |                     |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
+| Sharrows, may be faded or green                                 | sharrows=left/right/both|
+| Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
+| Singletrack| | |
 
 ## Plowing
 
@@ -22,6 +25,22 @@ If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a condit
 
 Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you may wish to add conditional access restrictions to indicate times of the year when the way should be avoided; example: [access:conditional][access:conditional]=no @ May 1-15 
 
+## Other Optional Tags
+[width][width] Most MUPs are 3m, though some are wider. 
+<br> [smoothness][smoothness]. Read more on the wiki. Always a subjective call. Here are some more cycling-specific interpretations of the key: 
+
+| Value          | Description                                | Photos     |
+|----------------|--------------------------------------------|------------|
+| Excellent      | fresh flawless pavement                    |
+| Good           | decent on skinny tires, a few cracks and bumps <br> flawless stone dust    |
+| Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        |
+| Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        |
+| Very_bad       | pavement with hazardous bumps and large cracks <br> rocky surface, such as an ATV trail <br> dirt trail where stones or roots require attention       |
+| Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |
+| Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
+| Impassible     | almost nobody would be able to ride this       |
+
+## Lane Configuration
 ## Parking
 
 | Feature                    | OSM Scheme                | Photos     |
@@ -42,12 +61,12 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 - busway=shared
 - bridge=yes
-- Tunnel=yes
+- tunnel=yes
 - lit=yes
 - operator=NCC or City of Ottawa or Ville de Gatineau
 - name=*
 
-## Points of Interset (Nodes)
+## Points of Interest (Nodes)
 
 - amenity=bicycle_parking , capacity=N https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbicycle_parking
 - amenity=drinking_water https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
@@ -55,14 +74,21 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 - amenity=waste_basket https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket
 - amenity=bicycle_repair_station https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station
 
-## Intersections
+## Intersections, Barricades, and Obstacles
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
 | Four-way stop             |
 | Two-way stop              |
+| Yield                     |
+| Cyclist Dismount          |
+| Stairs with no trough     |
+| Stairs with trough        |
 | Cycleway crosses highway  |
 | Bicycle box               |
+| P-gate                    |
+| Bollard                   |
+| Split-path                |
 
 
 [cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
@@ -75,3 +101,5 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [smoothness]: https://wiki.openstreetmap.org/wiki/Key:smoothness
 [access:conditional]: http://wiki.openstreetmap.org/wiki/Conditional_restrictions
 [flood_prone]: http://wiki.openstreetmap.org/wiki/Key:flood_prone
+[width]: http://wiki.openstreetmap.org/wiki/Key:width
+[desire]: http://wiki.openstreetmap.org/wiki/Tag:path%3Ddesire
