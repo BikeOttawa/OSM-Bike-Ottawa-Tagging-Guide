@@ -17,15 +17,6 @@
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
 | Singletrack| | |
 
-## Intersection Treatments and Barricades
-
-| Feature                                                         | OSM Scheme                | Photos     |
-|-----------------------------------------------------------------|---------------------------|------------|
-|Bike Box|
-|P-gate|
-|Bollard|
-|Split-path|
-
 ## Plowing
 
 If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a conditional restriction of [access:conditional][access:conditional]=no @ Dec-Mar to indicate the period when the way is typically unavailable <br> If poorly plowed: add a conditional restriction of [smoothness:conditional][smoothness]=bad @ Dec-Mar 
@@ -83,14 +74,21 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 - amenity=waste_basket https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_basket
 - amenity=bicycle_repair_station https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station
 
-## Intersections
+## Intersections, Barricades, and Obstacles
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
 | Four-way stop             |
 | Two-way stop              |
+| Yield                     |
+| Cyclist Dismount          |
+| Stairs with no trough     |
+| Stairs with trough        |
 | Cycleway crosses highway  |
 | Bicycle box               |
+| P-gate                    |
+| Bollard                   |
+| Split-path                |
 
 
 [cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
