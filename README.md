@@ -11,11 +11,17 @@
 | Painted bike lane, on a divided road                             | [cycleway][cycleway]:right=lane  |
 | Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
-| Painted bike lane on one side                                   |                     |
+| Buffered bike lane                                   |                     |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
 | Sharrows, may be faded or green                                 | sharrows=left/right/both|
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
 | Singletrack| | |
+
+## Intersection Treatments
+
+| Feature                                                         | OSM Scheme                | Photos     |
+|-----------------------------------------------------------------|---------------------------|------------|
+|Bike Box|
 
 ## Plowing
 
