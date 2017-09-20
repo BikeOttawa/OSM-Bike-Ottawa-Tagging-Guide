@@ -6,13 +6,16 @@
 |-----------------------------------------------------------------|---------------------------|------------|
 | Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
 | Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
-| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
 | One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes |
 | Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes |
-| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no |
-| Sharrows, may be faded or green                                 | sharrows=left/right/both
-| Painted bike lane on one side                                   | [cycleway][cycleway]:right=lane |
+| Painted bike lane, on a divided road                             | [cycleway][cycleway]:right=lane  |
+| Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |
+| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
+| Painted bike lane on one side                                   |                     |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
+| Sharrows, may be faded or green                                 | sharrows=left/right/both|
+| Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
+| Singletrack| | |
 
 ## Plowing
 
@@ -58,7 +61,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 - busway=shared
 - bridge=yes
-- Tunnel=yes
+- tunnel=yes
 - lit=yes
 - operator=NCC or City of Ottawa or Ville de Gatineau
 - name=*
@@ -92,3 +95,4 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [access:conditional]: http://wiki.openstreetmap.org/wiki/Conditional_restrictions
 [flood_prone]: http://wiki.openstreetmap.org/wiki/Key:flood_prone
 [width]: http://wiki.openstreetmap.org/wiki/Key:width
+[desire]: http://wiki.openstreetmap.org/wiki/Tag:path%3Ddesire
