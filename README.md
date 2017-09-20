@@ -17,11 +17,14 @@
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
 | Singletrack| | |
 
-## Intersection Treatments
+## Intersection Treatments and Barricades
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
 |Bike Box|
+|P-gate|
+|Bollard|
+|Split-path|
 
 ## Plowing
 
