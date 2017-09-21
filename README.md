@@ -60,6 +60,8 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 ## Other tags for ways not shown:
 
 - busway=shared
+- truck route: [hgv][hgv]=yes 
+- trucks prohibited: [hgv][hgv]=no
 - bridge=yes
 - tunnel=yes
 - lit=yes
@@ -103,3 +105,4 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [flood_prone]: http://wiki.openstreetmap.org/wiki/Key:flood_prone
 [width]: http://wiki.openstreetmap.org/wiki/Key:width
 [desire]: http://wiki.openstreetmap.org/wiki/Tag:path%3Ddesire
+[hgv]: http://wiki.openstreetmap.org/wiki/Key:hgv
