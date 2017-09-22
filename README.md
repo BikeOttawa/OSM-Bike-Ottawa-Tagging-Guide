@@ -6,12 +6,12 @@
 |-----------------------------------------------------------------|---------------------------|------------|
 | Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
 | Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
-| One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes |
-| Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes |
+| One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
+| Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/1xOyTkegYkMF9SapKrqAnQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/1xOyTkegYkMF9SapKrqAnQ)
+| Buffered bike lane                                   |                     |
 | Painted bike lane, on a divided road                             | [cycleway][cycleway]:right=lane  |
 | Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
-| Buffered bike lane                                   |                     |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
 | Sharrows, may be faded or green                                 | sharrows=left/right/both|
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
@@ -31,7 +31,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 | Value          | Description                                | Photos     |
 |----------------|--------------------------------------------|------------|
-| Excellent      | fresh flawless pavement                    |
+| Excellent      | fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
 | Good           | decent on skinny tires, a few cracks and bumps <br> flawless stone dust    |
 | Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        |
 | Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        |
@@ -60,6 +60,8 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 ## Other tags for ways not shown:
 
 - busway=shared
+- truck route: [hgv][hgv]=yes 
+- trucks prohibited: [hgv][hgv]=no
 - bridge=yes
 - tunnel=yes
 - lit=yes
@@ -86,7 +88,8 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Stairs with trough        |
 | Cycleway crosses highway  |
 | Bicycle box               |
-| P-gate                    |
+| P-gate 
+| Block                     | [barrier][barrier] = [block][block] <br> [access]=permissive <br> [motor_vechicle]=no
 | Bollard                   |
 | Split-path                |
 
@@ -103,3 +106,6 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [flood_prone]: http://wiki.openstreetmap.org/wiki/Key:flood_prone
 [width]: http://wiki.openstreetmap.org/wiki/Key:width
 [desire]: http://wiki.openstreetmap.org/wiki/Tag:path%3Ddesire
+[hgv]: http://wiki.openstreetmap.org/wiki/Key:hgv
+[barrier]: http://wiki.openstreetmap.org/wiki/Key:barrier
+[block]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dblock
