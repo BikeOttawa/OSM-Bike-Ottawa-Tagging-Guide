@@ -8,12 +8,16 @@
 | Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
 | One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
 | Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/1xOyTkegYkMF9SapKrqAnQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/1xOyTkegYkMF9SapKrqAnQ)
-| Buffered bike lane                                   |                     |
-| Painted bike lane, on a divided road                             | [cycleway][cycleway]:right=lane  |
-| Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |
-| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
-| Contraflow lane                                                 | oneway:bicycle=yes  |
-| Sharrows, may be faded or green                                 | sharrows=left/right/both|
+| Buffered bike lane                  |  [cycleway][cycleway] = lane <br> cycleway:[buffer][buffer] = yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sCskYIeAaVOrs6pOvUVddQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/sCskYIeAaVOrs6pOvUVddQ)
+| Painted bike lane, on a divided road            | [cycleway][cycleway]:right=lane  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/IbjORAYAgVQk5oUto7WgsQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/IbjORAYAgVQk5oUto7WgsQ)
+| Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |[![image](https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg)](https://www.mapillary.com/map/im/3Me8bNEXV5Tkr3OhsLO6Ow)
+| Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg)](https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ&lat=45.270994444444455&lng=-75.79611111111109&z=17)
+| Contraflow lane                                                 | oneway:bicycle=yes  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
+| Advisory bike lane|
+| Dooring zone|
+| Super sharrows, (green background)                                 | sharrows=left/right/both|
+| Sharrows      |                          | sharrows=left/right/both|
+| Traffic-calming parking lane|
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
 | Singletrack| | |
 
@@ -109,3 +113,4 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [hgv]: http://wiki.openstreetmap.org/wiki/Key:hgv
 [barrier]: http://wiki.openstreetmap.org/wiki/Key:barrier
 [block]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dblock
+[buffer]: http://wiki.openstreetmap.org/wiki/Proposed_features/Buffered_bike_lane
