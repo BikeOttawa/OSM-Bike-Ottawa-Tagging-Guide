@@ -15,8 +15,8 @@
 | Contraflow lane                                                 | oneway:bicycle=yes  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
 | Advisory bike lane|
 | Dooring zone|
-| Super sharrows, (green background)                                 | sharrows=left/right/both|
-| Sharrows      |                          | sharrows=left/right/both|
+| Super sharrows, (green background)                                 | sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
+| Sharrows      | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
 | Traffic-calming parking lane|
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
 | Singletrack| | |
@@ -90,7 +90,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Traffic circle, no bypass |
 | Traffic circle with bypass|
 | Bicycle box               |
-| Jug handle                | 
+| Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)
 | Cyclist Dismount sign     |
 | Cycleway crosses highway  |
 
@@ -109,9 +109,9 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
-| Very narrow gate (<90 cm gap) |
+| Very narrow gate (<90 cm gap) |    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
 | Stairs with no trough     |
-| Stairs with trough        |
+| Stairs with trough        |       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
 | Curb cut needed           |
 
 [cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
