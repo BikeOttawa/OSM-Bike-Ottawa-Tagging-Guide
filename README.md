@@ -10,7 +10,7 @@
 | Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/1xOyTkegYkMF9SapKrqAnQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/1xOyTkegYkMF9SapKrqAnQ)
 | Buffered bike lane                  |  [cycleway][cycleway] = lane <br> cycleway:[buffer][buffer] = yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sCskYIeAaVOrs6pOvUVddQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/sCskYIeAaVOrs6pOvUVddQ)
 | Painted bike lane, on a divided road            | [cycleway][cycleway]:right=lane  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/IbjORAYAgVQk5oUto7WgsQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/IbjORAYAgVQk5oUto7WgsQ)
-| Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |
+| Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |[![image](https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg)](https://www.mapillary.com/map/im/3Me8bNEXV5Tkr3OhsLO6Ow)
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |
 | Contraflow lane                                                 | oneway:bicycle=yes  |
 | Sharrows, may be faded or green                                 | sharrows=left/right/both|
