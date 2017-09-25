@@ -80,26 +80,39 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 - [amenity=waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)
 - [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
 
-## Intersections, Barricades, Chanelization, and Obstacles
+## Intersections and other Road Crossings
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
 | Four-way stop             |
 | Two-way stop              |
 | Yield                     |
-| Traffic Circle, no bypass |
-| Traffic circle with bypass
-| Bicycle Box
-| Cyclist Dismount          |
-| Stairs with no trough     |
-| Stairs with trough        |
+| Traffic circle, no bypass |
+| Traffic circle with bypass|
+| Bicycle box               |
+| Jug handle                | 
+| Cyclist Dismount sign     |
 | Cycleway crosses highway  |
-| Curb cut needed           |
-| P-gate 
+
+ ## Filtered Permeability
+ 
+| Feature                   | OSM Scheme                | Photos     |
+|---------------------------|---------------------------|------------|
+| Chicane without channel   |
+| Chicane with channel      |
+| P-gate                    |
 | Block or boulder          | [barrier][barrier] = [block][block] <br> [access]=permissive <br> [motor_vechicle]=no
 | Bollard                   |
-| Split-path                |
+| Split-path entrance                |
 
+## Forced Dismounts
+
+| Feature                   | OSM Scheme                | Photos     |
+|---------------------------|---------------------------|------------|
+| Very narrow gate (<90 cm gap) |
+| Stairs with no trough     |
+| Stairs with trough        |
+| Curb cut needed           |
 
 [cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
 [cycletrack]: http://wiki.openstreetmap.org/wiki/Tag:cycletrack
