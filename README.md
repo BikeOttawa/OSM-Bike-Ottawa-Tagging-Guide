@@ -12,7 +12,7 @@
 | Painted bike lane, on a divided road            | [cycleway][cycleway]:right=lane  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/IbjORAYAgVQk5oUto7WgsQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/IbjORAYAgVQk5oUto7WgsQ)
 | Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |[![image](https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg)](https://www.mapillary.com/map/im/3Me8bNEXV5Tkr3OhsLO6Ow)
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg)](https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ&lat=45.270994444444455&lng=-75.79611111111109&z=17)
-| Contraflow lane                                                 | oneway:bicycle=yes  |
+| Contraflow lane                                                 | oneway:bicycle=yes  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
 | Sharrows, may be faded or green                                 | sharrows=left/right/both|
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
 | Singletrack| | |
