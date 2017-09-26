@@ -13,13 +13,15 @@
 | Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |[![image](https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg)](https://www.mapillary.com/map/im/3Me8bNEXV5Tkr3OhsLO6Ow)
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg)](https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ&lat=45.270994444444455&lng=-75.79611111111109&z=17)
 | Contraflow lane                                                 | oneway:bicycle=yes  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
-| Advisory bike lane|
-| Dooring zone|
-| Super sharrows, (green background)                                 | sharrows=left/right/both|
-| Sharrows      |                          | sharrows=left/right/both|
-| Traffic-calming parking lane|
-| Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
-| Singletrack| | |
+| Advisory bike lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/ok7p-w_Ej9nIG-S9eKK8pg/thumb-1024.jpg)](https://www.mapillary.com/map/im/ok7p-w_Ej9nIG-S9eKK8pg)|
+| Shared sidewalk (signed) |    |     |
+| Dooring zone|  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
+| Super sharrows, (green background)                                 | sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
+| Sharrows      | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
+| Traffic-calming parking lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg)](https://www.mapillary.com/map/im/AFnTWKXGzqrIFqDCHRUOcg)
+| Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/dmlxBVFdp3OVrLvGr_VNgg/thumb-1024.jpg)](https://www.mapillary.com/map/im/dmlxBVFdp3OVrLvGr_VNgg)
+| Singletrack| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/dTX27I-QVA84jNZDhjcMiQ/thumb-1024.jpg)](https://www.mapillary.com/map/dTX27I-QVA84jNZDhjcMiQ)|
+| Boardwalk| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/pnKXylx9EkyyNmtjBHi_0g/thumb-1024.jpg)](https://www.mapillary.com/map/pnKXylx9EkyyNmtjBHi_0g)|
 
 ## Plowing
 
@@ -37,14 +39,13 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 |----------------|--------------------------------------------|------------|
 | Excellent      | fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
 | Good           | decent on skinny tires, a few cracks and bumps <br> flawless stone dust    |
-| Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        |
-| Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        |
+| Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
+| Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/tNEfnLaJW-CjOyoNocKxWA/thumb-1024.jpg)](https://www.mapillary.com/map/im/tNEfnLaJW-CjOyoNocKxWA)
 | Very_bad       | pavement with hazardous bumps and large cracks <br> rocky surface, such as an ATV trail <br> dirt trail where stones or roots require attention       |
-| Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |
+| Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)
 | Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
 | Impassible     | almost nobody would be able to ride this       |
 
-## Lane Configuration
 ## Parking
 
 | Feature                    | OSM Scheme                | Photos     |
@@ -79,24 +80,42 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 - [amenity=bench](https://wiki.openstreetmap.org/wiki/Tag:amenity=bench)
 - [amenity=waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)
 - [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
+- Counter
 
-## Intersections, Barricades, and Obstacles
+## Intersections and other Road Crossings
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
 | Four-way stop             |
 | Two-way stop              |
 | Yield                     |
-| Cyclist Dismount          |
-| Stairs with no trough     |
-| Stairs with trough        |
-| Cycleway crosses highway  |
+| Traffic circle, no bypass |
+| Traffic circle with bypass|
 | Bicycle box               |
-| P-gate 
-| Block                     | [barrier][barrier] = [block][block] <br> [access]=permissive <br> [motor_vechicle]=no
-| Bollard                   |
-| Split-path                |
+| Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)
+| <i>Cyclist Dismount</i> sign     |
+| Cycleway crosses highway  |
 
+ ## Filtered Permeability and Pinch-Points
+ 
+| Feature                   | OSM Scheme                | Photos     |
+|---------------------------|---------------------------|------------|
+| Chicane without channel   |
+| Chicane with channel      |
+| P-gate                    |   | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
+| Block or boulder          | [barrier][barrier] = [block][block] <br> [access]=permissive <br> [motor_vechicle]=no
+| Planter|    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
+| Bollard                   |
+| Split-path entrance                |
+
+## Forced Dismounts
+
+| Feature                   | OSM Scheme                | Photos     |
+|---------------------------|---------------------------|------------|
+| Very narrow gate (<90 cm gap) |    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
+| Stairs with no trough     |
+| Stairs with trough        |       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
+| Curb cut needed           |
 
 [cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
 [cycletrack]: http://wiki.openstreetmap.org/wiki/Tag:cycletrack
