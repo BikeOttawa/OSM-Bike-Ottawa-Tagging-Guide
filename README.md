@@ -19,7 +19,8 @@
 | Sharrows      | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
 | Traffic-calming parking lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg)](https://www.mapillary.com/map/im/AFnTWKXGzqrIFqDCHRUOcg)
 | Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/dmlxBVFdp3OVrLvGr_VNgg/thumb-1024.jpg)](https://www.mapillary.com/map/im/dmlxBVFdp3OVrLvGr_VNgg)
-| Singletrack| | |
+| Singletrack| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/dTX27I-QVA84jNZDhjcMiQ/thumb-1024.jpg)](https://www.mapillary.com/map/dTX27I-QVA84jNZDhjcMiQ)|
+| Boardwalk| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/pnKXylx9EkyyNmtjBHi_0g/thumb-1024.jpg)](https://www.mapillary.com/map/pnKXylx9EkyyNmtjBHi_0g)|
 
 ## Plowing
 
@@ -40,7 +41,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
 | Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/tNEfnLaJW-CjOyoNocKxWA/thumb-1024.jpg)](https://www.mapillary.com/map/im/tNEfnLaJW-CjOyoNocKxWA)
 | Very_bad       | pavement with hazardous bumps and large cracks <br> rocky surface, such as an ATV trail <br> dirt trail where stones or roots require attention       |
-| Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |
+| Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)
 | Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
 | Impassible     | almost nobody would be able to ride this       |
 
@@ -78,6 +79,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 - [amenity=bench](https://wiki.openstreetmap.org/wiki/Tag:amenity=bench)
 - [amenity=waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)
 - [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
+- Counter
 
 ## Intersections and other Road Crossings
 
