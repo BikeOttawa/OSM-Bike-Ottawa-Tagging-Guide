@@ -14,7 +14,7 @@
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg)](https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ&lat=45.270994444444455&lng=-75.79611111111109&z=17)
 | Contraflow lane                                                 | oneway:bicycle=yes  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
 | Advisory bike lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/ok7p-w_Ej9nIG-S9eKK8pg/thumb-1024.jpg)](https://www.mapillary.com/map/im/ok7p-w_Ej9nIG-S9eKK8pg)|
-| Shared sidewalk (signed) |    |     |
+| Shared sidewalk (signed) |    |   [![image](https://d1cuyjsrcm0gby.cloudfront.net/ZP4d2yqBwWWlfbixrztDzA/thumb-1024.jpg)](https://www.mapillary.com/map/im/ZP4d2yqBwWWlfbixrztDzA)  |
 | Dooring zone|  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
 | Super sharrows, (green background)                                 | sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
 | Sharrows      | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
