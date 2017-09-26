@@ -38,7 +38,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Excellent      | fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
 | Good           | decent on skinny tires, a few cracks and bumps <br> flawless stone dust    |
 | Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
-| Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        |
+| Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/tNEfnLaJW-CjOyoNocKxWA/thumb-1024.jpg)](https://www.mapillary.com/map/im/tNEfnLaJW-CjOyoNocKxWA)
 | Very_bad       | pavement with hazardous bumps and large cracks <br> rocky surface, such as an ATV trail <br> dirt trail where stones or roots require attention       |
 | Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |
 | Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
