@@ -17,8 +17,8 @@
 | Dooring zone|
 | Super sharrows, (green background)                                 | sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
 | Sharrows      | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
-| Traffic-calming parking lane|
-| Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| 
+| Traffic-calming parking lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg)](https://www.mapillary.com/map/im/AFnTWKXGzqrIFqDCHRUOcg)
+| Desire line| [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/dmlxBVFdp3OVrLvGr_VNgg/thumb-1024.jpg)](https://www.mapillary.com/map/im/dmlxBVFdp3OVrLvGr_VNgg)
 | Singletrack| | |
 
 ## Plowing
@@ -37,14 +37,13 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 |----------------|--------------------------------------------|------------|
 | Excellent      | fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
 | Good           | decent on skinny tires, a few cracks and bumps <br> flawless stone dust    |
-| Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        |
+| Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
 | Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        |
 | Very_bad       | pavement with hazardous bumps and large cracks <br> rocky surface, such as an ATV trail <br> dirt trail where stones or roots require attention       |
 | Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |
 | Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
 | Impassible     | almost nobody would be able to ride this       |
 
-## Lane Configuration
 ## Parking
 
 | Feature                    | OSM Scheme                | Photos     |
@@ -91,17 +90,18 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Traffic circle with bypass|
 | Bicycle box               |
 | Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)
-| Cyclist Dismount sign     |
+| <i>Cyclist Dismount</i> sign     |
 | Cycleway crosses highway  |
 
- ## Filtered Permeability
+ ## Filtered Permeability and Pinch-Points
  
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
 | Chicane without channel   |
 | Chicane with channel      |
-| P-gate                    |
+| P-gate                    |   | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
 | Block or boulder          | [barrier][barrier] = [block][block] <br> [access]=permissive <br> [motor_vechicle]=no
+| Planter|    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
 | Bollard                   |
 | Split-path entrance                |
 
