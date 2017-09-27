@@ -120,8 +120,8 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Stairs with trough        |highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
 | Curb cut needed           |       |  
 
-[cycleway]: http://wiki.openstreetmap.org/wiki/Tag:cycleway
-[cycletrack]: http://wiki.openstreetmap.org/wiki/Tag:cycletrack
+[cycleway]: http://wiki.openstreetmap.org/wiki/Key:cycleway
+[cycletrack]: http://wiki.openstreetmap.org/wiki/Key:cycletrack
 [highway]: http://wiki.openstreetmap.org/wiki/Key:highway
 [path]: http://wiki.openstreetmap.org/wiki/Tag:highway=path
 [surface]: https://wiki.openstreetmap.org/wiki/Key:surface
