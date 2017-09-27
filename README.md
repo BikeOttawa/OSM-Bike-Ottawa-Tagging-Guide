@@ -51,11 +51,15 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 ## Parking
 
+It's possible to get into deep detail on street parking; we are mainly concerned with whether it is present, or saying definitively that it is absent.
+
 | Feature                    | OSM Scheme                | Photos     |
 |----------------------------|---------------------------|------------|
-| Parking, left side         | parking:lane:left=yes     |
-| Parking, right side        | parking:lane:right=yes    |
-| Parking, both sides        | parking:lane=yes          |
+| Parking, left side         | [parking:lane:left][parking:lane]=yes     |
+| Parking, right side        | [parking:lane:right][parking:lane]=yes    |
+| Parking, both sides        | [parking:lane][parking:lane]=yes          |
+| No Parking                 | [parking:lane][parking:lane]=no_parking
+| No Stopping                | [parking:lane][parking:lane]=no_stopping
 
 ## Lane Configuration
 
@@ -88,7 +92,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
-| All-way stop             |
+| All-way stop              |
 | Two-way stop              |
 | Yield                     |
 | Traffic circle, no bypass |
@@ -141,3 +145,4 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [steps]:http://wiki.openstreetmap.org/wiki/Tag:highway%3Dsteps
 [shoulder]:http://wiki.openstreetmap.org/wiki/Key:shoulder
 [share_busway]:http://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dshare_busway
+[parking:lane]:http://wiki.openstreetmap.org/wiki/Key:parking:lane
