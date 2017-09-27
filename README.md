@@ -1,6 +1,16 @@
 # OSM Bike Ottawa Tagging Guide
 
-<a href="#Lanes">Lanes</a>
+<a href="#Lanes">Lanes</a><br>
+<a href="#Plowing">Plowing</a><br>
+<a href="#Flooding">Flooding</a><br>
+<a href="#Optional tags">Optional tags</a><br>
+<a href="#Parking">Parking</a><br>
+<a href="#Lane configuration">Lane configuration</a><br>
+<a href="#Other tags for ways not shown">Other tags for ways not shown</a><br>
+<a href="#Points of Interest (Nodes)">Points of Interest (Nodes)</a><br>
+<a href="#Intersections and other Road Crossings">Intersections and other Road Crossings</a><br>
+<a href="#Filtered Permeability and Pinch-Points">Filtered Permeability and Pinch-Points</a><br>
+<a href="#Forced Dismounts">Forced Dismounts</a><br>
 
 <h2><a id="Lanes"> Lanes </a></h2>
 
@@ -27,15 +37,15 @@
 | Singletrack| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/dTX27I-QVA84jNZDhjcMiQ/thumb-1024.jpg)](https://www.mapillary.com/map/dTX27I-QVA84jNZDhjcMiQ)|
 | Boardwalk| highway=[path]<br>bridge=[boardwalk]<br>[surface]=wood| [![image](https://d1cuyjsrcm0gby.cloudfront.net/pnKXylx9EkyyNmtjBHi_0g/thumb-1024.jpg)](https://www.mapillary.com/map/pnKXylx9EkyyNmtjBHi_0g)|
 
-## Plowing
+<h2><a id="Plowing"> Plowing </a></h2>
 
 If maintained: [seasonal][seasonal]=no <br> If not plowed: [seasonal][seasonal]=yes and add a conditional restriction of [access:conditional][access:conditional]=no @ Dec-Mar to indicate the period when the way is typically unavailable <br> If poorly plowed: add a conditional restriction of [smoothness:conditional][smoothness]=bad @ Dec-Mar
 
-## Flooding
+<h2><a id="Flooding"> Flooding </a></h2>
 
 Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual event, you may wish to add conditional access restrictions to indicate times of the year when the way should be avoided; example: [access:conditional][access:conditional]=no @ May 1-15
 
-## Other Optional Tags
+<h2><a id="Optional tags"> Optional tags </a></h2>
 
 [width][width] Most designated MUPs are 3m, though some are wider. Walkways are typically 2m 
 <br> [smoothness][smoothness]. Read more on the wiki. Always a subjective call. Here are some more cycling-specific interpretations of the key: 
@@ -51,7 +61,7 @@ Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual 
 | Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
 | Impassible     | almost nobody would be able to ride this       |
 
-## Parking
+<h2><a id="Parking"> Parking </a></h2>
 
 It's possible to get into deep detail on street parking; we are mainly concerned with whether it is present, or saying definitively that it is absent.
 
@@ -63,7 +73,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | No Parking                 | [parking:lane][parking:lane]=no_parking
 | No Stopping                | [parking:lane][parking:lane]=no_stopping
 
-## Lane Configuration
+<h2><a id="Lane configuration"> Lane configuration </a></h2>
 
 | Feature                                | OSM Scheme                | Photos     |
 |----------------------------------------|---------------------------|------------|
@@ -71,7 +81,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Multiple lanes. Include turning lanes| lanes=5     |
 | Speed limit. Only show if the speed is posted different than 50. | maxspeed=40  |
 
-## Other tags for ways not shown:
+<h2><a id="Other tags for ways not shown"> Other tags for ways not shown </a></h2>
 
 | Feature                                | OSM Scheme                | Photos     |
 |----------------------------------------|---------------------------|------------|
@@ -83,7 +93,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 |Relation | operator=NCC or City of Ottawa or Ville de Gatineau
 |Official name of feature | name=*
 
-## Points of Interest (Nodes)
+<h2><a id="Points of Interest (Nodes)"> Points of Interest (Nodes) </a></h2>
 
 - [amenity=bicycle_parking](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking) , [capacity=N](https://wiki.openstreetmap.org/wiki/Key:capacity)
 - [amenity=drinking_water](https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water)
@@ -92,7 +102,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 - [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
 - Counter
 
-## Intersections and other Road Crossings
+<h2><a id="Intersections and other Road Crossings"> Intersections and other Road Crossings </a></h2>
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
@@ -107,7 +117,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | <i>Cyclist Dismount</i> sign     |
 | Cycleway crosses highway  |
 
- ## Filtered Permeability and Pinch-Points
+<h2><a id="Filtered Permeability and Pinch-Points"> Filtered Permeability and Pinch-Points </a></h2>
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
@@ -118,7 +128,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Bollard                   |   |   |
 | Split-path entrance       |   |   |
 
-## Forced Dismounts
+<h2><a id="Forced Dismounts"> Forced Dismounts </a></h2>
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
