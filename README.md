@@ -5,6 +5,7 @@
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
 | Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
+| Walkway|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/fMftKPCR90gDvxZ_3q3V5w/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=fMftKPCR90gDvxZ_3q3V5w)
 | Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
 | One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
 | Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/1xOyTkegYkMF9SapKrqAnQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/1xOyTkegYkMF9SapKrqAnQ)
@@ -14,7 +15,7 @@
 | Shoulder, not signed as a bike lane                             | shoulder:left/right/both <br> shoulder:surface:yes/no <br> [highway][highway]=[path][path]   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg)](https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ&lat=45.270994444444455&lng=-75.79611111111109&z=17)
 | Contraflow lane                                                 | oneway:bicycle=yes  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
 | Advisory bike lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/ok7p-w_Ej9nIG-S9eKK8pg/thumb-1024.jpg)](https://www.mapillary.com/map/im/ok7p-w_Ej9nIG-S9eKK8pg)|
-| Shared sidewalk (signed) |    |     |
+| Shared sidewalk (signed) |    |   [![image](https://d1cuyjsrcm0gby.cloudfront.net/ZP4d2yqBwWWlfbixrztDzA/thumb-1024.jpg)](https://www.mapillary.com/map/im/ZP4d2yqBwWWlfbixrztDzA)  |
 | Dooring zone|  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
 | Super sharrows, (green background)                                 | sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
 | Sharrows      | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
@@ -32,7 +33,7 @@ If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a condit
 Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you may wish to add conditional access restrictions to indicate times of the year when the way should be avoided; example: [access:conditional][access:conditional]=no @ May 1-15 
 
 ## Other Optional Tags
-[width][width] Most MUPs are 3m, though some are wider. 
+[width][width] Most designated MUPs are 3m, though some are wider. Walkways are typically 2m 
 <br> [smoothness][smoothness]. Read more on the wiki. Always a subjective call. Here are some more cycling-specific interpretations of the key: 
 
 | Value          | Description                                | Photos     |
@@ -86,13 +87,14 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
-| Four-way stop             |
+| All-way stop             |
 | Two-way stop              |
 | Yield                     |
 | Traffic circle, no bypass |
 | Traffic circle with bypass|
 | Bicycle box               |
-| Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)
+| Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)|
+| Cyclist-only left turn lane|   |
 | <i>Cyclist Dismount</i> sign     |
 | Cycleway crosses highway  |
 
