@@ -1,6 +1,8 @@
 # OSM Bike Ottawa Tagging Guide
 
-## Lanes
+<a href="#Lanes">Lanes</a>
+
+<h2><a id="Lanes"> Lanes </a></h2>
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
