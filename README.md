@@ -102,9 +102,8 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 |---------------------------|---------------------------|------------|
 | Chicane without channel   |   |   |
 | Chicane with channel      |   |   |
-| P-gate                    |   | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
-| Block or boulder          | [barrier][barrier] = [block][block] <br>  motor_vechicle=no
-| Planter|    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
+| P-gate                    | [barrier]=[cycle_barrier]<br>bicycle=yes<br>motor_vechicle=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
+| Block/Boulder/Planter          | [barrier] = [block] <br> bicycle=yes<br> motor_vechicle=no|[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
 | Bollard                   |   |   |
 | Split-path entrance       |   |   |
 
@@ -113,7 +112,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
 | Very narrow gate (<90 cm gap) |    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
-| Stairs with no trough     |highway=[steps]<br>[ramp]=no       | |
+| Stairs with no trough     |highway=[steps]<br>[ramp]=no       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/cPNFSreEy8iQ902_BJopyQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/cPNFSreEy8iQ902_BJopyQ)
 | Stairs with trough        |highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
 | Curb cut needed           |       |  
 
@@ -131,6 +130,7 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [desire]: http://wiki.openstreetmap.org/wiki/Tag:path%3Ddesire
 [hgv]: http://wiki.openstreetmap.org/wiki/Key:hgv
 [barrier]: http://wiki.openstreetmap.org/wiki/Key:barrier
+[cycle_barrier]: http://wiki.openstreetmap.org/wiki/Tag:barrier%3Dcycle_barrier
 [block]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dblock
 [buffer]: http://wiki.openstreetmap.org/wiki/Proposed_features/Buffered_bike_lane
 [boardwalk]:http://wiki.openstreetmap.org/wiki/Tag:bridge%3Dboardwalk
