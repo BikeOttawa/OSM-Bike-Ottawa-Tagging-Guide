@@ -27,11 +27,11 @@
 
 ## Plowing
 
-If maintained: [seasonal]=no <br> If not plowed: [seasonal]=yes and add a conditional restriction of [access:conditional][access:conditional]=no @ Dec-Mar to indicate the period when the way is typically unavailable <br> If poorly plowed: add a conditional restriction of [smoothness:conditional][smoothness]=bad @ Dec-Mar
+If maintained: [seasonal][seasonal]=no <br> If not plowed: [seasonal][seasonal]=yes and add a conditional restriction of [access:conditional][access:conditional]=no @ Dec-Mar to indicate the period when the way is typically unavailable <br> If poorly plowed: add a conditional restriction of [smoothness:conditional][smoothness]=bad @ Dec-Mar
 
 ## Flooding
 
-Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you may wish to add conditional access restrictions to indicate times of the year when the way should be avoided; example: [access:conditional][access:conditional]=no @ May 1-15
+Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual event, you may wish to add conditional access restrictions to indicate times of the year when the way should be avoided; example: [access:conditional][access:conditional]=no @ May 1-15
 
 ## Other Optional Tags
 
@@ -146,3 +146,4 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 [shoulder]:http://wiki.openstreetmap.org/wiki/Key:shoulder
 [share_busway]:http://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dshare_busway
 [parking:lane]:http://wiki.openstreetmap.org/wiki/Key:parking:lane
+[seasonal]:http://wiki.openstreetmap.org/wiki/Key:seasonal
