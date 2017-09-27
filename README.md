@@ -71,13 +71,15 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 
 ## Other tags for ways not shown:
 
-- truck route: [hgv][hgv]=yes
-- trucks prohibited: [hgv][hgv]=no
-- bridge=yes
-- tunnel=yes
-- lit=yes
-- operator=NCC or City of Ottawa or Ville de Gatineau
-- name=*
+| Feature                                | OSM Scheme                | Photos     |
+|----------------------------------------|---------------------------|------------|
+|Truck route|[hgv][hgv]=yes|
+|Trucks prohibited|[hgv][hgv]=no
+|Bridge| bridge=yes
+|Tunnel| tunnel=yes
+|Lighting| lit=yes
+|Relation | operator=NCC or City of Ottawa or Ville de Gatineau
+|Official name of feature | name=*
 
 ## Points of Interest (Nodes)
 
