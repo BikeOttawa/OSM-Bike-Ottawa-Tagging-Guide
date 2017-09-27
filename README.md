@@ -7,8 +7,8 @@
 | Paved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
 | Walkway|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/fMftKPCR90gDvxZ_3q3V5w/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=fMftKPCR90gDvxZ_3q3V5w)
 | Unpaved Multi-Use Path (MUP)                                            | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
-| One way protected lanes. Each side has its own way.             | [cycletrack][cycletrack]=yes <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
-| Bi-directional protected cycletrack. Separate way for the cycletrack.      | [cycletrack][cycletrack]=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/1xOyTkegYkMF9SapKrqAnQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/1xOyTkegYkMF9SapKrqAnQ)
+| One way protected lanes. Each side has its own way.             | [highway]=[cycleway][highway_cycleway] <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
+| Bi-directional protected cycletrack. Separate way for the cycletrack.      | [highway]=[cycleway][highway_cycleway]<br>oneway=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/1xOyTkegYkMF9SapKrqAnQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/1xOyTkegYkMF9SapKrqAnQ)
 | Buffered bike lane                  |  [cycleway][cycleway] = lane <br> cycleway:[buffer][buffer] = yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sCskYIeAaVOrs6pOvUVddQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/sCskYIeAaVOrs6pOvUVddQ)
 | Painted bike lane, on a divided road            | [cycleway][cycleway]:right=lane  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/IbjORAYAgVQk5oUto7WgsQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/IbjORAYAgVQk5oUto7WgsQ)
 | Painted bike lane, on an undivided road                             | [cycleway][cycleway] = lane |[![image](https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg)](https://www.mapillary.com/map/im/3Me8bNEXV5Tkr3OhsLO6Ow)
@@ -67,7 +67,6 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 
 ## Other tags for ways not shown:
 
-- busway=shared
 - truck route: [hgv][hgv]=yes
 - trucks prohibited: [hgv][hgv]=no
 - bridge=yes
@@ -120,8 +119,8 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 | Stairs with trough        |highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
 | Curb cut needed           |       |  
 
+[highway_cycleway]: http://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway
 [cycleway]: http://wiki.openstreetmap.org/wiki/Key:cycleway
-[cycletrack]: http://wiki.openstreetmap.org/wiki/Key:cycletrack
 [highway]: http://wiki.openstreetmap.org/wiki/Key:highway
 [path]: http://wiki.openstreetmap.org/wiki/Tag:highway=path
 [surface]: https://wiki.openstreetmap.org/wiki/Key:surface
