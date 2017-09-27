@@ -15,6 +15,7 @@
 | Shoulder, not signed as a bike lane                             | [shoulder]:left/right/both <br> shoulder:surface=yes/no  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg)](https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ&lat=45.270994444444455&lng=-75.79611111111109&z=17)
 | Contraflow lane                                                 | [cycleway]=opposite_lane  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/cW35TfHANRe5DWbbxABJlw/thumb-1024.jpg)](https://www.mapillary.com/map/im/cW35TfHANRe5DWbbxABJlw)
 | Advisory bike lane|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/ok7p-w_Ej9nIG-S9eKK8pg/thumb-1024.jpg)](https://www.mapillary.com/map/im/ok7p-w_Ej9nIG-S9eKK8pg)|
+| Shared bus/bike lane                                                 | [cycleway]=[share_busway]  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/PqTQqISWgK5QbWg5PRvaQA/thumb-1024.jpg)](https://www.mapillary.com/map/im/PqTQqISWgK5QbWg5PRvaQA)
 | Shared sidewalk (signed) |    |   [![image](https://d1cuyjsrcm0gby.cloudfront.net/ZP4d2yqBwWWlfbixrztDzA/thumb-1024.jpg)](https://www.mapillary.com/map/im/ZP4d2yqBwWWlfbixrztDzA)  |
 | Dooring zone|  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
 | Super sharrows, (green background)                                 | sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
@@ -140,3 +141,4 @@ Use [flood_prone]=yes <br> If the flooding is a predictable annual event, you ma
 [ramp]:http://wiki.openstreetmap.org/wiki/Key:ramp
 [steps]:http://wiki.openstreetmap.org/wiki/Tag:highway%3Dsteps
 [shoulder]:http://wiki.openstreetmap.org/wiki/Key:shoulder
+[share_busway]:http://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dshare_busway
