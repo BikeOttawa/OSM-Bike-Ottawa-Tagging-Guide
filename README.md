@@ -16,7 +16,8 @@
 
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
-| <b>Paved Multi-Use Path (MUP)</b><br> Typically >3m wide. Intended for mixed bike and foot traffic                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
+| <b>Paved Multi-Use Path (MUP)</b><br> Typically 3m wide, may be wider. Intended for mixed bike and foot traffic                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
+| <b>Twinned Path</b><br> Typically >4.5 m wide. Intended for separated bike and foot traffic                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt] <br> ACCESS?| [![image](https://d1cuyjsrcm0gby.cloudfront.net/J5eakBF0yAOttLLsGtnkcg/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=J5eakBF0yAOttLLsGtnkcg)
 | <b>Walkway</b><br> Typically <3m wide. May not have curb cuts. Intended primarily for foot traffic, though bikes are not prohibited|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/fMftKPCR90gDvxZ_3q3V5w/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=fMftKPCR90gDvxZ_3q3V5w)
 | <b>Unpaved Multi-Use Path (MUP)</b><br> Typically 3m wide. Intended for mixed bike and foot traffic. Often a stonedust  surface, but sometimes dirt.                                              | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
 | <b>One way protected lanes</b><br>  Also known as cycletracks. Separated from the roadway, pedestrians not permitted.         | [highway]=[cycleway][highway_cycleway] <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
@@ -54,14 +55,14 @@ Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual 
 
 | Value          | Description                                | Photos     |
 |----------------|--------------------------------------------|------------|
-| Excellent      | fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
-| Good           | decent on skinny tires, a few cracks and bumps <br> flawless stone dust    |
-| Intermediate   | bumpy but not hazardous pavement <br> stonedust with some washouts <br> well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
-| Bad            | pavement with jarring bumps, alligatoring, or large cracks <br> coarse gravel <br> dirt trail with small stones or some small roots        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/tNEfnLaJW-CjOyoNocKxWA/thumb-1024.jpg)](https://www.mapillary.com/map/im/tNEfnLaJW-CjOyoNocKxWA)
-| Very_bad       | pavement with hazardous bumps and large cracks <br> rocky surface, such as an ATV trail <br> dirt trail where stones or roots require attention       |
-| Horrible       | dangerously broken pavement <br> trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)
-| Very_horrible  | rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension        |
-| Impassible     | almost nobody would be able to ride this       |
+| Excellent      | - Fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
+| Good           | - Decent on skinny tires, a few cracks and bumps <br> -Flawless stone dust    |
+| Intermediate   | - Bumpy but not hazardous pavement <br> - Stonedust with some washouts <br> - Well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
+| Bad            | - Pavement with jarring bumps, alligatoring, or large cracks <br> - Coarse gravel <br> - Dirt trail with small stones or some small roots        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/tNEfnLaJW-CjOyoNocKxWA/thumb-1024.jpg)](https://www.mapillary.com/map/im/tNEfnLaJW-CjOyoNocKxWA)
+| Very_bad       | - Pavement with hazardous bumps and large cracks <br> - Rocky surface, such as an ATV trail <br> - Dirt trail where stones or roots require attention       |
+| Horrible       | - Dangerously broken pavement <br> - Trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)
+| Very_horrible  | - Rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension       |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HsZQPUukTzivaSw1fiUemA/thumb-1024.jpg)](https://www.mapillary.com/map/HsZQPUukTzivaSw1fiUemA)
+| Impassible     | - Almost nobody would be able to ride this       |
 
 <h2><a id="Parking"> Parking </a></h2>
 
@@ -89,8 +90,8 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 |----------------------------------------|---------------------------|------------|
 |Truck route|[hgv][hgv]=yes|
 |Trucks prohibited|[hgv][hgv]=no
-|Bridge| bridge=yes
-|Tunnel| tunnel=yes
+|Bridge| bridge=yes |[![image](https://d1cuyjsrcm0gby.cloudfront.net/DM_icM01W41ppwECsD0joQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/DM_icM01W41ppwECsD0joQ)
+|Tunnel| tunnel=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg)](https://www.mapillary.com/map/im/BABIQ-uSmxRTk4bkTbjCQg)|
 |Lighting| lit=yes
 |Relation | operator=NCC or City of Ottawa or Ville de Gatineau
 |Official name of feature | name=*
