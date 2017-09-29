@@ -130,7 +130,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Chicane with channel      |   |   |
 | P-gate                    | [barrier]=[cycle_barrier]<br>bicycle=yes<br>motor_vechicle=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
 | Block/Boulder/Planter          | [barrier] = [block] <br> bicycle=yes<br> motor_vechicle=no|[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
-| Bollard                   | [barrier] = [bollard] <br> bicycle=yes<br> motor_vechicle=no|   [![image](https://d1cuyjsrcm0gby.cloudfront.net/4TTLhHy6arMotAnRcZl-Bg/thumb-1024.jpg)](https://www.mapillary.com/map/im/4TTLhHy6arMotAnRcZl-Bg)|
+| Bollard                   | [barrier] = [bollard] <br> bicycle=yes<br> motor_vechicle=no|   [![image](https://d1cuyjsrcm0gby.cloudfront.net/l3SrUBF5Jf6QiAhk0CQDvw/thumb-1024.jpg)](https://www.mapillary.com/map/im/l3SrUBF5Jf6QiAhk0CQDvw)|
 | Split-path entrance       |   |   |
 
 <h2><a id="Forced Dismounts"> Forced Dismounts </a></h2>
