@@ -130,7 +130,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Chicane with channel      |   |   |
 | P-gate                    | [barrier]=[cycle_barrier]<br>bicycle=yes<br>motor_vechicle=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
 | Block/Boulder/Planter          | [barrier] = [block] <br> bicycle=yes<br> motor_vechicle=no|[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
-| Bollard                   |   |   |
+| Bollard                   | [barrier] = [bollard] <br> bicycle=yes<br> motor_vechicle=no|   [![image](https://d1cuyjsrcm0gby.cloudfront.net/4TTLhHy6arMotAnRcZl-Bg/thumb-1024.jpg)](https://www.mapillary.com/map/im/4TTLhHy6arMotAnRcZl-Bg)|
 | Split-path entrance       |   |   |
 
 <h2><a id="Forced Dismounts"> Forced Dismounts </a></h2>
@@ -167,3 +167,4 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 [parking:lane]:http://wiki.openstreetmap.org/wiki/Key:parking:lane
 [seasonal]:http://wiki.openstreetmap.org/wiki/Key:seasonal
 [segregated]:http://wiki.openstreetmap.org/wiki/Key:segregated
+[bollard]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dbollard
