@@ -17,7 +17,7 @@
 | Feature                                                         | OSM Scheme                | Photos     |
 |-----------------------------------------------------------------|---------------------------|------------|
 | <b>Paved Multi-Use Path (MUP)</b><br> Typically 3m wide, may be wider. Intended for mixed bike and foot traffic                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/xvX6Bexu1gEE_H9KlfodLQ/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=xvX6Bexu1gEE_H9KlfodLQ)
-| <b>Twinned Path</b><br> Typically >4.5 m wide. Intended for separated bike and foot traffic                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt] <br> ACCESS?| [![image](https://d1cuyjsrcm0gby.cloudfront.net/J5eakBF0yAOttLLsGtnkcg/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=J5eakBF0yAOttLLsGtnkcg)
+| <b>Twinned Path</b><br> Typically >4.5 m wide. Intended for separated bike and foot traffic                                            | [highway][highway]=[path][path] <br> [surface][surface]=[asphalt][asphalt] <br> [segregated]=yes| [![image](https://d1cuyjsrcm0gby.cloudfront.net/J5eakBF0yAOttLLsGtnkcg/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=J5eakBF0yAOttLLsGtnkcg)
 | <b>Walkway</b><br> Typically <3m wide. May not have curb cuts. Intended primarily for foot traffic, though bikes are not prohibited|   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/fMftKPCR90gDvxZ_3q3V5w/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.392085481388904&lng=-75.70190062722224&z=17&focus=photo&pKey=fMftKPCR90gDvxZ_3q3V5w)
 | <b>Unpaved Multi-Use Path (MUP)</b><br> Typically 3m wide. Intended for mixed bike and foot traffic. Often a stonedust  surface, but sometimes dirt.                                              | [highway][highway]=[path][path] <br> [surface][surface]=[fine_gravel][fine_gravel] | [![image](https://d1cuyjsrcm0gby.cloudfront.net/0y0R2Fs6pv3KvTgCEYPabw/thumb-1024.jpg)](https://www.mapillary.com/app/?lat=45.14111679972223&lng=-75.61085714944443&z=17&focus=map&pKey=0y0R2Fs6pv3KvTgCEYPabw)
 | <b>One way protected lanes</b><br>  Also known as cycletracks. Separated from the roadway, pedestrians not permitted.         | [highway]=[cycleway][highway_cycleway] <br> oneway=yes | [![image](https://d1cuyjsrcm0gby.cloudfront.net/GSkPP_J3o-ILEkeoMJMl0A/thumb-1024.jpg)](https://www.mapillary.com/map/im/GSkPP_J3o-ILEkeoMJMl0A)
@@ -62,7 +62,7 @@ Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual 
 | Very_bad       | - Pavement with hazardous bumps and large cracks <br> - Rocky surface, such as an ATV trail <br> - Dirt trail where stones or roots require attention       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/E2XjzfnUuCTG_v2DQBLkLQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/E2XjzfnUuCTG_v2DQBLkLQ)|
 | Horrible       | - Dangerously broken pavement <br> - Trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)|
 | Very_horrible  | - Rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension       |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HsZQPUukTzivaSw1fiUemA/thumb-1024.jpg)](https://www.mapillary.com/map/HsZQPUukTzivaSw1fiUemA)|
-| Impassible     | - Almost nobody would be able to ride this       |
+| Impassible     | - Almost nobody would be able to ride this       |[![image](https://d1cuyjsrcm0gby.cloudfront.net/N3kAgXz5-4A5G8k3xIxCZQ/thumb-1024.jpg)](https://www.mapillary.com/map/N3kAgXz5-4A5G8k3xIxCZQ)| 
 
 <h2><a id="Parking"> Parking </a></h2>
 
@@ -130,14 +130,14 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Chicane with channel      |   |   |
 | P-gate                    | [barrier]=[cycle_barrier]<br>bicycle=yes<br>motor_vechicle=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
 | Block/Boulder/Planter          | [barrier] = [block] <br> bicycle=yes<br> motor_vechicle=no|[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
-| Bollard                   |   |   |
+| Bollard                   | [barrier] = [bollard] <br> bicycle=yes<br> motor_vechicle=no|   [![image](https://d1cuyjsrcm0gby.cloudfront.net/l3SrUBF5Jf6QiAhk0CQDvw/thumb-1024.jpg)](https://www.mapillary.com/map/im/l3SrUBF5Jf6QiAhk0CQDvw)|
 | Split-path entrance       |   |   |
 
 <h2><a id="Forced Dismounts"> Forced Dismounts </a></h2>
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
-| Very narrow gate (<90 cm gap) |    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
+| Very narrow gate (<90 cm gap) | [barrier]=[cycle_barrier]<br>bicycle=yes<br>maxwidth=0.5   |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
 | Stairs with no trough     |highway=[steps]<br>[ramp]=no       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/cPNFSreEy8iQ902_BJopyQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/cPNFSreEy8iQ902_BJopyQ)
 | Stairs with trough        |highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
 | Curb cut needed           |       |  [![image](https://d1cuyjsrcm0gby.cloudfront.net/0iNKJr-wUKL0HQ_XYdFopw/thumb-1024.jpg)](https://www.mapillary.com/map/im/0iNKJr-wUKL0HQ_XYdFopw)
@@ -166,3 +166,5 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 [share_busway]:http://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dshare_busway
 [parking:lane]:http://wiki.openstreetmap.org/wiki/Key:parking:lane
 [seasonal]:http://wiki.openstreetmap.org/wiki/Key:seasonal
+[segregated]:http://wiki.openstreetmap.org/wiki/Key:segregated
+[bollard]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dbollard
