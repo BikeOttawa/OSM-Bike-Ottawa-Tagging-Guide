@@ -62,7 +62,7 @@ Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual 
 | Very_bad       | - Pavement with hazardous bumps and large cracks <br> - Rocky surface, such as an ATV trail <br> - Dirt trail where stones or roots require attention       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/E2XjzfnUuCTG_v2DQBLkLQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/E2XjzfnUuCTG_v2DQBLkLQ)|
 | Horrible       | - Dangerously broken pavement <br> - Trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)|
 | Very_horrible  | - Rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension       |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HsZQPUukTzivaSw1fiUemA/thumb-1024.jpg)](https://www.mapillary.com/map/HsZQPUukTzivaSw1fiUemA)|
-| Impassible     | - Almost nobody would be able to ride this       |
+| Impassible     | - Almost nobody would be able to ride this       |[![image](https://d1cuyjsrcm0gby.cloudfront.net/N3kAgXz5-4A5G8k3xIxCZQ/thumb-1024.jpg)](https://www.mapillary.com/map/N3kAgXz5-4A5G8k3xIxCZQ)| 
 
 <h2><a id="Parking"> Parking </a></h2>
 
