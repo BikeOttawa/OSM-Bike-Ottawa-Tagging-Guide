@@ -32,7 +32,7 @@
 | <b>Shared sidewalk (signed)</b><br> A standard sidewalk, sharing designated by signage. Surface is often concrete, rather than asphalt.  |    |   [![image](https://d1cuyjsrcm0gby.cloudfront.net/ZP4d2yqBwWWlfbixrztDzA/thumb-1024.jpg)](https://www.mapillary.com/map/im/ZP4d2yqBwWWlfbixrztDzA)  |
 | <b>Dooring zone</b><br> Unique in Ottawa. Painted warning that cyclists should avoid riding close to parked vehicles. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
 | <b>Super sharrows</b><br> Green backgound for enhanced visibility. Indicates lane position cyclists should use on roads where no cycling infrastructure is present.| sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
-| <b>Sharrows</b><br> Bike symbol indicates lane position cyclists should use on roads where no cycling infrastructure is present. Require frequent re-painting and may be very faded; it's still of interest to know which roads are intended to have sharrows. | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/qfoRaEMALTH4_NvctOUd7g/thumb-1024.jpg)](https://www.mapillary.com/map/im/qfoRaEMALTH4_NvctOUd7g)|
+| <b>Sharrows</b><br> Bike symbol indicates lane position cyclists should use on roads where no cycling infrastructure is present. Require frequent re-painting and may be very faded; it's still of interest to know which roads are intended to have sharrows. | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/d-l1qlsZsdb1vJWyeIVeDw/thumb-1024.jpg)](https://www.mapillary.com/map/im/d-l1qlsZsdb1vJWyeIVeDw)|
 | <b>Traffic-calming parking lane</b><br>Resembles a bike lane or paved shoulder, but is typically narrow and includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg)](https://www.mapillary.com/map/im/AFnTWKXGzqrIFqDCHRUOcg)
 | <b>Service strip</b><br> Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Not specifically intended for cycling, but may be functional. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/s-IPpAUVbDsSPyDYNceg3Q)
 | <b>Desire line</b><br> Well-worn path in a direct line between popular destinations. Also known as a goat path. | [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/dmlxBVFdp3OVrLvGr_VNgg/thumb-1024.jpg)](https://www.mapillary.com/map/im/dmlxBVFdp3OVrLvGr_VNgg)
@@ -56,10 +56,10 @@ Use [flood_prone][flood_prone]=yes <br> If the flooding is a predictable annual 
 | Value          | Description                                | Photos     |
 |----------------|--------------------------------------------|------------|
 | Excellent      | - Fresh flawless pavement                    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/zq_u_KYhFzmwH_FU16ODMw/thumb-1024.jpg)](https://www.mapillary.com/map/im/zq_u_KYhFzmwH_FU16ODMw)
-| Good           | - Decent on skinny tires, a few cracks and bumps <br> -Flawless stone dust    |
+| Good           | - Decent on skinny tires, a few cracks and bumps <br> -Flawless stone dust    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/FsJWrwjgEQFsuQVthxZpBg/thumb-1024.jpg)](https://www.mapillary.com/map/im/FsJWrwjgEQFsuQVthxZpBg)
 | Intermediate   | - Bumpy but not hazardous pavement <br> - Stonedust with some washouts <br> - Well-packed featureless dirt        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/sNcWLsTqRYidaDZyvdWCuw/thumb-1024.jpg)](https://www.mapillary.com/map/im/sNcWLsTqRYidaDZyvdWCuw)
 | Bad            | - Pavement with jarring bumps, alligatoring, or large cracks <br> - Coarse gravel <br> - Dirt trail with small stones or some small roots        | [![image](https://d1cuyjsrcm0gby.cloudfront.net/tNEfnLaJW-CjOyoNocKxWA/thumb-1024.jpg)](https://www.mapillary.com/map/im/tNEfnLaJW-CjOyoNocKxWA)
-| Very_bad       | - Pavement with hazardous bumps and large cracks <br> - Rocky surface, such as an ATV trail <br> - Dirt trail where stones or roots require attention       |
+| Very_bad       | - Pavement with hazardous bumps and large cracks <br> - Rocky surface, such as an ATV trail <br> - Dirt trail where stones or roots require attention       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/E2XjzfnUuCTG_v2DQBLkLQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/E2XjzfnUuCTG_v2DQBLkLQ)
 | Horrible       | - Dangerously broken pavement <br> - Trails with large stones or roots that may require dismounting or suspension        |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HBJPYj3unJmoxpAQoH9sfA/thumb-1024.jpg)](https://www.mapillary.com/map/HBJPYj3unJmoxpAQoH9sfA)
 | Very_horrible  | - Rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension       |[![image](https://d1cuyjsrcm0gby.cloudfront.net/HsZQPUukTzivaSw1fiUemA/thumb-1024.jpg)](https://www.mapillary.com/map/HsZQPUukTzivaSw1fiUemA)
 | Impassible     | - Almost nobody would be able to ride this       |
@@ -92,8 +92,8 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 |Trucks prohibited|[hgv][hgv]=no
 |Bridge| bridge=yes |[![image](https://d1cuyjsrcm0gby.cloudfront.net/DM_icM01W41ppwECsD0joQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/DM_icM01W41ppwECsD0joQ)
 |Tunnel| tunnel=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg)](https://www.mapillary.com/map/im/BABIQ-uSmxRTk4bkTbjCQg)|
-|Lighting| lit=yes
-|Relation | operator=NCC or City of Ottawa or Ville de Gatineau
+|Lighting| lit=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg)](https://www.mapillary.com/map/im/O7G6yB8eP6dBTNKg7Kmnww)|
+|Relation | operator=NCC or City of Ottawa or Ville de Gatineau|
 |Official name of feature | name=*
 
 <h2><a id="Points of Interest (Nodes)"> Points of Interest (Nodes) </a></h2>
@@ -111,6 +111,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 |---------------------------|---------------------------|------------|
 | All-way stop              |
 | Two-way stop              |
+| Pedestrian Crossover      |
 | Yield                     |
 | Traffic circle, no bypass |
 | Traffic circle with bypass|
@@ -138,7 +139,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Very narrow gate (<90 cm gap) |    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
 | Stairs with no trough     |highway=[steps]<br>[ramp]=no       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/cPNFSreEy8iQ902_BJopyQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/cPNFSreEy8iQ902_BJopyQ)
 | Stairs with trough        |highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
-| Curb cut needed           |       |  
+| Curb cut needed           |       |  [![image](https://d1cuyjsrcm0gby.cloudfront.net/0iNKJr-wUKL0HQ_XYdFopw/thumb-1024.jpg)](https://www.mapillary.com/map/im/0iNKJr-wUKL0HQ_XYdFopw)
 
 [highway_cycleway]: http://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway
 [cycleway]: http://wiki.openstreetmap.org/wiki/Key:cycleway
