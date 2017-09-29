@@ -33,6 +33,8 @@
 | <b>Dooring zone</b><br> Unique in Ottawa. Painted warning that cyclists should avoid riding close to parked vehicles. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
 | <b>Super sharrows</b><br> Green backgound for enhanced visibility. Indicates lane position cyclists should use on roads where no cycling infrastructure is present.| sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
 | <b>Sharrows</b><br> Bike symbol indicates lane position cyclists should use on roads where no cycling infrastructure is present. Require frequent re-painting and may be very faded; it's still of interest to know which roads are intended to have sharrows. | sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/d-l1qlsZsdb1vJWyeIVeDw/thumb-1024.jpg)](https://www.mapillary.com/map/im/d-l1qlsZsdb1vJWyeIVeDw)|
+| <b><i>Share the road</i> sign</b><br> Useful to tag as an advocacy target| |
+| <b><i>Single file</i> sign</b><br> Useful to tag as an advocacy target| |[![image](https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/PWtqLBKAwQl2mMlLj1K6oQ)|
 | <b>Traffic-calming parking lane</b><br>Resembles a bike lane or paved shoulder, but is typically narrow and includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg)](https://www.mapillary.com/map/im/AFnTWKXGzqrIFqDCHRUOcg)
 | <b>Service strip</b><br> Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Not specifically intended for cycling, but may be functional. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/s-IPpAUVbDsSPyDYNceg3Q)
 | <b>Desire line</b><br> Well-worn path in a direct line between popular destinations. Also known as a goat path. | [highway][highway]=[path][path] <br> [path][path] = [desire][desire]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/dmlxBVFdp3OVrLvGr_VNgg/thumb-1024.jpg)](https://www.mapillary.com/map/im/dmlxBVFdp3OVrLvGr_VNgg)
@@ -110,17 +112,17 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
-| All-way stop              |
-| Two-way stop              |
-| Pedestrian Crossover      |
-| Yield                     |
-| Traffic circle, no bypass |
-| Traffic circle with bypass|
+| <b>All-way stop</b><br>              |
+| <b>Two-way stop</b><br>              |
+| <b>Pedestrian Crossover</b><br> Also known as PXOs. These are mid-block crossings, designated by a variety of different signage treatments. They are not crosswalks, which are located at intersections. Cyclists may use PXOs, but are required by law to walk their bike.      |
+| <b>Yield</b><br>                     |
+| <b>Traffic circle, no bypass</b><br> |
+| <b>Traffic circle with bypass</b><br>|
 | <b>Bicycle box</b><br> Also known as an advanced stop line (ASL). ASL nodes are located before the actual junction node, and are always connected to their junctions by the Way they're on. Refer to the [asl][asl] Wiki for details       | node with [cycleway]=[asl]    | [![image](https://d1cuyjsrcm0gby.cloudfront.net/3A1jICZ8dyQ-5e3WAMZoog/thumb-1024.jpg)](https://www.mapillary.com/map/im/3A1jICZ8dyQ-5e3WAMZoog)|
-| Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)|
-| Cyclist-only left turn lane|   |
-| <i>Cyclist Dismount</i> sign     |
-| Cycleway crosses highway  |
+| <b>Jug handle</b><br> These are places for the cyclists to pull off to the right, out of the stream of traffic, and await an opportunity to cross the road.                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)|
+| <b>Cyclist-only left turn lane</b><br>|   |
+| <b><i>Walk your Bike</i> sign</b><br> A permissive sign that indicates you may walk your bike. This sign alone does not make dismounting mandatory. Tagging them will be useful for indicating areas where sufficient space to share with pedestrians or legal road crossing facilities have not been provided.|
+| <b>Cycleway crosses highway</b><br>  |
 
 <h2><a id="Filtered Permeability and Pinch-Points"> Filtered Permeability and Pinch-Points </a></h2>
 
