@@ -116,7 +116,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | Yield                     |
 | Traffic circle, no bypass |
 | Traffic circle with bypass|
-| Bicycle box               |
+| Bicycle box               | node with [cycleway]=[asl]    | [![image](https://d1cuyjsrcm0gby.cloudfront.net/3A1jICZ8dyQ-5e3WAMZoog/thumb-1024.jpg)](https://www.mapillary.com/map/im/3A1jICZ8dyQ-5e3WAMZoog)|
 | Jug handle                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)|
 | Cyclist-only left turn lane|   |
 | <i>Cyclist Dismount</i> sign     |
@@ -171,3 +171,4 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 [segregated]:http://wiki.openstreetmap.org/wiki/Key:segregated
 [bollard]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dbollard
 [dismount]: http://wiki.openstreetmap.org/wiki/Key:access
+[asl]: http://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dasl
