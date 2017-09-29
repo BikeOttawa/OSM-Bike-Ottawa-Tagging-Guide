@@ -118,7 +118,7 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | <b>Yield</b><br>                     |
 | <b>Traffic circle, no bypass</b><br> |
 | <b>Traffic circle with bypass</b><br>|
-| <b>Bicycle box</b><br> Also known as an advanced stop line (ASL). ASL nodes are located before the actual junction node, and are always connected to their junctions by the Way they're on. Refer to the [asl][asl] Wiki for details       | node with [cycleway]=[asl]    | [![image](https://d1cuyjsrcm0gby.cloudfront.net/3A1jICZ8dyQ-5e3WAMZoog/thumb-1024.jpg)](https://www.mapillary.com/map/im/3A1jICZ8dyQ-5e3WAMZoog)|
+| <b>Bicycle box</b><br> Also known as an advanced stop line (ASL). ASL nodes are located before the actual junction node, and are always connected to their junctions by the Way they're on. Refer to the [asl][asl] Wiki for details       | ![node]<br>[cycleway]=[asl]    | [![image](https://d1cuyjsrcm0gby.cloudfront.net/3A1jICZ8dyQ-5e3WAMZoog/thumb-1024.jpg)](https://www.mapillary.com/map/im/3A1jICZ8dyQ-5e3WAMZoog)|
 | <b>Jug handle</b><br> These are places for the cyclists to pull off to the right, out of the stream of traffic, and await an opportunity to cross the road.                |     | [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)|
 | <b>Cyclist-only left turn lane</b><br>|   |
 | <b><i>Walk your Bike</i> sign</b><br> A permissive sign that indicates you may walk your bike. This sign alone does not make dismounting mandatory. Tagging them will be useful for indicating areas where sufficient space to share with pedestrians or legal road crossing facilities have not been provided.|
@@ -174,3 +174,4 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 [bollard]: https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dbollard
 [dismount]: http://wiki.openstreetmap.org/wiki/Key:access
 [asl]: http://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dasl
+[node]: /img/node.png "Node"
