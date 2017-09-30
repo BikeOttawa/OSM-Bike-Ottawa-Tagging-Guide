@@ -1,6 +1,7 @@
 # OSM Bike Ottawa Tagging Guide
 
 <a href="#Lanes">Lanes</a><br>
+<a href="#Signs">Signs</a><br>
 <a href="#Plowing">Plowing</a><br>
 <a href="#Flooding">Flooding</a><br>
 <a href="#Optional tags">Optional tags</a><br>
@@ -33,14 +34,21 @@
 | <b>Dooring zone</b><br> Unique in Ottawa. Painted warning that cyclists should avoid riding close to parked vehicles. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/kl9e_LG76Fvzom8PycQHAQ)
 | <b>Super sharrows</b><br> Green backgound for enhanced visibility. Indicates lane position cyclists should use on roads where no cycling infrastructure is present.| ![way]<br>sharrows=left/right/both|[![image](https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg)](https://www.mapillary.com/map/im/Ai2jtWC-HyicF8V_NWbUcA)|
 | <b>Sharrows</b><br> Bike symbol indicates lane position cyclists should use on roads where no cycling infrastructure is present. Require frequent re-painting and may be very faded; it's still of interest to know which roads are intended to have sharrows. | ![way]<br>sharrows=left/right/both| [![image](https://d1cuyjsrcm0gby.cloudfront.net/d-l1qlsZsdb1vJWyeIVeDw/thumb-1024.jpg)](https://www.mapillary.com/map/im/d-l1qlsZsdb1vJWyeIVeDw)|
-| <b><i>Share the road</i> sign</b><br> Useful to tag as an advocacy target|![node]<br> |
-| <b><i>Single file</i> sign</b><br> Useful to tag as an advocacy target|![node]<br> |[![image](https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/PWtqLBKAwQl2mMlLj1K6oQ)|
 | <b>Traffic-calming parking lane</b><br>Resembles a bike lane or paved shoulder, but is typically narrow and includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted. |  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg)](https://www.mapillary.com/map/im/AFnTWKXGzqrIFqDCHRUOcg)
 | <b>Service strip</b><br> Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Also provide width and smoothness tags. |![way]<br>[shoulder]=service_strip<br>width=*<br>smoothness=*  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/s-IPpAUVbDsSPyDYNceg3Q)
 | <b>Desire line</b><br> Well-worn path in a direct line between popular destinations. Also known as a goat path. | ![way]<br>[highway][highway]=[path][path] <br> [path][path]=[desire][desire]| [![image](https://d1cuyjsrcm0gby.cloudfront.net/dmlxBVFdp3OVrLvGr_VNgg/thumb-1024.jpg)](https://www.mapillary.com/map/im/dmlxBVFdp3OVrLvGr_VNgg)
 | <b>Singletrack</b><br> Recreational in purpose, may be meandering or direct. Most often maintained by users. Often includes technically challenging sections, but some sections may be appropriate for transportation| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/dTX27I-QVA84jNZDhjcMiQ/thumb-1024.jpg)](https://www.mapillary.com/map/dTX27I-QVA84jNZDhjcMiQ)|
 | <b>Track road</b><br> Also known as doubletrack. Typically direct, but surfaces are often too rough for comfortable cycling. Motor vehicles such as ATVs are often permitted, but track roads are typically not used by conventional cars. May not be maintained.| | [![image](https://d1cuyjsrcm0gby.cloudfront.net/cmoaqPU1XpZm1TM5U8gfQA/thumb-1024.jpg)](https://www.mapillary.com/map/cmoaqPU1XpZm1TM5U8gfQA)|
 | <b>Boardwalk</b><br> May be recreational in purpose, but some sections are suitable for transportation | ![way]<br>highway=[path]<br>bridge=[boardwalk]<br>[surface]=wood| [![image](https://d1cuyjsrcm0gby.cloudfront.net/pnKXylx9EkyyNmtjBHi_0g/thumb-1024.jpg)](https://www.mapillary.com/map/pnKXylx9EkyyNmtjBHi_0g)|
+
+<h2><a id="Signs"> Signs </a></h2>
+
+| Feature                                                         | OSM Scheme                | Photos     |
+|-----------------------------------------------------------------|---------------------------|------------|
+| <b><i>Share the road</i> sign</b><br> Useful to tag as an advocacy target|![node]<br> |
+| <b><i>Single file</i> sign</b><br> Useful to tag as an advocacy target|![node]<br> |[![image](https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/PWtqLBKAwQl2mMlLj1K6oQ)|
+| <b> Bike route sign</b><br>  May be useful as way-finding if they come with a bike route number, but many are just generic green signs|
+| <b><i>Walk your Bike</i> sign</b><br> A permissive sign that indicates you may walk your bike. This sign alone does not make dismounting mandatory. Tagging them will be useful for indicating areas where there is insufficient space to share with pedestrians or where legal road crossing facilities have not been provided.|![node]<br>|
 
 <h2><a id="Plowing"> Plowing </a></h2>
 
@@ -121,7 +129,6 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 | <b>Bicycle box</b><br> Also known as an advanced stop line (ASL). ASL nodes are located before the actual junction node, and are always connected to their junctions by the Way they're on. Refer to the [asl][asl] Wiki for details       | ![node]<br>[cycleway]=[asl]    | [![image](https://d1cuyjsrcm0gby.cloudfront.net/3A1jICZ8dyQ-5e3WAMZoog/thumb-1024.jpg)](https://www.mapillary.com/map/im/3A1jICZ8dyQ-5e3WAMZoog)|
 | <b>Jug handle</b><br> These are places for the cyclists to pull off to the right, out of the stream of traffic, and await an opportunity to cross the road.                |![node]<br>| [![image](https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg)](https://www.mapillary.com/map/im/d_SH6OmRutjlPgR3B5u8_w)|
 | <b>Cyclist-only left turn lane</b><br>|   |
-| <b><i>Walk your Bike</i> sign</b><br> A permissive sign that indicates you may walk your bike. This sign alone does not make dismounting mandatory. Tagging them will be useful for indicating areas where sufficient space to share with pedestrians or legal road crossing facilities have not been provided.|![node]<br>|
 | <b>Cycleway crosses highway</b><br>  |
 
 <h2><a id="Filtered Permeability and Pinch-Points"> Filtered Permeability and Pinch-Points </a></h2>
