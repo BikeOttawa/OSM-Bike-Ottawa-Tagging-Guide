@@ -90,8 +90,8 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 
 | Feature                                | OSM Scheme                | Photos     |
 |----------------------------------------|---------------------------|------------|
-|Truck route|[hgv][hgv]=yes|
-|Trucks prohibited|[hgv][hgv]=no
+|Truck route|![way]<br>[hgv][hgv]=yes|
+|Trucks prohibited|![way]<br>[hgv][hgv]=no
 |Bridge|![way]<br> bridge=yes |[![image](https://d1cuyjsrcm0gby.cloudfront.net/DM_icM01W41ppwECsD0joQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/DM_icM01W41ppwECsD0joQ)
 |Tunnel| ![way]<br>tunnel=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg)](https://www.mapillary.com/map/im/BABIQ-uSmxRTk4bkTbjCQg)|
 |Lighting| ![way]<br>lit=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg)](https://www.mapillary.com/map/im/O7G6yB8eP6dBTNKg7Kmnww)|
@@ -130,21 +130,21 @@ It's possible to get into deep detail on street parking; we are mainly concerned
 |---------------------------|---------------------------|------------|
 | Chicane without channel   |   |   |
 | Chicane with channel      |   |   |
-| P-gate                    | [barrier]=[cycle_barrier]<br>bicycle=yes<br>motor_vechicle=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
-| Block/Boulder/Planter          | [barrier] = [block] <br> bicycle=yes<br> motor_vechicle=no|[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
-| Bollard                   | [barrier] = [bollard] <br> bicycle=yes<br> motor_vechicle=no|   [![image](https://d1cuyjsrcm0gby.cloudfront.net/4fpzcNTFK8MZNuiRlzlBxw/thumb-1024.jpg)](https://www.mapillary.com/map/im/4fpzcNTFK8MZNuiRlzlBxw)|
+| P-gate                    | ![node]<br>[barrier]=[cycle_barrier]<br>bicycle=yes<br>motor_vechicle=no | [![image](https://d1cuyjsrcm0gby.cloudfront.net/MNN5neMyOijTJ_WlFlwLmg/thumb-1024.jpg)](https://www.mapillary.com/map/im/MNN5neMyOijTJ_WlFlwLmg)
+| Block/Boulder/Planter          |![node]<br>[barrier] = [block] <br> bicycle=yes<br> motor_vechicle=no|[![image](https://d1cuyjsrcm0gby.cloudfront.net/XpU-Zy9vjNcSsDooiZuXVA/thumb-1024.jpg)](https://www.mapillary.com/map/im/XpU-Zy9vjNcSsDooiZuXVA)
+| Bollard                   | ![node]<br>[barrier]=[bollard] <br> bicycle=yes<br> motor_vechicle=no|   [![image](https://d1cuyjsrcm0gby.cloudfront.net/4fpzcNTFK8MZNuiRlzlBxw/thumb-1024.jpg)](https://www.mapillary.com/map/im/4fpzcNTFK8MZNuiRlzlBxw)|
 | Split-path entrance       |   |   |
 
 <h2><a id="Forced Dismounts"> Forced Dismounts </a></h2>
 
 | Feature                   | OSM Scheme                | Photos     |
 |---------------------------|---------------------------|------------|
-| Very narrow gate (<90 cm gap) | [barrier]=[cycle_barrier]<br>bicycle=yes<br>maxwidth=0.5 <br> Access key: [bicycle]=[dismount][dismount]  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
-| Swing gate, must be opened and closed | [barrier]=[swing_gate] <br> bicycle=yes <br> Access key: [bicycle]=[dismount][dismount]    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/5IlTYiFdJUkGmn4pmqr4bg/thumb-1024.jpg)](https://www.mapillary.com/map/im/5IlTYiFdJUkGmn4pmqr4bg)
-| Stairs with no trough     |highway=[steps]<br>[ramp]=no <br> Access key: [bicycle]=[dismount][dismount]       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/cPNFSreEy8iQ902_BJopyQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/cPNFSreEy8iQ902_BJopyQ)
-| Stairs with trough        |highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes <br> Access key: [bicycle]=[dismount][dismount]       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
-| Lock crossing        |bridge=yes <br> surface = wood <br> Access key: [bicycle]=[dismount][dismount]       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/4B2MTPSRKj6JUV6H_c0PVg/thumb-1024.jpg)](https://www.mapillary.com/map/im/4B2MTPSRKj6JUV6H_c0PVg)
-| Curb cut needed           |    <br> Access key: [bicycle]=[dismount][dismount]    |  [![image](https://d1cuyjsrcm0gby.cloudfront.net/0iNKJr-wUKL0HQ_XYdFopw/thumb-1024.jpg)](https://www.mapillary.com/map/im/0iNKJr-wUKL0HQ_XYdFopw)
+| Very narrow gate (<90 cm gap) | ![node]<br>[barrier]=[cycle_barrier]<br>bicycle=yes<br>maxwidth=0.5 <br> Access key: [bicycle]=[dismount][dismount]  |[![image](https://d1cuyjsrcm0gby.cloudfront.net/Tp61o9WU2bmonMmhjUyR2w/thumb-1024.jpg)](https://www.mapillary.com/map/im/Tp61o9WU2bmonMmhjUyR2w)
+| Swing gate, must be opened and closed |![node]<br> [barrier]=[swing_gate] <br> bicycle=yes <br> Access key: [bicycle]=[dismount][dismount]    |[![image](https://d1cuyjsrcm0gby.cloudfront.net/5IlTYiFdJUkGmn4pmqr4bg/thumb-1024.jpg)](https://www.mapillary.com/map/im/5IlTYiFdJUkGmn4pmqr4bg)
+| Stairs with no trough     |![way]<br>highway=[steps]<br>[ramp]=no <br> Access key: [bicycle]=[dismount][dismount]       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/cPNFSreEy8iQ902_BJopyQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/cPNFSreEy8iQ902_BJopyQ)
+| Stairs with trough        |![way]<br>highway=[steps]<br>[ramp]=yes <br>ramp:bicycle=yes <br> Access key: [bicycle]=[dismount][dismount]       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg)](https://www.mapillary.com/map/im/a8BOwiuTq7Xe5mVZ_Bqf1Q)
+| Lock crossing        |![way]<br>bridge=yes <br> surface = wood <br> Access key: [bicycle]=[dismount][dismount]       | [![image](https://d1cuyjsrcm0gby.cloudfront.net/4B2MTPSRKj6JUV6H_c0PVg/thumb-1024.jpg)](https://www.mapillary.com/map/im/4B2MTPSRKj6JUV6H_c0PVg)
+| Curb cut needed           |![node]<br> Access key: [bicycle]=[dismount][dismount]    |  [![image](https://d1cuyjsrcm0gby.cloudfront.net/0iNKJr-wUKL0HQ_XYdFopw/thumb-1024.jpg)](https://www.mapillary.com/map/im/0iNKJr-wUKL0HQ_XYdFopw)
 
 [highway_cycleway]: http://wiki.openstreetmap.org/wiki/Tag:highway%3Dcycleway
 [cycleway]: http://wiki.openstreetmap.org/wiki/Key:cycleway
