@@ -1,0 +1,24 @@
+MUP:
+  title:
+    Paved Multi-Use Path (MUP)
+  description:
+    - Typically 3m wide, may be wider.
+    - Intended for mixed bike and foot traffic.
+  osm:
+    - highway=path
+    - surface=asphalt
+  mapillary:
+    - xvX6Bexu1gEE_H9KlfodLQ
+
+Twinned_Path:
+  title:
+    Twinned Path
+  description:
+    - Typically >4.5 m wide.
+    - Intended for separated bike and foot traffic
+  osm:
+    - highway=path
+    - surface=asphalt
+    - segregated=yes
+  mapillary:
+    - J5eakBF0yAOttLLsGtnkcg
