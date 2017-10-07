@@ -7,7 +7,10 @@ features:
     Typically 3m wide, may be wider.
     Intended for mixed bike and foot traffic.
   osm:
-    - highway=path
+    - highway=cycleway
+    - foot=yes
+    - segrated=no
+    - smoothness=excellent
     - surface=asphalt
   mapillary: xvX6Bexu1gEE_H9KlfodLQ
 
@@ -29,7 +32,8 @@ features:
     Intended primarily for foot traffic,
     though bikes are not prohibited
   osm:
-    -
+    - highway=footway
+    - bicycle=no
   mapillary: fMftKPCR90gDvxZ_3q3V5w
 
 -
@@ -39,7 +43,10 @@ features:
     Intended for mixed bike and foot traffic.
     Often a stonedust surface, but sometimes dirt.
   osm:
-  mapillary:
+    - highway=path
+    - surface=fine_gravel
+    - bicycle=yes
+  mapillary: 0y0R2Fs6pv3KvTgCEYPabw
 
 -
   feature: One way protected lanes
