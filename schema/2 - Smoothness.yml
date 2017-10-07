@@ -1,0 +1,89 @@
+title: Smoothness
+introduction: |
+features:
+-
+  feature: Smoothness
+  description: |
+    Read more on the wiki. Always a subjective call.
+    Here are some more cycling-specific interpretations of the keys.
+  osm:
+    - smoothness=*
+  mapillary:
+
+-
+  feature: Excellent
+  description: |
+    Fresh flawless pavement
+  osm:
+    - smoothness=excellent
+  mapillary: 76B0fQHwaSjke-HnuGsyAg
+
+-
+  feature: Good
+  description: |
+    Decent on skinny tires, a few cracks and bumps
+    Flawless stone dust
+  osm:
+    - smoothness=good
+  mapillary: FsJWrwjgEQFsuQVthxZpBg
+
+-
+  feature: Intermediate
+  description: |
+    A bike with sturdy tires and wheels would be preferred by most.
+    - Bumpy but not hazardous pavement.
+    - Stonedust with some minor washouts.
+    - Well-packed featureless dirt.
+  osm:
+    - smoothness=intermediate
+  mapillary: sNcWLsTqRYidaDZyvdWCuw
+
+-
+  feature: Bad
+  description: |
+    Pavement with jarring bumps, alligatoring, or large cracks.
+    Coarse gravel or stonedust with washouts that require alertness.
+    Dirt trail with small stones or some small roots.
+  osm:
+    - smoothness=bad
+  mapillary: tNEfnLaJW-CjOyoNocKxWA
+
+-
+  feature: Very_bad
+  description: |
+    A mountain bike, perhaps with front suspension, is a more comfortable choice here.
+    Pavement with hazardous bumps and cracks large enough to swallow skinny wheels.
+    This is the worst pavement condition that Ottawa is willing to just live with.
+    - Stonedust with hazardous washouts.
+    - Rocky surface, such as an ATV trail.
+    - Dirt trail where stones or roots require attention.
+  osm:
+    - smoothness=very_bad
+  mapillary: E2XjzfnUuCTG_v2DQBLkLQ
+
+-
+  feature: Horrible
+  description: |
+    Dangerously broken pavement that should be fixed immediately;
+    this is not a tag that will often apply to paved surfaces.
+    - Trails with large stones or roots that may require dismounting or suspension
+  osm:
+    - smoothness=horrible
+  mapillary: HBJPYj3unJmoxpAQoH9sfA
+
+-
+  feature: Very Horrible
+  description: |
+    Rough-edged stones, many exposed roots,
+    suitable only for fatbikes or full suspension
+  osm:
+    - smoothness=very_horrible
+  mapillary: HsZQPUukTzivaSw1fiUemA
+
+-
+  feature: Impassible
+  description: |
+    Almost nobody would be able to ride this
+  osm:
+    - smoothness=impassible
+  mapillary: N3kAgXz5-4A5G8k3xIxCZQ

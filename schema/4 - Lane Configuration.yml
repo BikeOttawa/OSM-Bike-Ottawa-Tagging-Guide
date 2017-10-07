@@ -1,0 +1,32 @@
+title: Lane Configuration
+introduction: |
+features:
+-
+  feature: Two Lanes
+  description: |
+    Most residential streets.
+  osm:
+    - lanes=2
+  mapillary:
+-
+  feature: Multiple Lanes
+  description: |
+    Includes turning lanes
+  osm:
+    - lanes=5
+  mapillary:
+-
+  feature: Width
+  description: |
+    Most designated MUPs have a width of 3m,
+    though some are wider. Walkways are typically 2m
+  osm:
+    - width=*
+  mapillary:
+-
+  feature: Speed limit
+  description: |
+    Only show if the speed is posted different than 50.
+  osm:
+    - maxspeed=40
+  mapillary:

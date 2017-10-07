@@ -1,0 +1,7 @@
+- [amenity=bicycle_parking](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking) , [capacity=N](https://wiki.openstreetmap.org/wiki/Key:capacity)
+- [amenity=drinking_water](https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water)
+- [amenity=bench](https://wiki.openstreetmap.org/wiki/Tag:amenity=bench)
+- [amenity=waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)
+- [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
+- bike share station
+- Counter [man_made=monitoring_station](http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle) <br> [monitoring:bicycle=yes]

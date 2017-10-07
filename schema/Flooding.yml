@@ -1,0 +1,13 @@
+title: Flooding
+introduction: |
+features:
+-
+  feature: Flood Prone
+  description: |
+    Use `flood_prone=yes`
+    If the flooding is a predictable annual event,
+    you may wish to add conditional access restrictions to
+    indicate times of the year when the way should be avoided.
+  osm:
+    - access:conditional=no @ May 1-15
+  mapillary:

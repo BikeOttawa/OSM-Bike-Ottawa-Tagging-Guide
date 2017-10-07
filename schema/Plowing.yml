@@ -1,0 +1,29 @@
+title: Plowing
+introduction: |
+features:
+-
+  feature: Maintained
+  description: |
+    If maintained, `seasonal=no`
+  osm:
+    - seasonal=no
+  mapillary:
+
+-
+  feature: Not maintained
+  description: |
+    If not plowed, `seasonal=yes` and
+    add a conditional restriction of `access:conditional=no` @ Dec-Mar
+    to indicate the period when the way is typically unavailable
+  osm:
+    - seasonal=yes
+    - access:conditional=no
+  mapillary:
+
+-
+  feature: Poorly maintained
+  description: |
+    If poorly plowed, add a conditional restriction of `smoothness:conditional=bad` @ Dec-Mar
+  osm:
+    - smoothness:conditional=bad
+  mapillary:
