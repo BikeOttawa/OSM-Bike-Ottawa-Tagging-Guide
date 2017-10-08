@@ -7,7 +7,6 @@ features:
     -
   mapillary:
 
-features:
 - feature: Chicane with channel
   description: |
   elements:
@@ -16,7 +15,6 @@ features:
     -
   mapillary:
 
-features:
 - feature: P-Gate
   description: |
   elements:
@@ -27,7 +25,6 @@ features:
     - motor_vehicle=no
   mapillary: MNN5neMyOijTJ_WlFlwLmg
 
-features:
 - feature: Block/Boulder/Planter
   description: |
   elements:
@@ -38,7 +35,6 @@ features:
     - motor_vehicle=no
   mapillary: XpU-Zy9vjNcSsDooiZuXVA
 
-features:
 - feature: Bollard
   description: |
   elements:
@@ -49,7 +45,6 @@ features:
     - motor_vehicle=no
   mapillary: 4fpzcNTFK8MZNuiRlzlBxw
 
-features:
 - feature: Split-path entrance
   description: |
   elements:
