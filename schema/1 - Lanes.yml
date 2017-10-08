@@ -8,7 +8,6 @@ features:
   elements:
     - way
   osm:
-    - test=travis
     - '[highway]=cycleway'
     - '[foot]=yes'
     - '[segregated]=no'
