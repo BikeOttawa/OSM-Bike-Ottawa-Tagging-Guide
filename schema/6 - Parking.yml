@@ -1,0 +1,50 @@
+title: Parking
+introduction: |
+    It's possible to get into deep detail on street parking;
+    we are mainly concerned with whether it is present,
+    or saying definitively that it is absent.
+features:
+- feature: Left
+  description: |
+    Parking, left side
+  elements:
+    - way
+  osm:
+    - '[parking]:lane:left=yes'
+  mapillary:
+
+- feature: Right
+  description: |
+    Parking, right side
+  elements:
+    - way
+  osm:
+    - '[parking]:lane:right=yes'
+  mapillary:
+
+- feature: Both
+  description: |
+    Parking, both side
+  elements:
+    - way
+  osm:
+    - '[parking]:lane=yes'
+  mapillary:
+
+- feature: No Parking
+  description: |
+    No Parking
+  elements:
+    - way
+  osm:
+    - '[parking]:lane=no_parking'
+  mapillary:
+
+- feature: No Stopping
+  description: |
+    No Stopping
+  elements:
+    - way
+  osm:
+    - '[parking]:lane=no_stopping'
+  mapillary:

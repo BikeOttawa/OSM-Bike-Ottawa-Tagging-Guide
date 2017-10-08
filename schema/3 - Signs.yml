@@ -1,0 +1,43 @@
+title: Signs
+introduction: |
+features:
+- feature: Share the road sign
+  description: |
+    Useful to tag as an advocacy target
+  elements:
+    - node
+  osm:
+    - '[traffic_sign]=\*'
+  mapillary:
+
+- feature: Single file sign
+  description: |
+    Useful to tag as an advocacy target
+  elements:
+    - node
+  osm:
+    - '[traffic_sign]=\*'
+  mapillary: PWtqLBKAwQl2mMlLj1K6oQ
+
+- feature: Bike route sign
+  description: |
+    May be useful as way-finding if they come with a bike route number,
+    but many are just generic green signs
+  elements:
+    - node
+  osm:
+    - '[traffic_sign]=\*'
+  mapillary:
+
+- feature: Walk your Bike
+  description: |
+    A permissive sign that indicates you may walk your bike.
+    This sign alone does not make dismounting mandatory.
+    Tagging them will be useful for indicating areas where
+    there is insufficient space to share with pedestrians or
+    where legal road crossing facilities have not been provided.
+  elements:
+    - node
+  osm:
+    - '[traffic_sign]=\*'
+  mapillary:

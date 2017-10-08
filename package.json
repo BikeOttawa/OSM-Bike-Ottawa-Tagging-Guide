@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "osm-bike-ottawa-tagging-guide",
+  "version": "0.1.0",
+  "description": "OSM Bike Ottawa Tagging Guide",
+  "main": "index.js",
+  "scripts": {
+    "docs": "node scripts/build-docs.js"
+  },
+  "author": "Bike Ottawa & OSM Ottawa",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "*",
+    "js-yaml": "*",
+    "standard": "*"
+  }
+}
