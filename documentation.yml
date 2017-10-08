@@ -9,8 +9,8 @@ toc:
     - schema/Filtered Permeability and Pinch-Points.yml
     - schema/Force Dismounts.yml
     - schema/Intersections and other Road Crossings.yml
-    - schema/Other tags for ways not shown.md
-    - schema/Points of Interest (Nodes).md
+    - schema/Other tags for ways not shown.yml
+    - schema/Points of Interest (Nodes).yml
 
 images:
     node: img/node.png
@@ -61,3 +61,11 @@ paths:
     parking:lane:left: http://wiki.openstreetmap.org/wiki/Key:parking:lane
     swing_gate: https://wiki.openstreetmap.org/wiki/Tag:barrier=swing_gate
     maxwidth: http://wiki.openstreetmap.org/wiki/Key:maxwidth
+    capacity: https://wiki.openstreetmap.org/wiki/Key:capacity
+    amenity: https://wiki.openstreetmap.org/wiki/Key:amenity
+    man_made: https://wiki.openstreetmap.org/wiki/Key:man_made
+    drinking_water: https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water
+    bench: https://wiki.openstreetmap.org/wiki/Tag:amenity=bench
+    waste_basket: https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket
+    bicycle_repair: https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair
+    monitoring_station: http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle

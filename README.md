@@ -144,23 +144,26 @@ or saying definitively that it is absent.
 
 <h2 id="Other tags for ways not shown">Other tags for ways not shown</h2>
 
-| Feature                                | OSM Scheme                | Photos     |
-|----------------------------------------|---------------------------|------------|
-|Truck route|![way]<br>[hgv][hgv]=yes|
-|Trucks prohibited|![way]<br>[hgv][hgv]=no
-|Bridge|![way]<br> bridge=yes |[![image](https://d1cuyjsrcm0gby.cloudfront.net/DM_icM01W41ppwECsD0joQ/thumb-1024.jpg)](https://www.mapillary.com/map/im/DM_icM01W41ppwECsD0joQ)
-|Tunnel| ![way]<br>tunnel=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg)](https://www.mapillary.com/map/im/BABIQ-uSmxRTk4bkTbjCQg)|
-|Lighting| ![way]<br>lit=yes|[![image](https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg)](https://www.mapillary.com/map/im/O7G6yB8eP6dBTNKg7Kmnww)|
-|Relation | operator=NCC or City of Ottawa or Ville de Gatineau|
-|Official name of feature | name=*
+| Feature             | Description         | OSM Schema          | Photos              |
+|---------------------|---------------------|---------------------|---------------------|
+|**Truck route**||![way](img/way.png)<br>[hgv](http://wiki.openstreetmap.org/wiki/Key:hgv)=yes||
+|**Trucks prohibited**||![way](img/way.png)<br>[hgv](http://wiki.openstreetmap.org/wiki/Key:hgv)=no||
+|**Bridge**||![way](img/way.png)<br>[bridge](https://wiki.openstreetmap.org/wiki/Key:bridge)=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=DM_icM01W41ppwECsD0joQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/DM_icM01W41ppwECsD0joQ/thumb-1024.jpg'></a>|
+|**Tunnel**||![way](img/way.png)<br>tunnel=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=BABIQ-uSmxRTk4bkTbjCQg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg'></a>|
+|**Lighting**||![way](img/way.png)<br>lit=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
+|**Relation**||![relation](img/relation.png)<br>operator=NCC/City of Ottawa/Ville de Gatineau|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
+|**Official name**||![way](undefined) ![node](undefined)<br>name=\*||
 
 <h2 id="Points of Interest (Nodes)">Points of Interest (Nodes)</h2>
 
-- [amenity=bicycle_parking](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking) , [capacity=N](https://wiki.openstreetmap.org/wiki/Key:capacity)
-- [amenity=drinking_water](https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water)
-- [amenity=bench](https://wiki.openstreetmap.org/wiki/Tag:amenity=bench)
-- [amenity=waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)
-- [amenity=bicycle_repair_station](https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair_station)
-- bike share station
-- Counter [man_made=monitoring_station](http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle) <br> [monitoring:bicycle=yes]
+| Feature             | Description         | OSM Schema          | Photos              |
+|---------------------|---------------------|---------------------|---------------------|
+|**Bicycle Parking**||![node](img/node.png)<br>[amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=bicycle_parking<br>[capacity](https://wiki.openstreetmap.org/wiki/Key:capacity)=N||
+|**Drinking Water**||![node](img/node.png)<br>[amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=[drinking_water](https://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water)||
+|**Bench**||![node](img/node.png)<br>[amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=[bench](https://wiki.openstreetmap.org/wiki/Tag:amenity=bench)||
+|**Waste Basket**||![node](img/node.png)<br>[amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=[waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)||
+|**Waste Basket**||![node](img/node.png)<br>[amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=[waste_basket](https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket)||
+|**Bicycle Repair Station**||![node](img/node.png)<br>[amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=bicycle_repair_station||
+|**Bicycle Share Station**||![node](img/node.png)<br>||
+|**Bicycle Counter**||![node](img/node.png)<br>[man_made](https://wiki.openstreetmap.org/wiki/Key:man_made)=[monitoring_station](http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle)<br>monitoring:bicycle=yes||
 

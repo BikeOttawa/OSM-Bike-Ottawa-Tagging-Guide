@@ -1,0 +1,66 @@
+features:
+- feature: Bicycle Parking
+  description: |
+  elements:
+    - node
+  osm:
+    - amenity=bicycle_parking
+    - capacity=N
+  mapillary:
+
+- feature: Drinking Water
+  description: |
+  elements:
+    - node
+  osm:
+    - amenity=drinking_water
+  mapillary:
+
+- feature: Bench
+  description: |
+  elements:
+    - node
+  osm:
+    - amenity=bench
+  mapillary:
+
+- feature: Waste Basket
+  description: |
+  elements:
+    - node
+  osm:
+    - amenity=waste_basket
+  mapillary:
+
+- feature: Waste Basket
+  description: |
+  elements:
+    - node
+  osm:
+    - amenity=waste_basket
+  mapillary:
+
+- feature: Bicycle Repair Station
+  description: |
+  elements:
+    - node
+  osm:
+    - amenity=bicycle_repair_station
+  mapillary:
+
+- feature: Bicycle Share Station
+  description: |
+  elements:
+    - node
+  osm:
+    -
+  mapillary:
+
+- feature: Bicycle Counter
+  description: |
+  elements:
+    - node
+  osm:
+    - man_made=monitoring_station
+    - monitoring:bicycle=yes
+  mapillary:

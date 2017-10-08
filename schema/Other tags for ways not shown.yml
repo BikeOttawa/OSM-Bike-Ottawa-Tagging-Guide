@@ -1,0 +1,57 @@
+features:
+- feature: Truck route
+  description: |
+  elements:
+    - way
+  osm:
+    - hgv=yes
+  mapillary:
+
+- feature: Trucks prohibited
+  description: |
+  elements:
+    - way
+  osm:
+    - hgv=no
+  mapillary:
+
+- feature: Bridge
+  description: |
+  elements:
+    - way
+  osm:
+    - bridge=yes
+  mapillary: DM_icM01W41ppwECsD0joQ
+
+- feature: Tunnel
+  description: |
+  elements:
+    - way
+  osm:
+    - tunnel=yes
+  mapillary: BABIQ-uSmxRTk4bkTbjCQg
+
+- feature: Lighting
+  description: |
+  elements:
+    - way
+  osm:
+    - lit=yes
+  mapillary: O7G6yB8eP6dBTNKg7Kmnww
+
+- feature: Relation
+  description: |
+  elements:
+    - relation
+  osm:
+    - operator=NCC/City of Ottawa/Ville de Gatineau
+  mapillary: O7G6yB8eP6dBTNKg7Kmnww
+
+- feature: Official name
+  description: |
+  elements:
+    - way
+    - node
+  osm:
+    - name=*
+  mapillary:
