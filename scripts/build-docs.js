@@ -111,7 +111,7 @@ function formatElements (elements) {
   if (!elements.length) return ''
   if (typeof elements === 'string') return `![${elements}](${images[elements]})`
   if (Array.isArray(elements)) {
-    return elements.map(element => `![${element}](${images[elements]})`).join(' ')
+    return elements.map(element => `![${element}](${images[element]})`).join(' ')
   }
   throw new Error('cannot format elements')
 }

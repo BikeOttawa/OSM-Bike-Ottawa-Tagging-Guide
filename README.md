@@ -135,12 +135,12 @@ or saying definitively that it is absent.
 |**Two-way stop**||![node](img/node.png)<br>||
 |**Pedestrian Crossover**|Also known as PXOs. These are mid-block crossings,<br>designated by a variety of different signage treatments.<br>They are not crosswalks, which are located at intersections.<br>Cyclists may use PXOs, but are required by law to walk their bike.<br>|![node](img/node.png)<br>||
 |**Yield**||![node](img/node.png)<br>||
-|**Traffic circle, no bypass**||![node](undefined) ![way](undefined)<br>||
-|**Traffic circle with bypass**||![node](undefined) ![way](undefined)<br>||
+|**Traffic circle, no bypass**||![node](img/node.png) ![way](img/way.png)<br>||
+|**Traffic circle with bypass**||![node](img/node.png) ![way](img/way.png)<br>||
 |**Bicycle box**|Also known as an advanced stop line (ASL).<br>ASL nodes are located before the actual junction node,<br>and are always connected to their junctions by the Way they're on.<br>|![node](img/node.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=[asl](http://wiki.openstreetmap.org/wiki/Tag:cycleway=asl)|<a href='https://www.mapillary.com/app/?focus=photo&pKey=3A1jICZ8dyQ-5e3WAMZoog'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/3A1jICZ8dyQ-5e3WAMZoog/thumb-1024.jpg'></a>|
 |**Jug handle**|These are places for the cyclists to pull off to the right,<br>out of the stream of traffic, and await an opportunity to cross the road.<br>|![node](img/node.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=[asl](http://wiki.openstreetmap.org/wiki/Tag:cycleway=asl)|<a href='https://www.mapillary.com/app/?focus=photo&pKey=d_SH6OmRutjlPgR3B5u8_w'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/d_SH6OmRutjlPgR3B5u8_w/thumb-1024.jpg'></a>|
-|**Cyclist-only left turn lane**||![node](undefined) ![way](undefined)<br>||
-|**Cycleway crosses highway**||![node](undefined) ![way](undefined)<br>||
+|**Cyclist-only left turn lane**||![node](img/node.png) ![way](img/way.png)<br>||
+|**Cycleway crosses highway**||![node](img/node.png) ![way](img/way.png)<br>||
 
 <h2 id="Other tags for ways not shown">Other tags for ways not shown</h2>
 
@@ -152,7 +152,7 @@ or saying definitively that it is absent.
 |**Tunnel**||![way](img/way.png)<br>tunnel=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=BABIQ-uSmxRTk4bkTbjCQg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg'></a>|
 |**Lighting**||![way](img/way.png)<br>lit=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
 |**Relation**||![relation](img/relation.png)<br>operator=NCC/City of Ottawa/Ville de Gatineau|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
-|**Official name**||![way](undefined) ![node](undefined)<br>name=\*||
+|**Official name**||![way](img/way.png) ![node](img/node.png)<br>name=\*||
 
 <h2 id="Points of Interest (Nodes)">Points of Interest (Nodes)</h2>
 
