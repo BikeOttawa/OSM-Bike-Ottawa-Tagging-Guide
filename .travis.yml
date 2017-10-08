@@ -11,7 +11,7 @@ after_success:
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 - git checkout master
 - git add README.md
-- 'git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"'
+- 'git commit --message "README Update: TravisCI #$TRAVIS_BUILD_NUMBER"'
 - git push
 env:
   global:
