@@ -7,7 +7,7 @@ features:
   elements:
     - way
   osm:
-    - '[lanes]=2'
+    - lanes=2
   mapillary:
 - feature: Multiple Lanes
   description: |
@@ -15,7 +15,7 @@ features:
   elements:
     - way
   osm:
-    - '[lanes]=5'
+    - lanes=5
   mapillary:
 - feature: Width
   description: |
@@ -24,7 +24,7 @@ features:
   elements:
     - way
   osm:
-    - '[width]=\*'
+    - width=*
   mapillary:
 - feature: Speed limit
   description: |
@@ -32,5 +32,5 @@ features:
   elements:
     - way
   osm:
-    - '[maxspeed]=40'
+    - maxspeed=40
   mapillary:

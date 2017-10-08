@@ -7,7 +7,7 @@ features:
   elements:
     - node
   osm:
-    - '[traffic_sign]=\*'
+    - traffic_sign=*
   mapillary:
 
 - feature: Single file sign
@@ -16,7 +16,7 @@ features:
   elements:
     - node
   osm:
-    - '[traffic_sign]=\*'
+    - traffic_sign=*
   mapillary: PWtqLBKAwQl2mMlLj1K6oQ
 
 - feature: Bike route sign
@@ -26,7 +26,7 @@ features:
   elements:
     - node
   osm:
-    - '[traffic_sign]=\*'
+    - traffic_sign=*
   mapillary:
 
 - feature: Walk your Bike
@@ -39,5 +39,5 @@ features:
   elements:
     - node
   osm:
-    - '[traffic_sign]=\*'
+    - traffic_sign=*
   mapillary:

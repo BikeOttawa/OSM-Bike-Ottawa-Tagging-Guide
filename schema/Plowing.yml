@@ -7,7 +7,7 @@ features:
   elements:
     - way
   osm:
-    - '[seasonal]=no'
+    - seasonal=no
   mapillary:
 
 - feature: Not maintained
@@ -18,7 +18,7 @@ features:
   elements:
     - way
   osm:
-    - '[seasonal]=yes'
+    - seasonal=yes
     - access:conditional=no
   mapillary:
 

@@ -10,7 +10,6 @@
   "author": "Bike Ottawa & OSM Ottawa",
   "license": "MIT",
   "devDependencies": {
-    "glob": "*",
     "js-yaml": "*",
     "standard": "*"
   }

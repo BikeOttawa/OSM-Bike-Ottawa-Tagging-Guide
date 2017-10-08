@@ -1,41 +1,37 @@
 const fs = require('fs')
 const path = require('path')
-const glob = require('glob')
 const yaml = require('js-yaml')
 
-// File Paths
-const schemaPath = path.join(__dirname, '..', 'schema')
-const readmePath = path.join(__dirname, '..', 'README.md')
+// Documentation Metadata
+const documentation = yaml.safeLoad(fs.readFileSync(path.join(__dirname, '..', 'documentation.yml'), 'utf8'))
+const {toc, paths} = documentation
 
 // Create write stream to ./README.md
-const README = fs.createWriteStream(readmePath)
+const README = fs.createWriteStream(path.join(__dirname, '..', 'README.md'))
 README.write('# OSM Bike Ottawa Tagging Guide\n\n')
 
 // Build Table of Contents
 README.write('## Table of Contents\n\n')
 README.write('<ul>\n')
-glob.sync(path.join(schemaPath, '*.yml')).forEach(filepath => {
-  const schema = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'))
-  const title = schema.title || path.parse(filepath).name
-  README.write(`  <li><a href='#${title}'>${title}</a></li>\n`)
-})
-glob.sync(path.join(schemaPath, '*.md')).forEach(filepath => {
-  const title = path.parse(filepath).name
-  README.write(`  <li><a href='#${title}'>${title}</a></li>\n`)
+toc.forEach(filepath => {
+  const {name} = path.parse(filepath)
+  README.write(`  <li><a href='#${name}'>${name}</a></li>\n`)
 })
 README.write('</ul>\n\n')
 
 // Iterate & parse over each YAML document
-glob.sync(path.join(schemaPath, '*.yml')).forEach(filepath => {
+toc.forEach(filepath => {
+  if (path.parse(filepath).ext !== '.yml') return null
+  filepath = path.join(__dirname, '..', filepath)
+  const {name} = path.parse(filepath)
   const schema = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'))
 
   // Markdown Attributes
-  const title = schema.title || path.parse(filepath).name
   const introduction = schema.introduction
   const features = schema.features
 
   // Write Title
-  README.write(`<h2 id="${title}">${title}</h2>\n\n`)
+  README.write(`<h2 id="${name}">${name}</h2>\n\n`)
   if (introduction) README.write(`${introduction}\n`)
 
   // Write Table Header
@@ -57,7 +53,9 @@ glob.sync(path.join(schemaPath, '*.yml')).forEach(filepath => {
 })
 
 // Iterate & parse over each Markdown document
-glob.sync(path.join(schemaPath, '*.md')).forEach(filepath => {
+toc.forEach(filepath => {
+  if (path.parse(filepath).ext !== '.md') return null
+  filepath = path.join(__dirname, '..', filepath)
   const markdown = fs.readFileSync(filepath, 'utf8')
 
   // Markdown Attributes
@@ -80,9 +78,26 @@ function formatOSM (osm) {
   if (!osm.length) return ''
   if (typeof osm === 'string') return osm.replace(/\n/g, '<br>')
   if (Array.isArray(osm)) {
-    return osm.join('<br>')
+    return osm.map(feature => {
+      return formatOSMFeature(feature)
+    }).join('<br>')
   }
   throw new Error('cannot format osm')
+}
+
+/**
+ * Format OSM Feature for Markdown syntax
+ *
+ * @param {string} feature OSM Feature
+ * @returns {string}
+ */
+function formatOSMFeature (feature) {
+  if (!feature) return ''
+  return feature.split('=').map(key => {
+    if (key === '*') return '\\*'
+    if (paths[key]) return `[${key}](${paths[key]})`
+    return key
+  }).join('=')
 }
 
 /**
@@ -94,9 +109,9 @@ function formatOSM (osm) {
 function formatElements (elements) {
   if (!elements) return ''
   if (!elements.length) return ''
-  if (typeof elements === 'string') return `![${elements}]`
+  if (typeof elements === 'string') return `![${elements}](${paths[elements]})`
   if (Array.isArray(elements)) {
-    return elements.map(element => `![${element}]`).join(' ')
+    return elements.map(element => `![${element}](${paths[elements]})`).join(' ')
   }
   throw new Error('cannot format elements')
 }
@@ -145,49 +160,3 @@ function mapillaryPhoto (mapillary) {
   const style = 'min-width:300px;max-width:300px'
   return `<a href='${href}'><img style='${style}' src='${src}'></a>`
 }
-
-README.write(`
-[highway_cycleway]: http://wiki.openstreetmap.org/wiki/Tag:highway=cycleway
-[cycleway]: http://wiki.openstreetmap.org/wiki/Key:cycleway
-[highway]: http://wiki.openstreetmap.org/wiki/Key:highway
-[path]: http://wiki.openstreetmap.org/wiki/Tag:highway=path
-[bicycle]: http://wiki.openstreetmap.org/wiki/Key:bicycle
-[surface]: https://wiki.openstreetmap.org/wiki/Key:surface
-[fine_gravel]: https://wiki.openstreetmap.org/wiki/tag:surface=fine_gravel
-[asphalt]: https://wiki.openstreetmap.org/wiki/tag:surface=asphalt
-[smoothness]: https://wiki.openstreetmap.org/wiki/Key:smoothness
-[access:conditional]: http://wiki.openstreetmap.org/wiki/Conditional_restrictions
-[flood_prone]: http://wiki.openstreetmap.org/wiki/Key:flood_prone
-[width]: http://wiki.openstreetmap.org/wiki/Key:width
-[desire]: http://wiki.openstreetmap.org/wiki/Tag:path=desire
-[hgv]: http://wiki.openstreetmap.org/wiki/Key:hgv
-[barrier]: http://wiki.openstreetmap.org/wiki/Key:barrier
-[cycle_barrier]: http://wiki.openstreetmap.org/wiki/Tag:barrier=cycle_barrier
-[block]: https://wiki.openstreetmap.org/wiki/Tag:barrier=block
-[buffer]: http://wiki.openstreetmap.org/wiki/Proposed_features/Buffered_bike_lane
-[boardwalk]:http://wiki.openstreetmap.org/wiki/Tag:bridge=boardwalk
-[ramp]:http://wiki.openstreetmap.org/wiki/Key:ramp
-[steps]:http://wiki.openstreetmap.org/wiki/Tag:highway=steps
-[shoulder]:http://wiki.openstreetmap.org/wiki/Key:shoulder
-[share_busway]:http://wiki.openstreetmap.org/wiki/Tag:cycleway=share_busway
-[parking:lane]:http://wiki.openstreetmap.org/wiki/Key:parking:lane
-[seasonal]:http://wiki.openstreetmap.org/wiki/Key:seasonal
-[segregated]:http://wiki.openstreetmap.org/wiki/Key:segregated
-[bollard]: https://wiki.openstreetmap.org/wiki/Tag:barrier=bollard
-[dismount]: http://wiki.openstreetmap.org/wiki/Key:access
-[asl]: http://wiki.openstreetmap.org/wiki/Tag:cycleway=asl
-[foot]: https://wiki.openstreetmap.org/wiki/Key:foot
-[oneway]: http://wiki.openstreetmap.org/wiki/Key:oneway
-[sharrows]: http://wiki.openstreetmap.org/wiki/Proposed_features/shared_lane
-[bridge]: https://wiki.openstreetmap.org/wiki/Key:bridge
-[traffic_sign]: https://wiki.openstreetmap.org/wiki/Key:traffic_sign
-[lanes]: https://wiki.openstreetmap.org/wiki/Key:lanes
-[maxspeed]: https://wiki.openstreetmap.org/wiki/Key:maxspeed
-[access]: https://wiki.openstreetmap.org/wiki/Key:access
-[parking]: https://wiki.openstreetmap.org/wiki/Key:parking
-[swing_gate]: https://wiki.openstreetmap.org/wiki/Tag:barrier=swing_gate
-[node]: /img/node.png "Node"
-[way]: /img/way.png "Way"
-[area]: /img/area.png "Area"
-[relation]: /img/relation.png "Relation"
-`)

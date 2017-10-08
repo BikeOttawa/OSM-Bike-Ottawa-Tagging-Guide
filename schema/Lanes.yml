@@ -8,11 +8,11 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=cycleway'
-    - '[foot]=yes'
-    - '[segregated]=no'
-    - '[smoothness]=excellent'
-    - '[surface]=asphalt'
+    - highway=cycleway
+    - foot=yes
+    - segregated=no
+    - smoothness=excellent
+    - surface=asphalt
   mapillary: xvX6Bexu1gEE_H9KlfodLQ
 
 - feature: Twinned Path
@@ -22,9 +22,9 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=path'
-    - '[surface]=asphalt'
-    - '[segregated]=yes'
+    - highway=path
+    - surface=asphalt
+    - segregated=yes
   mapillary: J5eakBF0yAOttLLsGtnkcg
 
 - feature: Walkway
@@ -35,8 +35,8 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=footway'
-    - '[bicycle]=no'
+    - highway=footway
+    - bicycle=no
   mapillary: fMftKPCR90gDvxZ_3q3V5w
 
 - feature: Unpaved Multi-Use Path (MUP)
@@ -47,9 +47,9 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=path'
-    - '[surface]=fine_gravel'
-    - '[bicycle]=yes'
+    - highway=path
+    - surface=fine_gravel
+    - bicycle=yes
   mapillary: 0y0R2Fs6pv3KvTgCEYPabw
 
 - feature: One way protected lanes
@@ -59,8 +59,8 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=cycleway'
-    - '[oneway]=yes'
+    - highway=cycleway
+    - oneway=yes
   mapillary: GSkPP_J3o-ILEkeoMJMl0A
 
 - feature: Bi-directional protected cycletrack
@@ -69,8 +69,8 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=cycleway'
-    - '[oneway]=no'
+    - highway=cycleway
+    - oneway=no
   mapillary: 1xOyTkegYkMF9SapKrqAnQ
 
 - feature: Buffered bike lane
@@ -84,8 +84,8 @@ features:
   elements:
     - way
   osm:
-    - '[cycleway]=lane'
-    - '[buffer]=yes'
+    - cycleway=lane
+    - buffer=yes
   mapillary: sCskYIeAaVOrs6pOvUVddQ
 
 - feature: Painted bike lane, on a divided road
@@ -96,7 +96,7 @@ features:
   elements:
     - way
   osm:
-    - '[cycleway]:right=lane'
+    - cycleway:right=lane
   mapillary: IbjORAYAgVQk5oUto7WgsQ
 
 - feature: Painted bike lane, on an undivided road
@@ -107,7 +107,7 @@ features:
   elements:
     - way
   osm:
-    - '[cycleway]=lane'
+    - cycleway=lane
   mapillary: 3Me8bNEXV5Tkr3OhsLO6Ow
 
 - feature: Shoulder, not signed as a bike lane
@@ -118,8 +118,8 @@ features:
   elements:
     - way
   osm:
-    - '[shoulder]:left/right/both' # TO verifiy
-    - '[shoulder]:surface=yes/no' # TO verifiy
+    - shoulder:left/right/both # TO verifiy
+    - shoulder:surface=yes/no # TO verifiy
   mapillary: wYO6exNSPsFQM7nZblFMAQ
 
 - feature: Contraflow lane
@@ -129,7 +129,7 @@ features:
   elements:
     - way
   osm:
-    - '[cycleway]=opposite_lane'
+    - cycleway=opposite_lane
   mapillary: cW35TfHANRe5DWbbxABJlw
 
 - feature: Advisory bike lane
@@ -152,7 +152,7 @@ features:
   elements:
     - way
   osm:
-    - '[cycleway]=share_busway'
+    - cycleway=share_busway
   mapillary: PqTQqISWgK5QbWg5PRvaQA
 
 - feature: Shared sidewalk (signed)
@@ -183,7 +183,7 @@ features:
   elements:
     - way
   osm:
-    - '[sharrows]=left/right/both'
+    - sharrows=left/right/both
   mapillary: Ai2jtWC-HyicF8V_NWbUcA
 
 - feature: Sharrows
@@ -195,7 +195,7 @@ features:
   elements:
     - way
   osm:
-    - '[sharrows]=left/right/both'
+    - sharrows=left/right/both
   mapillary: d-l1qlsZsdb1vJWyeIVeDw
 
 - feature: Traffic-calming parking lane
@@ -221,9 +221,9 @@ features:
   elements:
     - way
   osm:
-    - '[shoulder]=service_strip'
-    - '[width]=\*'
-    - '[smoothness]=\*'
+    - shoulder=service_strip
+    - width=*
+    - smoothness=*
   mapillary: s-IPpAUVbDsSPyDYNceg3Q
 
 - feature: Desire line
@@ -233,8 +233,8 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=path'
-    - '[path]=desire'
+    - highway=path
+    - path=desire
   mapillary: dmlxBVFdp3OVrLvGr_VNgg
 
 - feature: Singletrack
@@ -269,7 +269,7 @@ features:
   elements:
     - way
   osm:
-    - '[highway]=path'
-    - '[bridge]=boardwalk'
-    - '[surface]=wood'
+    - highway=path
+    - bridge=boardwalk
+    - surface=wood
   mapillary: pnKXylx9EkyyNmtjBHi_0g

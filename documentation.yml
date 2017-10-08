@@ -1,0 +1,59 @@
+toc:
+    - schema/Lanes.yml
+    - schema/Smoothness.yml
+    - schema/Signs.yml
+    - schema/Lane Configuration.yml
+    - schema/Flooding.yml
+    - schema/Parking.yml
+    - schema/Plowing.yml
+    - schema/Filtered Permeability and Pinch-Points.md
+    - schema/Force Dismounts.md
+    - schema/Intersections and other Road Crossings.md
+    - schema/Other tags for ways not shown.md
+    - schema/Points of Interest (Nodes).md
+paths:
+    highway_cycleway: http://wiki.openstreetmap.org/wiki/Tag:highway=cycleway
+    cycleway: http://wiki.openstreetmap.org/wiki/Key:cycleway
+    highway: http://wiki.openstreetmap.org/wiki/Key:highway
+    path: http://wiki.openstreetmap.org/wiki/Tag:highway=path
+    bicycle: http://wiki.openstreetmap.org/wiki/Key:bicycle
+    surface: https://wiki.openstreetmap.org/wiki/Key:surface
+    fine_gravel: https://wiki.openstreetmap.org/wiki/tag:surface=fine_gravel
+    asphalt: https://wiki.openstreetmap.org/wiki/tag:surface=asphalt
+    smoothness: https://wiki.openstreetmap.org/wiki/Key:smoothness
+    access:conditional: http://wiki.openstreetmap.org/wiki/Conditional_restrictions
+    flood_prone: http://wiki.openstreetmap.org/wiki/Key:flood_prone
+    width: http://wiki.openstreetmap.org/wiki/Key:width
+    desire: http://wiki.openstreetmap.org/wiki/Tag:path=desire
+    hgv: http://wiki.openstreetmap.org/wiki/Key:hgv
+    barrier: http://wiki.openstreetmap.org/wiki/Key:barrier
+    cycle_barrier: http://wiki.openstreetmap.org/wiki/Tag:barrier=cycle_barrier
+    block: https://wiki.openstreetmap.org/wiki/Tag:barrier=block
+    buffer: http://wiki.openstreetmap.org/wiki/Proposed_features/Buffered_bike_lane
+    boardwalk: http://wiki.openstreetmap.org/wiki/Tag:bridge=boardwalk
+    ramp: http://wiki.openstreetmap.org/wiki/Key:ramp
+    steps: http://wiki.openstreetmap.org/wiki/Tag:highway=steps
+    shoulder: http://wiki.openstreetmap.org/wiki/Key:shoulder
+    share_busway: http://wiki.openstreetmap.org/wiki/Tag:cycleway=share_busway
+    seasonal: http://wiki.openstreetmap.org/wiki/Key:seasonal
+    segregated: http://wiki.openstreetmap.org/wiki/Key:segregated
+    bollard: https://wiki.openstreetmap.org/wiki/Tag:barrier=bollard
+    dismount: http://wiki.openstreetmap.org/wiki/Key:access
+    asl: http://wiki.openstreetmap.org/wiki/Tag:cycleway=asl
+    foot: https://wiki.openstreetmap.org/wiki/Key:foot
+    oneway: http://wiki.openstreetmap.org/wiki/Key:oneway
+    sharrows: http://wiki.openstreetmap.org/wiki/Proposed_features/shared_lane
+    bridge: https://wiki.openstreetmap.org/wiki/Key:bridge
+    traffic_sign: https://wiki.openstreetmap.org/wiki/Key:traffic_sign
+    lanes: https://wiki.openstreetmap.org/wiki/Key:lanes
+    maxspeed: https://wiki.openstreetmap.org/wiki/Key:maxspeed
+    access: https://wiki.openstreetmap.org/wiki/Key:access
+    parking: https://wiki.openstreetmap.org/wiki/Key:parking
+    parking:lane: http://wiki.openstreetmap.org/wiki/Key:parking:lane
+    parking:lane:right: http://wiki.openstreetmap.org/wiki/Key:parking:lane
+    parking:lane:left: http://wiki.openstreetmap.org/wiki/Key:parking:lane
+    swing_gate: https://wiki.openstreetmap.org/wiki/Tag:barrier=swing_gate
+    node: img/node.png
+    way: img/way.png
+    area: img/area.png
+    relation: img/relation.png

@@ -10,7 +10,7 @@ features:
   elements:
     - way
   osm:
-    - '[parking]:lane:left=yes'
+    - parking:lane:left=yes
   mapillary:
 
 - feature: Right
@@ -19,7 +19,7 @@ features:
   elements:
     - way
   osm:
-    - '[parking]:lane:right=yes'
+    - parking:lane:right=yes
   mapillary:
 
 - feature: Both
@@ -28,7 +28,7 @@ features:
   elements:
     - way
   osm:
-    - '[parking]:lane=yes'
+    - parking:lane=yes
   mapillary:
 
 - feature: No Parking
@@ -37,7 +37,7 @@ features:
   elements:
     - way
   osm:
-    - '[parking]:lane=no_parking'
+    - parking:lane=no_parking
   mapillary:
 
 - feature: No Stopping
@@ -46,5 +46,5 @@ features:
   elements:
     - way
   osm:
-    - '[parking]:lane=no_stopping'
+    - parking:lane=no_stopping
   mapillary:

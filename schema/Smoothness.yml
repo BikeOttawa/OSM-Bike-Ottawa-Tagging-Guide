@@ -8,7 +8,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=\*'
+    - smoothness=*
   mapillary:
 
 - feature: Excellent
@@ -17,7 +17,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=excellent'
+    - smoothness=excellent
   mapillary: 76B0fQHwaSjke-HnuGsyAg
 
 - feature: Good
@@ -27,7 +27,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=good'
+    - smoothness=good
   mapillary: FsJWrwjgEQFsuQVthxZpBg
 
 - feature: Intermediate
@@ -39,7 +39,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=intermediate'
+    - smoothness=intermediate
   mapillary: sNcWLsTqRYidaDZyvdWCuw
 
 - feature: Bad
@@ -50,7 +50,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=bad'
+    - smoothness=bad
   mapillary: tNEfnLaJW-CjOyoNocKxWA
 
 - feature: Very_bad
@@ -64,7 +64,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=very_bad'
+    - smoothness=very_bad
   mapillary: E2XjzfnUuCTG_v2DQBLkLQ
 
 - feature: Horrible
@@ -75,7 +75,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=horrible'
+    - smoothness=horrible
   mapillary: HBJPYj3unJmoxpAQoH9sfA
 
 - feature: Very Horrible
@@ -85,7 +85,7 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=very_horrible'
+    - smoothness=very_horrible
   mapillary: HsZQPUukTzivaSw1fiUemA
 
 - feature: Impassible
@@ -94,5 +94,5 @@ features:
   elements:
     - way
   osm:
-    - '[smoothness]=impassible'
+    - smoothness=impassible
   mapillary: N3kAgXz5-4A5G8k3xIxCZQ

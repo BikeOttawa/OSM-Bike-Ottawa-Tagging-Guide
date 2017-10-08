@@ -10,5 +10,5 @@ features:
   elements:
     - way
   osm:
-    - '[access]:conditional=no @ May 1-15'
+    - access:conditional=no @ May 1-15
   mapillary:
