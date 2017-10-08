@@ -6,7 +6,7 @@ toc:
     - schema/Flooding.yml
     - schema/Parking.yml
     - schema/Plowing.yml
-    - schema/Filtered Permeability and Pinch-Points.md
+    - schema/Filtered Permeability and Pinch-Points.yml
     - schema/Force Dismounts.md
     - schema/Intersections and other Road Crossings.md
     - schema/Other tags for ways not shown.md

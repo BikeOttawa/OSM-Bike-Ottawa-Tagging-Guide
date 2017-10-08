@@ -1,0 +1,59 @@
+features:
+- feature: Chicane without channel
+  description: |
+  elements:
+    - node
+  osm:
+    -
+  mapillary:
+
+features:
+- feature: Chicane with channel
+  description: |
+  elements:
+    - node
+  osm:
+    -
+  mapillary:
+
+features:
+- feature: P-Gate
+  description: |
+  elements:
+    - node
+  osm:
+    - barrier=cycle_barrier
+    - bicycle=yes
+    - motor_vehicle=no
+  mapillary: MNN5neMyOijTJ_WlFlwLmg
+
+features:
+- feature: Block/Boulder/Planter
+  description: |
+  elements:
+    - node
+  osm:
+    - barrier=block
+    - bicycle=yes
+    - motor_vehicle=no
+  mapillary: XpU-Zy9vjNcSsDooiZuXVA
+
+features:
+- feature: Bollard
+  description: |
+  elements:
+    - node
+  osm:
+    - barrier=bollard
+    - bicycle=yes
+    - motor_vehicle=no
+  mapillary: 4fpzcNTFK8MZNuiRlzlBxw
+
+features:
+- feature: Split-path entrance
+  description: |
+  elements:
+    - node
+  osm:
+    -
+  mapillary:
