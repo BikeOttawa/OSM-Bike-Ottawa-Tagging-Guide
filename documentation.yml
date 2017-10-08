@@ -8,7 +8,7 @@ toc:
     - schema/Plowing.yml
     - schema/Filtered Permeability and Pinch-Points.yml
     - schema/Force Dismounts.yml
-    - schema/Intersections and other Road Crossings.md
+    - schema/Intersections and other Road Crossings.yml
     - schema/Other tags for ways not shown.md
     - schema/Points of Interest (Nodes).md
 
