@@ -4,7 +4,7 @@ const yaml = require('js-yaml')
 
 // Documentation Metadata
 const documentation = yaml.safeLoad(fs.readFileSync(path.join(__dirname, '..', 'documentation.yml'), 'utf8'))
-const {toc, paths} = documentation
+const {toc, paths, images} = documentation
 
 // Create write stream to ./README.md
 const README = fs.createWriteStream(path.join(__dirname, '..', 'README.md'))
@@ -109,9 +109,9 @@ function formatOSMFeature (feature) {
 function formatElements (elements) {
   if (!elements) return ''
   if (!elements.length) return ''
-  if (typeof elements === 'string') return `![${elements}](${paths[elements]})`
+  if (typeof elements === 'string') return `![${elements}](${images[elements]})`
   if (Array.isArray(elements)) {
-    return elements.map(element => `![${element}](${paths[elements]})`).join(' ')
+    return elements.map(element => `![${element}](${images[elements]})`).join(' ')
   }
   throw new Error('cannot format elements')
 }

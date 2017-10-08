@@ -1,0 +1,60 @@
+features:
+- feature: Narrow Gate
+  description: |
+    Very narrow gate (<90 cm gap)
+  elements:
+    - node
+  osm:
+    - barrier=cycle_barrier
+    - bicycle=yes/dismount
+    - maxwidth=0.5
+  mapillary: Tp61o9WU2bmonMmhjUyR2w
+
+- feature: Swing Gate
+  description: |
+    Swing gate, can be opened and closed.
+  elements:
+    - node
+  osm:
+    - barrier=swing_gate
+    - bicycle=yes/dismount
+  mapillary: 5IlTYiFdJUkGmn4pmqr4bg
+
+- feature: Stairs with no trough
+  description: |
+  elements:
+    - way
+  osm:
+    - highway=steps
+    - ramp=no
+    - bicycle=dismount
+  mapillary: cPNFSreEy8iQ902_BJopyQ
+
+- feature: Stairs with trough
+  description: |
+  elements:
+    - way
+  osm:
+    - highway=steps
+    - ramp=yes
+    - ramp:bicycle=yes
+    - bicycle=dismount
+  mapillary: a8BOwiuTq7Xe5mVZ_Bqf1Q
+
+- feature: Lock crossing
+  description: |
+  elements:
+    - way
+  osm:
+    - bridge=yes
+    - surface=wood
+    - bicycle=dismount
+  mapillary: 4B2MTPSRKj6JUV6H_c0PVg
+
+- feature: Curb cut needed
+  description: |
+  elements:
+    - node
+  osm:
+    - bicycle=dismount
+  mapillary: 0iNKJr-wUKL0HQ_XYdFopw
