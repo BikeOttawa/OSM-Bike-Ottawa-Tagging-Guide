@@ -1,14 +1,18 @@
 language: node_js
 cache: yarn
 node_js:
-  - node
+- node
 script:
-  - yarn docs
+- yarn docs
 after_success:
-  - git config --global user.email "travis@travis-ci.org"
-  - git config --global user.name "Travis CI"
-  - git config --global github.token ${GITHUB_TOKEN}
-  - git checkout master
-  - git add README.md
-  - 'git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"'
-  - git push
+- git config --global user.email "travis@travis-ci.org"
+- git config --global user.name "Travis CI"
+- git config credential.helper "store --file=.git/credentials"
+- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- git checkout master
+- git add README.md
+- 'git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"'
+- git push
+env:
+  global:
+    secure: QoAPdjzEvihjL3RciLgIB3o1eqxl43Lbr1nCOQh9HGM47XesZ3gtun1WjcZIaVPSs272WB85FC7cXr6fQnhS91NOetNTDQ/CiJMOQx0twzs5U7G08y+CfU6s41DYe/soMQqg1FpWHDW/kTQW4TPZ0jWEfq/1vLtEE1Mrs0JFUDnHznqqH+jFdslWSfZP7GYbxP+XmiillPjuqPmmnEuvruIIRym4pLXLO00MLI+RNIS/wHWRfSGYnc2FLlx8lUAXGmti+I7/1pmCvcVq/rutfSTUENDOoN2gs79rafjxVeTvtpOD5NFXn9rPTv4di9iRyE97U2Aa9s3m4t/NRs2B47c7chCJzsGXodclsiSLI0hNboKbB70P3Zksh8OfnRWhAT7W7v3wX502gwo4AXGsw8SOJdIdx4R31jOYlSLP7rOl/zbM/mpiGcxJbcuHePPh9237T4MH+ez+j6e5h8+lhDd2Sq4smXLNX4dfp6ejfAZebqe4/mv1RDqKLuDKGbzmVsADUMKi6kM1VueADmoDMCKaazzCl/pjzwoFgDGnAiEfheZzVVevaeLmTf9NzqGCpE+1itnRPrbGUZBhcDmk2w2N/5cp4OS48QieX4BnF/Xq0at2FWEnfHzXlElOyZaIYd2mMavhlb6FJKC7hbQseZE+JCipcDngOskDkh/Py2w=
