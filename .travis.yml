@@ -11,4 +11,4 @@ after_success:
   - git add README.md
   - 'git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"'
   - git remote add master https://${GITHUB_TOKEN}@github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide.git > /dev/null 2>&1
-  - git push --set-upstream master
+  - git push master HEAD:OSM-Bike-Ottawa-Tagging-Guide
