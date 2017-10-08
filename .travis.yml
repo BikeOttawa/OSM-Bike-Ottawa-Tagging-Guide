@@ -4,10 +4,10 @@ node_js:
   - node
 script:
   - yarn docs
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  target_branch: master
-  on:
-    branch: master
+after_success:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git add README.md
+  - 'git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"'
+  - git remote add master https://${GITHUB_TOKEN}@github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide.git > /dev/null 2>&1
+  - git push --set-upstream master
