@@ -69,3 +69,4 @@ paths:
     waste_basket: https://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket
     bicycle_repair: https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair
     monitoring_station: http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle
+    motor_vehicle: http://wiki.openstreetmap.org/wiki/Key:motor_vehicle
