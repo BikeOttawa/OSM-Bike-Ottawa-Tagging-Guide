@@ -34,7 +34,6 @@ features:
     - way
   osm:
     - highway=footway
-    - bicycle=no
   mapillary: fMftKPCR90gDvxZ_3q3V5w
 
 - feature: Unpaved Multi-Use Path (MUP)
