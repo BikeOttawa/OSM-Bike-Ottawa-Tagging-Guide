@@ -195,6 +195,16 @@ features:
     - sharrows=left/right/both
   mapillary: d-l1qlsZsdb1vJWyeIVeDw
 
+- feature: Pocket bike lane
+  description: |
+    Painted lane positioned between a right-turn lane and a
+    through lane.
+  elements:
+    - way
+  osm:
+    -
+  mapillary: bDPf-6VzTi52JG2JqqNkjg
+
 - feature: Traffic-calming parking lane
   description: |
     Resembles a bike lane or paved shoulder,
