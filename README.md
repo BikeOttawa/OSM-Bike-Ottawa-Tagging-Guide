@@ -134,7 +134,7 @@ or saying definitively that it is absent.
 |---------------------|---------------------|---------------------|---------------------|
 |**All-way stop**||![node](img/node.png)<br>||
 |**Two-way stop**||![node](img/node.png)<br>||
-|**Pedestrian Crossover**|Also known as PXOs. These are mid-block crossings,<br>designated by a variety of different signage treatments.<br>They are not crosswalks, which are located at intersections.<br>Cyclists may use PXOs, but are required by law to walk their bike.<br>|![node](img/node.png)<br>||
+|**Pedestrian Crossover**|Also known as PXOs. These are mid-block crossings,<br>designated by a variety of different signage treatments.<br>They are not crosswalks, which are located at intersections.<br>Cyclists may use PXOs, but are required by law to walk their bike.<br>|![node](img/node.png)<br>|<a href='https://www.mapillary.com/app/?focus=photo&pKey=BTxXRYVREFm3fy_NMQW5Yg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BTxXRYVREFm3fy_NMQW5Yg/thumb-1024.jpg'></a>|
 |**Yield**||![node](img/node.png)<br>||
 |**Traffic circle, no bypass**||![node](img/node.png) ![way](img/way.png)<br>||
 |**Traffic circle with bypass**||![node](img/node.png) ![way](img/way.png)<br>||
