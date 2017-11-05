@@ -9,7 +9,6 @@ features:
     - highway=cycleway
     - foot=yes
     - segregated=no
-    - smoothness=excellent
     - surface=asphalt
   mapillary: xvX6Bexu1gEE_H9KlfodLQ
 
