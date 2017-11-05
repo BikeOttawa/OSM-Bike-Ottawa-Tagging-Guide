@@ -45,7 +45,7 @@ features:
     - relation
   osm:
     - operator=NCC/City of Ottawa/Ville de Gatineau
-  mapillary: O7G6yB8eP6dBTNKg7Kmnww
+  mapillary: d0oNvFSc0G-oWSPsxMwoog
 
 - feature: Official name
   description: |
