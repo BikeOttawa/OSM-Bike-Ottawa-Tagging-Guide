@@ -42,7 +42,7 @@ features:
 - feature: Relation
   description: |
   elements:
-    - relation
+    - operator
   osm:
     - operator=NCC/City of Ottawa/Ville de Gatineau
   mapillary: d0oNvFSc0G-oWSPsxMwoog
