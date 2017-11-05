@@ -119,10 +119,18 @@ features:
     - shoulder:surface=yes/no # TO verifiy
   mapillary: wYO6exNSPsFQM7nZblFMAQ
 
-- feature: Contraflow lane
+- feature: Contraflow lane no separation
   description: |
-    On one-way streets,
-    a yellow line allows two-way bike traffic.
+    On one-way streets, with only a yellow line allows two-way bike traffic.
+  elements:
+    - way
+  osm:
+    - cycleway=opposite_lane
+  mapillary: JqwzEP2joZHOWy3jhxBMjw
+
+- feature: Contraflow lane with separation
+  description: |
+    On one-way streets where there is a physical form of separation.,
   elements:
     - way
   osm:
