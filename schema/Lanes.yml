@@ -146,7 +146,7 @@ features:
   elements:
     - way
   osm:
-    -
+    - cycleway=cyclestreet
   mapillary: ok7p-w_Ej9nIG-S9eKK8pg
 
 - feature: Shared bus/bike lane
