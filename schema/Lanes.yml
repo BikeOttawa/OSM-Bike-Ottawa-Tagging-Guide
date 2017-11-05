@@ -6,8 +6,9 @@ features:
   elements:
     - way
   osm:
-    - highway=cycleway
-    - foot=yes
+    - highway=path
+    - width=*
+    - smoothness=*
     - segregated=no
     - surface=asphalt
   mapillary: xvX6Bexu1gEE_H9KlfodLQ
