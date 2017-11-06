@@ -73,17 +73,15 @@ features:
 - feature: Buffered bike lane
   description: |
     The bike lane and roadway share a continuous surface,
-    but are separated by treatments that may include;
-    - jersey barriers
-    - planters
-    - flex stakes
-    - double paint line
+    and the separation delineated by paint is more than 30cm.
+    Grade or concrete separations should be their own way.
+
   elements:
     - way
   osm:
-    - cycleway=lane
-    - buffer=yes
-  mapillary: sCskYIeAaVOrs6pOvUVddQ
+    - highway=cycleway
+    - cycleway:buffer=yes
+  mapillary: KkBm_TBNVqdBR0K6oGlPF
 
 - feature: Painted bike lane, on a divided road
   description: |
