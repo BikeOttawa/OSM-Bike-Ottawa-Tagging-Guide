@@ -70,3 +70,4 @@ paths:
     bicycle_repair: https://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_repair
     monitoring_station: http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle
     motor_vehicle: http://wiki.openstreetmap.org/wiki/Key:motor_vehicle
+    sidewalk:both/left/right:bicycle: http://wiki.openstreetmap.org/wiki/Key:sidewalk
