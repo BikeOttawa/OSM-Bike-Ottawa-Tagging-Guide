@@ -6,6 +6,18 @@
 
 - [https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE](https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE)
 
+### Features to Map
+
+- [`highway`]((https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
+- [`lanes`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#lane-configuration)
+- [`parking`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
+- [`smoothness`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#smoothness)
+- `cycleway`
+- `path`
+- `shoulder`
+- `sharrows`
+- `sidewalk`
+
 ### Physically Separated
 
 #### Yes

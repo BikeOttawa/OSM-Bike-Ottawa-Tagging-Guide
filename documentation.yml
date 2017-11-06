@@ -1,5 +1,5 @@
 toc:
-    - schema/Lanes.yml
+    - schema/Highway.yml
     - schema/Smoothness.yml
     - schema/Signs.yml
     - schema/Lane Configuration.yml

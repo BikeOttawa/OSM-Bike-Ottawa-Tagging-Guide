@@ -3,7 +3,7 @@
 ## Table of Contents
 
 <ul>
-  <li><a href='#Lanes'>Lanes</a></li>
+  <li><a href='#Highway'>Highway</a></li>
   <li><a href='#Smoothness'>Smoothness</a></li>
   <li><a href='#Signs'>Signs</a></li>
   <li><a href='#Lane Configuration'>Lane Configuration</a></li>
@@ -17,7 +17,7 @@
   <li><a href='#Points of Interest (Nodes)'>Points of Interest (Nodes)</a></li>
 </ul>
 
-<h2 id="Lanes">Lanes</h2>
+<h2 id="Highway">Highway</h2>
 
 | Feature             | Description         | OSM Schema          | Photos              |
 |---------------------|---------------------|---------------------|---------------------|
