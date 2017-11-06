@@ -1,8 +1,7 @@
 features:
 - feature: Smoothness
   description: |
-    Read more on the wiki. Always a subjective call.
-    Here are some more cycling-specific interpretations of the keys.
+    Read more on the wiki. Always a subjective call. Here are some more cycling-specific interpretations of the keys.
   elements:
     - way
   osm:
@@ -20,8 +19,9 @@ features:
 
 - feature: Good
   description: |
-    Decent on skinny tires, a few cracks and bumps
-    Flawless stone dust
+    Decent on skinny tires
+    - Asphalt with a few cracks and bumps
+    - Flawless stone dust
   elements:
     - way
   osm:
@@ -42,9 +42,9 @@ features:
 
 - feature: Bad
   description: |
-    Pavement with jarring bumps, alligatoring, or large cracks.
-    Coarse gravel or stonedust with washouts that require alertness.
-    Dirt trail with small stones or some small roots.
+    - Pavement with jarring bumps, alligatoring, or large cracks.
+    - Coarse gravel or stonedust with washouts that require alertness.
+    - Dirt trail with small stones or some small roots.
   elements:
     - way
   osm:
@@ -53,9 +53,8 @@ features:
 
 - feature: Very_bad
   description: |
-    A mountain bike, perhaps with front suspension, is a more comfortable choice here.
-    Pavement with hazardous bumps and cracks large enough to swallow skinny wheels.
-    This is the worst pavement condition that Ottawa is willing to just live with.
+    A mountain bike, perhaps with front suspension, is a more comfortable choice here. This is the worst pavement condition that Ottawa is willing to just live with.
+    - Pavement with hazardous bumps and cracks large enough to swallow skinny wheels.
     - Stonedust with hazardous washouts.
     - Rocky surface, such as an ATV trail.
     - Dirt trail where stones or roots require attention.
@@ -67,8 +66,7 @@ features:
 
 - feature: Horrible
   description: |
-    Dangerously broken pavement that should be fixed immediately;
-    this is not a tag that will often apply to paved surfaces.
+    Dangerously broken pavement that should be fixed immediately; this is not a tag that will often apply to paved surfaces.
     - Trails with large stones or roots that may require dismounting or suspension
   elements:
     - way
@@ -78,8 +76,7 @@ features:
 
 - feature: Very Horrible
   description: |
-    Rough-edged stones, many exposed roots,
-    suitable only for fatbikes or full suspension
+    Rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension
   elements:
     - way
   osm:

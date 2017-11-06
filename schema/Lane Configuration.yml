@@ -15,7 +15,7 @@ features:
     - way
   osm:
     - lanes=2
-  mapillary:
+  mapillary: YYr05zv-VRKNB07lm1HA4g
 - feature: Multiple Lanes
   description: |
     Includes turning lanes
@@ -26,8 +26,7 @@ features:
   mapillary:
 - feature: Width
   description: |
-    Most designated MUPs have a width of 3m,
-    though some are wider. Walkways are typically 2m
+    Most designated MUPs have a width of 3m, though some are wider. Walkways are typically 2m
   elements:
     - way
   osm:

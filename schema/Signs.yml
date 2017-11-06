@@ -19,8 +19,7 @@ features:
 
 - feature: Bike route sign
   description: |
-    May be useful as way-finding if they come with a bike route number,
-    but many are just generic green signs
+    May be useful as way-finding if they come with a bike route number, but many are just generic green signs
   elements:
     - node
   osm:
@@ -29,11 +28,7 @@ features:
 
 - feature: Walk your Bike
   description: |
-    A permissive sign that indicates you may walk your bike.
-    This sign alone does not make dismounting mandatory.
-    Tagging them will be useful for indicating areas where
-    there is insufficient space to share with pedestrians or
-    where legal road crossing facilities have not been provided.
+    A permissive sign that indicates you may walk your bike. This sign does not make dismounting mandatory.Tagging them will be useful for indicating areas where there is insufficient space to share with pedestrians or where legal road crossing facilities have not been provided.
   elements:
     - node
   osm:
