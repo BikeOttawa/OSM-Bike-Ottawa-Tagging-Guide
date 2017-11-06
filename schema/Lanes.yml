@@ -163,11 +163,11 @@ features:
 - feature: Shared sidewalk (signed)
   description: |
     A standard sidewalk, sharing designated by signage.
-    Surface is often concrete, rather than asphalt.
+    Surface is often concrete, rather than asphalt. Add the sidewalk tag to the highway=* way
   elements:
     - way
   osm:
-    -
+    - sidewalk:both/left/right:bicycle=yes
   mapillary: ZP4d2yqBwWWlfbixrztDzA
 
 - feature: Dooring zone
