@@ -1,4 +1,12 @@
 features:
+- feature: One Lane
+  description: |
+    Advisory bike lane streets where cars must use bike lane to pass by each other. Single-lane bridges.
+  elements:
+    - way
+  osm:
+    - lanes=2
+  mapillary: NDFPt99h2cX8U71dvJbVpA
 - feature: Two Lanes
   description: |
     Most residential streets.
