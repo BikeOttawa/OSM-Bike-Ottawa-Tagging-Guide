@@ -77,8 +77,8 @@ features:
     - highway=cycleway
     - oneway=no
   mapillary: 1xOyTkegYkMF9SapKrqAnQ
-  
- - feature: One way physically protected bike lane
+
+- feature: One way physically protected bike lane
   description: |
     The bike lane and roadway share a continuous surface but are separated by substantial treatments that may include:
     - planters
