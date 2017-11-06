@@ -154,11 +154,11 @@ features:
     Dashed lines delineate bike lanes on each side of the street.
     The remaining roadway is too narrow for two-way motor traffic.
     Motorists may enter the bike lanes when encountering an oncoming vehicle,
-    but must give priority to cyclists.
+    but must give priority to cyclists. Cyclists should treat this like any other painted bike lane, so that's how it's tagged.
   elements:
     - way
   osm:
-    - cycleway=cyclestreet
+    - cycleway=lane
   mapillary: ok7p-w_Ej9nIG-S9eKK8pg
 
 - feature: Shared bus/bike lane
