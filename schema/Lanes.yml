@@ -158,6 +158,7 @@ features:
   elements:
     - way
   osm:
+    - lanes=1
     - cycleway=lane
   mapillary: ok7p-w_Ej9nIG-S9eKK8pg
 
