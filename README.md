@@ -75,6 +75,7 @@
 
 | Feature             | Description         | OSM Schema          | Photos              |
 |---------------------|---------------------|---------------------|---------------------|
+|**One Lane**|Advisory bike lane streets where cars must use bike lane to pass by each other. Single-lane bridges.<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=2|<a href='https://www.mapillary.com/app/?focus=photo&pKey=NDFPt99h2cX8U71dvJbVpA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/NDFPt99h2cX8U71dvJbVpA/thumb-1024.jpg'></a>|
 |**Two Lanes**|Most residential streets.<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=2||
 |**Multiple Lanes**|Includes turning lanes<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=5||
 |**Width**|Most designated MUPs have a width of 3m,<br>though some are wider. Walkways are typically 2m<br>|![way](img/way.png)<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*||
