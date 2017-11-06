@@ -39,7 +39,7 @@ features:
     - lit=yes
   mapillary: O7G6yB8eP6dBTNKg7Kmnww
 
-- feature: Relation
+- feature: Operator
   description: |
   elements:
     - operator
