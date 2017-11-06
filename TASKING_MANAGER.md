@@ -1,14 +1,19 @@
-### OSM Bike Ottawa Guide
+### References
 
-- [https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide)
+Before starting this OSM Cycling Task, read the following references to be familiar with the cycling OSM scheme.
 
-### LTS Scheme
+- [OSM Bike Ottawa Guide](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide)
+- [LTS Scheme](https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE)
 
-- [https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE](https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE)
+This Tasking Manager will be divided into 2 tasks.
+
+### Task 1 - Biking
+
+### Task 2 - Lane Configuration
 
 ### Features to Map
 
-- [`highway`]((https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
+- [`highway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
 - [`lanes`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#lane-configuration)
 - [`parking`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
 - [`smoothness`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#smoothness)
