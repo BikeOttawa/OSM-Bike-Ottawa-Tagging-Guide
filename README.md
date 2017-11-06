@@ -69,8 +69,8 @@
 |---------------------|---------------------|---------------------|---------------------|
 |**Share the road sign**|Useful to tag as an advocacy target<br>|![node](img/node.png)<br>[traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\*||
 |**Single file sign**|Useful to tag as an advocacy target<br>|![node](img/node.png)<br>[traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\*|<a href='https://www.mapillary.com/app/?focus=photo&pKey=PWtqLBKAwQl2mMlLj1K6oQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg'></a>|
-|**Bike route sign**|May be useful as way-finding if they come with a bike route number,<br>but many are just generic green signs<br>|![node](img/node.png)<br>[traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\*||
-|**Walk your Bike**|A permissive sign that indicates you may walk your bike.<br>This sign alone does not make dismounting mandatory.<br>Tagging them will be useful for indicating areas where<br>there is insufficient space to share with pedestrians or<br>where legal road crossing facilities have not been provided.<br>|![node](img/node.png)<br>[traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\*||
+|**Bike route sign**|May be useful as way-finding if they come with a bike route number, but many are just generic green signs<br>|![node](img/node.png)<br>[traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\*||
+|**Walk your Bike**|A permissive sign that indicates you may walk your bike. This sign does not make dismounting mandatory.Tagging them will be useful for indicating areas where there is insufficient space to share with pedestrians or where legal road crossing facilities have not been provided.<br>|![node](img/node.png)<br>[traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\*||
 
 <h2 id="Lane Configuration">Lane Configuration</h2>
 
