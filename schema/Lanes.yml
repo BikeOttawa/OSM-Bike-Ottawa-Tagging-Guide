@@ -206,12 +206,12 @@ features:
 - feature: Pocket bike lane
   description: |
     Painted lane positioned between a right-turn lane and a
-    through lane.
+    through lane. Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.
   elements:
     - way
   osm:
-    -
-  mapillary: bDPf-6VzTi52JG2JqqNkjg
+    -cycleway:middle=lane
+  mapillary: rjk1bxrfxsRKPZ8Ly9xsIw
 
 - feature: Traffic-calming parking lane
   description: |
