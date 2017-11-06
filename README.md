@@ -156,7 +156,7 @@ or saying definitively that it is absent.
 |**Bridge**||![way](img/way.png)<br>[bridge](https://wiki.openstreetmap.org/wiki/Key:bridge)=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=DM_icM01W41ppwECsD0joQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/DM_icM01W41ppwECsD0joQ/thumb-1024.jpg'></a>|
 |**Tunnel**||![way](img/way.png)<br>tunnel=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=BABIQ-uSmxRTk4bkTbjCQg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg'></a>|
 |**Lighting**||![way](img/way.png)<br>lit=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
-|**Relation**||![operator](undefined)<br>operator=NCC/City of Ottawa/Ville de Gatineau|<a href='https://www.mapillary.com/app/?focus=photo&pKey=d0oNvFSc0G-oWSPsxMwoog'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/d0oNvFSc0G-oWSPsxMwoog/thumb-1024.jpg'></a>|
+|**Operator**||![operator](undefined)<br>operator=NCC/City of Ottawa/Ville de Gatineau|<a href='https://www.mapillary.com/app/?focus=photo&pKey=d0oNvFSc0G-oWSPsxMwoog'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/d0oNvFSc0G-oWSPsxMwoog/thumb-1024.jpg'></a>|
 |**Official name**||![way](img/way.png) ![node](img/node.png)<br>name=\*||
 
 <h2 id="Points of Interest (Nodes)">Points of Interest (Nodes)</h2>
