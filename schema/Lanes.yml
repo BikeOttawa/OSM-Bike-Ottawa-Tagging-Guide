@@ -1,8 +1,7 @@
 features:
 - feature: Paved Multi-Use Path (MUP)
   description: |
-    Typically 3m wide, may be wider.
-    Intended for mixed bike and foot traffic.
+    Typically 3m wide, may be wider. Mixed bike and foot traffic.
   elements:
     - way
   osm:
@@ -15,8 +14,7 @@ features:
 
 - feature: Twinned Path
   description: |
-    Typically >4.5 m wide.
-    Intended for separated bike and foot traffic
+    Typically >4.5 m wide. Separated bike and foot traffic
   elements:
     - way
   osm:
@@ -27,8 +25,7 @@ features:
 
 - feature: Walkway
   description: |
-    Typically <3m wide. May not have curb cuts.
-    Intended primarily for foot traffic, though bikes are not prohibited
+    Typically <3m wide. May not have curb cuts. Intended primarily for foot traffic, though bikes are not prohibited
   elements:
     - way
   osm:
@@ -37,8 +34,7 @@ features:
 
 - feature: Unpaved Multi-Use Path (MUP)
   description: |
-    Typically 3m wide.
-    Intended for mixed bike and foot traffic. Often a stonedust surface, but sometimes dirt.
+    Typically 3m wide. Mixed bike and foot traffic. Often a stonedust surface, but sometimes dirt.
   elements:
     - way
   osm:
@@ -59,7 +55,7 @@ features:
 
 - feature: One way protected lane, on only one side of a two-way road
   description: |
-    Also known as a cycletrack. Not all roads with cycletracks have them on both sides. Separated from the roadway, pedestrians not permitted.
+    Also known as a cycletrack. Not all roads have cycletracks on both sides. Separated from the roadway, pedestrians not permitted.
   elements:
     - way
   osm:
@@ -134,7 +130,7 @@ features:
 
 - feature: Contraflow lane no separation
   description: |
-    On one-way streets, with only a yellow line allows two-way bike traffic.
+    On one-way streets, only a yellow line separates two-way bike traffic.
   elements:
     - way
   osm:
@@ -152,8 +148,7 @@ features:
 
 - feature: Advisory bike lane
   description: |
-    Dashed lines delineate bike lanes on each side of the street. The remaining roadway is too narrow for two-way motor traffic. Motorists may enter the bike lanes when encountering an oncoming vehicle,
-    but must give priority to cyclists. Cyclists should treat this like any other painted bike lane.
+    Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic. Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists. 
   elements:
     - way
   osm:
