@@ -60,6 +60,18 @@ features:
     - oneway=yes
   mapillary: GSkPP_J3o-ILEkeoMJMl0A
 
+- feature: One way protected lane, on only one side of a two-way road
+  description: |
+    Also known as a cycletrack. Not all roads with cycletracks have them on both sides.
+    Separated from the roadway, pedestrians not permitted.
+  elements:
+    - way
+  osm:
+    - highway=cycleway
+    - cycleway:right=lane
+    - oneway=yes
+  mapillary: 2mC6bW6jTCYHol6aXkcRHw
+
 - feature: Bi-directional protected cycletrack
   description: |
     Separate way for the cycletrack.
