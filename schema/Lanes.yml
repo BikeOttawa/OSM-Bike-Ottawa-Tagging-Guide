@@ -177,7 +177,7 @@ features:
   elements:
     - way
   osm:
-    -
+    - tag like any other shared street with parking
   mapillary: kl9e_LG76Fvzom8PycQHAQ
 
 - feature: Super sharrows
