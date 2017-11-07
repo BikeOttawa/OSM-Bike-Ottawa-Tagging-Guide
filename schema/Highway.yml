@@ -97,7 +97,7 @@ features:
     - way
   osm:
     - cycleway=lane
-    - buffer=yes
+    - cycleway:buffer=yes
   mapillary: sCskYIeAaVOrs6pOvUVddQ
 
 - feature: Painted bike lane, on a divided road
@@ -148,7 +148,7 @@ features:
 
 - feature: Advisory bike lane
   description: |
-    Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic. Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists. 
+    Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic. Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists.
   elements:
     - way
   osm:

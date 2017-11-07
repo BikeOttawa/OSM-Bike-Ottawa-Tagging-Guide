@@ -5,23 +5,27 @@ Before starting this OSM Cycling Task, read the following references to be famil
 - [OSM Bike Ottawa Guide](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide)
 - [LTS Scheme](https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE)
 
+## Tasks
+
 This Tasking Manager will be divided into 2 tasks.
 
-### Task 1 - Biking
+### Task 1 - Lane Configuration (Beginner)
 
-### Task 2 - Lane Configuration
+Mark as `done` in the Tasking Manager.
 
-### Features to Map
+- `lanes`
+- `maxspeed`
+
+### Task 2 - Biking Conditions (Advanced)
+
+Mark as `validated` in the Tasking Manager.
 
 - [`highway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
-- [`lanes`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#lane-configuration)
-- [`parking`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
 - [`smoothness`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#smoothness)
+- [`parking:lane:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
+- [`shoulder:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
 - `cycleway`
-- `path`
-- `shoulder`
-- `sharrows`
-- `sidewalk`
+- `cycleway:buffer`
 
 ### Physically Separated
 
