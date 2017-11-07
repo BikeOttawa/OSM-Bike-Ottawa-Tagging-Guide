@@ -102,7 +102,10 @@ features:
 
 - feature: Painted bike lane, on a divided road
   description: |
-    A single line of paint delineates the bike lane. Bike symbol may be painted in the lane. The lane is reserved for bikes by posted signage.
+    A single line of paint delineates the bike lane.
+    Bike symbol may be painted in the lane.
+
+    The lane is reserved for bikes by posted signage.
   elements:
     - way
   osm:
@@ -111,7 +114,10 @@ features:
 
 - feature: Painted bike lane, on an undivided road
   description: |
-    A single line of paint delineates the bike lane. Bike symbol may be painted in the lane. The lane is reserved for bikes by posted signage.
+    A single line of paint delineates the bike lane.
+    Bike symbol may be painted in the lane.
+
+    The lane is reserved for bikes by posted signage.
   elements:
     - way
   osm:
@@ -138,7 +144,12 @@ features:
 
 - feature: Advisory bike lane
   description: |
-    Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic. Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists.
+    Dashed lines delineate bike lanes on each side of the street,
+    and this functions like any other bike lane for cyclists.
+
+    The remaining roadway is too narrow for two-way motor traffic.
+    Motorists may enter the bike lanes when encountering an oncoming vehicle,
+    but must give priority to cyclists.
   elements:
     - way
   osm:

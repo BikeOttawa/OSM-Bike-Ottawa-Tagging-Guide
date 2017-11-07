@@ -78,13 +78,13 @@
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|A single line of paint delineates the bike lane. Bike symbol may be painted in the lane. The lane is reserved for bikes by posted signage.<br>|![way](img/way.png)<br>cycleway:right=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=IbjORAYAgVQk5oUto7WgsQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/IbjORAYAgVQk5oUto7WgsQ/thumb-1024.jpg'></a>|
+|A single line of paint delineates the bike lane.<br>Bike symbol may be painted in the lane.<br><br>The lane is reserved for bikes by posted signage.<br>|![way](img/way.png)<br>cycleway:right=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=IbjORAYAgVQk5oUto7WgsQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/IbjORAYAgVQk5oUto7WgsQ/thumb-1024.jpg'></a>|
 
 <h3 id="Painted bike lane, on an undivided road">Painted bike lane, on an undivided road</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|A single line of paint delineates the bike lane. Bike symbol may be painted in the lane. The lane is reserved for bikes by posted signage.<br>|![way](img/way.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=3Me8bNEXV5Tkr3OhsLO6Ow'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg'></a>|
+|A single line of paint delineates the bike lane.<br>Bike symbol may be painted in the lane.<br><br>The lane is reserved for bikes by posted signage.<br>|![way](img/way.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=3Me8bNEXV5Tkr3OhsLO6Ow'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg'></a>|
 
 <h3 id="Contraflow lane no separation">Contraflow lane no separation</h3>
 
@@ -102,7 +102,7 @@
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic. Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists.<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=1<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=ok7p-w_Ej9nIG-S9eKK8pg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/ok7p-w_Ej9nIG-S9eKK8pg/thumb-1024.jpg'></a>|
+|Dashed lines delineate bike lanes on each side of the street,<br>and this functions like any other bike lane for cyclists.<br><br>The remaining roadway is too narrow for two-way motor traffic.<br>Motorists may enter the bike lanes when encountering an oncoming vehicle,<br>but must give priority to cyclists.<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=1<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=ok7p-w_Ej9nIG-S9eKK8pg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/ok7p-w_Ej9nIG-S9eKK8pg/thumb-1024.jpg'></a>|
 
 <h3 id="Shared bus/bike lane">Shared bus/bike lane</h3>
 
