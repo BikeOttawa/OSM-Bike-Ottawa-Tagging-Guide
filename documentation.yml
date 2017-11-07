@@ -3,6 +3,7 @@ toc:
     - schema/Smoothness.yml
     - schema/Signs.yml
     - schema/Lane Configuration.yml
+    - schema/Shoulder.yml
     - schema/Flooding.yml
     - schema/Parking.yml
     - schema/Plowing.yml

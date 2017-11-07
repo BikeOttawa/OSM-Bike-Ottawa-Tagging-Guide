@@ -7,6 +7,7 @@
   <li><a href='#Smoothness'>Smoothness</a></li>
   <li><a href='#Signs'>Signs</a></li>
   <li><a href='#Lane Configuration'>Lane Configuration</a></li>
+  <li><a href='#Shoulder'>Shoulder</a></li>
   <li><a href='#Flooding'>Flooding</a></li>
   <li><a href='#Parking'>Parking</a></li>
   <li><a href='#Plowing'>Plowing</a></li>
@@ -85,12 +86,6 @@
 |---------------------|---------------------|---------------------|
 |A single line of paint delineates the bike lane. Bike symbol may be painted in the lane. The lane is reserved for bikes by posted signage.<br>|![way](img/way.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=3Me8bNEXV5Tkr3OhsLO6Ow'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/3Me8bNEXV5Tkr3OhsLO6Ow/thumb-1024.jpg'></a>|
 
-<h3 id="Shoulder, not signed as a bike lane">Shoulder, not signed as a bike lane</h3>
-
-| Description         | OSM Schema          | Photo               |
-|---------------------|---------------------|---------------------|
-|A single line of paint delineates the shoulder. No signage or bike symbols present. Parking on the shoulder is typically permitted.<br>|![way](img/way.png)<br>shoulder:left/right/both<br>shoulder:surface=yes/no|<a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
-
 <h3 id="Contraflow lane no separation">Contraflow lane no separation</h3>
 
 | Description         | OSM Schema          | Photo               |
@@ -144,18 +139,6 @@
 | Description         | OSM Schema          | Photo               |
 |---------------------|---------------------|---------------------|
 |Painted lane positioned between a right-turn lane and a through lane. Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.<br>|![way](img/way.png)<br>-cycleway:middle=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=rjk1bxrfxsRKPZ8Ly9xsIw'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/rjk1bxrfxsRKPZ8Ly9xsIw/thumb-1024.jpg'></a>|
-
-<h3 id="Traffic-calming parking lane">Traffic-calming parking lane</h3>
-
-| Description         | OSM Schema          | Photo               |
-|---------------------|---------------------|---------------------|
-|Resembles a bike lane or paved shoulder, but is typically narrow and, unlike a paved shoulder, includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted.<br>|![way](img/way.png)<br>-tag like any other shared road with/without parking|<a href='https://www.mapillary.com/app/?focus=photo&pKey=AFnTWKXGzqrIFqDCHRUOcg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg'></a>|
-
-<h3 id="Service strip">Service strip</h3>
-
-| Description         | OSM Schema          | Photo               |
-|---------------------|---------------------|---------------------|
-|Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Also provide width and smoothness tags.<br>|![way](img/way.png)<br>[shoulder](http://wiki.openstreetmap.org/wiki/Key:shoulder)=service_strip<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=\*|<a href='https://www.mapillary.com/app/?focus=photo&pKey=s-IPpAUVbDsSPyDYNceg3Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg'></a>|
 
 <h3 id="Desire line">Desire line</h3>
 
@@ -297,6 +280,27 @@
 | Description         | OSM Schema          | Photo               |
 |---------------------|---------------------|---------------------|
 |Only show if the speed is posted different than 50.<br>|![way](img/way.png)<br>[maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed)=40||
+
+
+<h2 id="Shoulder">Shoulder</h2>
+
+<h3 id="Shoulder, not signed as a bike lane">Shoulder, not signed as a bike lane</h3>
+
+| Description         | OSM Schema          | Photo               |
+|---------------------|---------------------|---------------------|
+|A single line of paint delineates the shoulder. No signage or bike symbols present. Parking on the shoulder is typically permitted.<br>|![way](img/way.png)<br>shoulder:left/right/both<br>shoulder:surface=yes/no|<a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
+
+<h3 id="Traffic-calming parking lane">Traffic-calming parking lane</h3>
+
+| Description         | OSM Schema          | Photo               |
+|---------------------|---------------------|---------------------|
+|Resembles a bike lane or paved shoulder, but is typically narrow and, unlike a paved shoulder, includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted.<br>|![way](img/way.png)<br>-tag like any other shared road with/without parking|<a href='https://www.mapillary.com/app/?focus=photo&pKey=AFnTWKXGzqrIFqDCHRUOcg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg'></a>|
+
+<h3 id="Service strip">Service strip</h3>
+
+| Description         | OSM Schema          | Photo               |
+|---------------------|---------------------|---------------------|
+|Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Also provide width and smoothness tags.<br>|![way](img/way.png)<br>[shoulder](http://wiki.openstreetmap.org/wiki/Key:shoulder)=service_strip<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=\*|<a href='https://www.mapillary.com/app/?focus=photo&pKey=s-IPpAUVbDsSPyDYNceg3Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg'></a>|
 
 
 <h2 id="Flooding">Flooding</h2>

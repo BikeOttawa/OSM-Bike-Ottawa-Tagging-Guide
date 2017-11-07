@@ -118,16 +118,6 @@ features:
     - cycleway=lane
   mapillary: 3Me8bNEXV5Tkr3OhsLO6Ow
 
-- feature: Shoulder, not signed as a bike lane
-  description: |
-    A single line of paint delineates the shoulder. No signage or bike symbols present. Parking on the shoulder is typically permitted.
-  elements:
-    - way
-  osm:
-    - shoulder:left/right/both # TO verifiy
-    - shoulder:surface=yes/no # TO verifiy
-  mapillary: wYO6exNSPsFQM7nZblFMAQ
-
 - feature: Contraflow lane no separation
   description: |
     On one-way streets, only a yellow line separates two-way bike traffic.
@@ -209,26 +199,6 @@ features:
   osm:
     -cycleway:middle=lane
   mapillary: rjk1bxrfxsRKPZ8Ly9xsIw
-
-- feature: Traffic-calming parking lane
-  description: |
-    Resembles a bike lane or paved shoulder, but is typically narrow and, unlike a paved shoulder, includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted.
-  elements:
-    - way
-  osm:
-    -tag like any other shared road with/without parking
-  mapillary: AFnTWKXGzqrIFqDCHRUOcg
-
-- feature: Service strip
-  description: |
-    Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Also provide width and smoothness tags.
-  elements:
-    - way
-  osm:
-    - shoulder=service_strip
-    - width=*
-    - smoothness=*
-  mapillary: s-IPpAUVbDsSPyDYNceg3Q
 
 - feature: Desire line
   description: |
