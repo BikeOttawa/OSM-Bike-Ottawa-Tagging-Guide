@@ -429,7 +429,7 @@ or saying definitively that it is absent.
 
 | Description         | OSM Schema          | Photo               |
 |---------------------|---------------------|---------------------|
-||![way](img/way.png)<br>[highway](http://wiki.openstreetmap.org/wiki/Key:highway)=[steps](http://wiki.openstreetmap.org/wiki/Tag:highway=steps)<br>[ramp](http://wiki.openstreetmap.org/wiki/Key:ramp)=yes<br>ramp:bicycle=yes<br>[bicycle](http://wiki.openstreetmap.org/wiki/Key:bicycle)=[dismount](http://wiki.openstreetmap.org/wiki/Key:access)|<a href='https://www.mapillary.com/app/?focus=photo&pKey=a8BOwiuTq7Xe5mVZ_Bqf1Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg'></a>|
+||![way](img/way.png)<br>[highway](http://wiki.openstreetmap.org/wiki/Key:highway)=[steps](http://wiki.openstreetmap.org/wiki/Tag:highway=steps)<br>[ramp](http://wiki.openstreetmap.org/wiki/Key:ramp)=yes<br>[ramp:bicycle](http://wiki.openstreetmap.org/wiki/Key:ramp:bicycle)=yes<br>[bicycle](http://wiki.openstreetmap.org/wiki/Key:bicycle)=[dismount](http://wiki.openstreetmap.org/wiki/Key:access)|<a href='https://www.mapillary.com/app/?focus=photo&pKey=a8BOwiuTq7Xe5mVZ_Bqf1Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/a8BOwiuTq7Xe5mVZ_Bqf1Q/thumb-1024.jpg'></a>|
 
 <h3 id="Lock crossing">Lock crossing</h3>
 
@@ -531,13 +531,13 @@ or saying definitively that it is absent.
 
 | Description         | OSM Schema          | Photo               |
 |---------------------|---------------------|---------------------|
-||![way](img/way.png)<br>tunnel=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=BABIQ-uSmxRTk4bkTbjCQg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg'></a>|
+||![way](img/way.png)<br>[tunnel](http://wiki.openstreetmap.org/wiki/Key:tunnel)=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=BABIQ-uSmxRTk4bkTbjCQg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg'></a>|
 
 <h3 id="Lighting">Lighting</h3>
 
 | Description         | OSM Schema          | Photo               |
 |---------------------|---------------------|---------------------|
-||![way](img/way.png)<br>lit=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
+||![way](img/way.png)<br>[lit](http://wiki.openstreetmap.org/wiki/Key:lit)=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
 
 <h3 id="Operator">Operator</h3>
 

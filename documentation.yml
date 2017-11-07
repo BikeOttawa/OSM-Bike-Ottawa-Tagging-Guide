@@ -71,3 +71,6 @@ paths:
     monitoring_station: http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle
     motor_vehicle: http://wiki.openstreetmap.org/wiki/Key:motor_vehicle
     sidewalk: http://wiki.openstreetmap.org/wiki/Key:sidewalk
+    tunnel: http://wiki.openstreetmap.org/wiki/Key:tunnel
+    lit: http://wiki.openstreetmap.org/wiki/Key:lit
+    ramp:bicycle: http://wiki.openstreetmap.org/wiki/Key:ramp:bicycle
