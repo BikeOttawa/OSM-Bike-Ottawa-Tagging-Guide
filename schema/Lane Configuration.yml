@@ -7,15 +7,16 @@ features:
   osm:
     - lanes=2
   mapillary: NDFPt99h2cX8U71dvJbVpA
-  
+
 - feature: Two Lanes
   description: |
-    Most residential streets.
+    Most residential streets consist of two lanes.
   elements:
     - way
   osm:
     - lanes=2
   mapillary: YYr05zv-VRKNB07lm1HA4g
+
 - feature: Multiple Lanes
   description: |
     Includes turning lanes
@@ -24,6 +25,7 @@ features:
   osm:
     - lanes=5
   mapillary:
+
 - feature: Width
   description: |
     Most designated MUPs have a width of 3m, though some are wider. Walkways are typically 2m
@@ -32,6 +34,7 @@ features:
   osm:
     - width=*
   mapillary:
+
 - feature: Speed limit
   description: |
     Only show if the speed is posted different than 50.

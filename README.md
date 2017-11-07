@@ -261,7 +261,7 @@
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Most residential streets.<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=2|<a href='https://www.mapillary.com/app/?focus=photo&pKey=YYr05zv-VRKNB07lm1HA4g'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/YYr05zv-VRKNB07lm1HA4g/thumb-1024.jpg'></a>|
+|Most residential streets consist of two lanes.<br>|![way](img/way.png)<br>[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=2|<a href='https://www.mapillary.com/app/?focus=photo&pKey=YYr05zv-VRKNB07lm1HA4g'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/YYr05zv-VRKNB07lm1HA4g/thumb-1024.jpg'></a>|
 
 <h3 id="Multiple Lanes">Multiple Lanes</h3>
 
