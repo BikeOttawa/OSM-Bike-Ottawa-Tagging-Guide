@@ -108,37 +108,37 @@
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Cyclists will often have these lanes to themselves, but sometimes will need to navigate amidst buses. Designated by signage.<br>|![way](img/way.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=[share_busway](http://wiki.openstreetmap.org/wiki/Tag:cycleway=share_busway)|<a href='https://www.mapillary.com/app/?focus=photo&pKey=PqTQqISWgK5QbWg5PRvaQA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/PqTQqISWgK5QbWg5PRvaQA/thumb-1024.jpg'></a>|
+|Cyclists will often have these lanes to themselves,<br>but sometimes will need to navigate amidst buses.<br><br>Designated by signage.<br>|![way](img/way.png)<br>[cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway)=[share_busway](http://wiki.openstreetmap.org/wiki/Tag:cycleway=share_busway)|<a href='https://www.mapillary.com/app/?focus=photo&pKey=PqTQqISWgK5QbWg5PRvaQA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/PqTQqISWgK5QbWg5PRvaQA/thumb-1024.jpg'></a>|
 
 <h3 id="Shared sidewalk (signed)">Shared sidewalk (signed)</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|A standard sidewalk, sharing designated by signage. Surface is often concrete, rather than asphalt. Add the sidewalk tag to the highway=* way<br>|![way](img/way.png)<br>sidewalk:both/left/right:bicycle=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=ZP4d2yqBwWWlfbixrztDzA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/ZP4d2yqBwWWlfbixrztDzA/thumb-1024.jpg'></a>|
+|A standard sidewalk, sharing designated by signage.<br>Surface is often concrete, rather than asphalt.<br><br>Add the sidewalk tag to the highway=* way<br>|![way](img/way.png)<br>sidewalk:both/left/right:bicycle=yes|<a href='https://www.mapillary.com/app/?focus=photo&pKey=ZP4d2yqBwWWlfbixrztDzA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/ZP4d2yqBwWWlfbixrztDzA/thumb-1024.jpg'></a>|
 
 <h3 id="Dooring zone">Dooring zone</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Unique in Ottawa. Painted warning that cyclists should avoid riding close to parked vehicles.<br>|![way](img/way.png)<br>tag like any other shared street with parking|<a href='https://www.mapillary.com/app/?focus=photo&pKey=kl9e_LG76Fvzom8PycQHAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg'></a>|
+|Unique in Ottawa. Painted warning that cyclists should<br>avoid riding close to parked vehicles.<br>|![way](img/way.png)<br>tag like any other shared street with parking|<a href='https://www.mapillary.com/app/?focus=photo&pKey=kl9e_LG76Fvzom8PycQHAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/kl9e_LG76Fvzom8PycQHAQ/thumb-1024.jpg'></a>|
 
 <h3 id="Super sharrows">Super sharrows</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Green backgound for enhanced visibility. Indicates lane position cyclists should use on roads where no cycling infrastructure is present.<br>|![way](img/way.png)<br>[sharrows](http://wiki.openstreetmap.org/wiki/Proposed_features/shared_lane)=left/right/both|<a href='https://www.mapillary.com/app/?focus=photo&pKey=Ai2jtWC-HyicF8V_NWbUcA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg'></a>|
+|Green backgound for enhanced visibility.<br>Indicates lane position cyclists should use on roads<br>where no cycling infrastructure is present.<br>|![way](img/way.png)<br>[sharrows](http://wiki.openstreetmap.org/wiki/Proposed_features/shared_lane)=left/right/both|<a href='https://www.mapillary.com/app/?focus=photo&pKey=Ai2jtWC-HyicF8V_NWbUcA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/Ai2jtWC-HyicF8V_NWbUcA/thumb-1024.jpg'></a>|
 
 <h3 id="Sharrows">Sharrows</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Bike symbol indicates lane position cyclists should use on roads where no cycling infrastructure is present. Require frequent re-painting and may be very faded; it's still of interest to know which roads are intended to have sharrows.<br>|![way](img/way.png)<br>[sharrows](http://wiki.openstreetmap.org/wiki/Proposed_features/shared_lane)=left/right/both|<a href='https://www.mapillary.com/app/?focus=photo&pKey=d-l1qlsZsdb1vJWyeIVeDw'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/d-l1qlsZsdb1vJWyeIVeDw/thumb-1024.jpg'></a>|
+|Bike symbol indicates lane position cyclists should use on roads<br>where no cycling infrastructure is present.<br><br>Require frequent re-painting and may be very faded;<br>it's still of interest to know which roads are intended to have sharrows.<br>|![way](img/way.png)<br>[sharrows](http://wiki.openstreetmap.org/wiki/Proposed_features/shared_lane)=left/right/both|<a href='https://www.mapillary.com/app/?focus=photo&pKey=d-l1qlsZsdb1vJWyeIVeDw'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/d-l1qlsZsdb1vJWyeIVeDw/thumb-1024.jpg'></a>|
 
 <h3 id="Pocket bike lane">Pocket bike lane</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Painted lane positioned between a right-turn lane and a through lane. Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.<br>|![way](img/way.png)<br>-cycleway:middle=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=rjk1bxrfxsRKPZ8Ly9xsIw'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/rjk1bxrfxsRKPZ8Ly9xsIw/thumb-1024.jpg'></a>|
+|Painted lane positioned between a right-turn lane and a through lane.<br>Right turn lane length can be quite variable.<br><br>The cycleway:middle tag is an invention,<br>since there is no convention for this situation.<br>|![way](img/way.png)<br>-cycleway:middle=lane|<a href='https://www.mapillary.com/app/?focus=photo&pKey=rjk1bxrfxsRKPZ8Ly9xsIw'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/rjk1bxrfxsRKPZ8Ly9xsIw/thumb-1024.jpg'></a>|
 
 <h3 id="Desire line">Desire line</h3>
 
