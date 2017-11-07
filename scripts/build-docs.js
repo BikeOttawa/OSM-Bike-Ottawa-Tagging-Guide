@@ -48,7 +48,7 @@ toc.forEach(filepath => {
     mapillary = formatMapillary(mapillary)
 
     // Save Row
-    README.write(`|${description}|${elements}<br>${osm}|${mapillary}|\n\n`)
+    README.write(`|${description}|${elements} ${osm}|${mapillary}|\n\n`)
   })
   README.write('\n')
 })
