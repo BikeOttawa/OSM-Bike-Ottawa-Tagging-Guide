@@ -75,3 +75,5 @@ paths:
     tunnel: http://wiki.openstreetmap.org/wiki/Key:tunnel
     lit: http://wiki.openstreetmap.org/wiki/Key:lit
     ramp:bicycle: http://wiki.openstreetmap.org/wiki/Key:ramp:bicycle
+    shoulder:left/right/both: http://wiki.openstreetmap.org/wiki/Key:shoulder
+    shoulder:surface: https://wiki.openstreetmap.org/wiki/Key:surface

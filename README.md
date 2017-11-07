@@ -288,7 +288,7 @@
 
 | Description         | OSM Schema          | Photo               |
 |---------------------|---------------------|---------------------|
-|A single line of paint delineates the shoulder. No signage or bike symbols present. Parking on the shoulder is typically permitted.<br>|![way](img/way.png)<br>shoulder:left/right/both<br>shoulder:surface=yes/no|<a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
+|A single line of paint delineates the shoulder. No signage or bike symbols present. Parking on the shoulder is typically permitted.<br>|![way](img/way.png)<br>[shoulder:left/right/both](http://wiki.openstreetmap.org/wiki/Key:shoulder)<br>[shoulder:surface](https://wiki.openstreetmap.org/wiki/Key:surface)=yes/no|<a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
 
 <h3 id="Traffic-calming parking lane">Traffic-calming parking lane</h3>
 

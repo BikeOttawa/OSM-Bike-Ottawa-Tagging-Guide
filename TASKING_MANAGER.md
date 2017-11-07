@@ -13,8 +13,8 @@ This Tasking Manager will be divided into 2 tasks.
 
 Mark as `done` in the Tasking Manager.
 
-- `lanes`
-- `maxspeed`
+- [`lanes`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#lane-configuration)
+- [`maxspeed`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#speed-limit)
 
 ### Task 2 - Biking Conditions (Advanced)
 
@@ -23,9 +23,9 @@ Mark as `validated` in the Tasking Manager.
 - [`highway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
 - [`smoothness`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#smoothness)
 - [`parking:lane:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
-- [`shoulder:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
-- `cycleway`
-- `cycleway:buffer`
+- [`shoulder:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#Shoulder)
+- [`cycleway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#bi-directional-protected-cycletrack)
+- [`cycleway:buffer`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#buffered-bike-lane)
 
 ### Physically Separated
 
