@@ -201,7 +201,7 @@
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|A mountain bike, perhaps with front suspension, is a more comfortable choice here. This is the worst pavement condition that Ottawa is willing to just live with.<br>- Pavement with hazardous bumps and cracks large enough to swallow skinny wheels.<br>- Stonedust with hazardous washouts.<br>- Rocky surface, such as an ATV trail.<br>- Dirt trail where stones or roots require attention.<br>|![way](img/way.png)<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=very_bad|<a href='https://www.mapillary.com/app/?focus=photo&pKey=E2XjzfnUuCTG_v2DQBLkLQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/E2XjzfnUuCTG_v2DQBLkLQ/thumb-1024.jpg'></a>|
+|A mountain bike, perhaps with front suspension, is a more comfortable choice here.<br>This is the worst pavement condition that Ottawa is willing to just live with.<br><br>- Pavement with hazardous bumps and cracks large enough to swallow skinny wheels.<br>- Stonedust with hazardous washouts.<br>- Rocky surface, such as an ATV trail.<br>- Dirt trail where stones or roots require attention.<br>|![way](img/way.png)<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=very_bad|<a href='https://www.mapillary.com/app/?focus=photo&pKey=E2XjzfnUuCTG_v2DQBLkLQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/E2XjzfnUuCTG_v2DQBLkLQ/thumb-1024.jpg'></a>|
 
 <h3 id="Horrible">Horrible</h3>
 

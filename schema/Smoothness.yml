@@ -53,7 +53,9 @@ features:
 
 - feature: Very_bad
   description: |
-    A mountain bike, perhaps with front suspension, is a more comfortable choice here. This is the worst pavement condition that Ottawa is willing to just live with.
+    A mountain bike, perhaps with front suspension, is a more comfortable choice here.
+    This is the worst pavement condition that Ottawa is willing to just live with.
+
     - Pavement with hazardous bumps and cracks large enough to swallow skinny wheels.
     - Stonedust with hazardous washouts.
     - Rocky surface, such as an ATV trail.
