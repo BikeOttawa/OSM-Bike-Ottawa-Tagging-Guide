@@ -288,19 +288,19 @@
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|A single line of paint delineates the shoulder. No signage or bike symbols present. Parking on the shoulder is typically permitted.<br>|![way](img/way.png)<br>[shoulder:left/right/both](http://wiki.openstreetmap.org/wiki/Key:shoulder)<br>[shoulder:surface](https://wiki.openstreetmap.org/wiki/Key:surface)=yes/no|<a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
+|A single line of paint delineates the shoulder.<br>No signage or bike symbols present.<br>Parking on the shoulder is typically permitted.<br>|![way](img/way.png)<br>[shoulder:left/right/both](http://wiki.openstreetmap.org/wiki/Key:shoulder)<br>[shoulder:surface](https://wiki.openstreetmap.org/wiki/Key:surface)=yes/no|<a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
 
 <h3 id="Traffic-calming parking lane">Traffic-calming parking lane</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Resembles a bike lane or paved shoulder, but is typically narrow and, unlike a paved shoulder, includes a curb. Intended to visually narrow the road and calm traffic speeds. Not specifically intended for cycling, but may be functional. Parking is typically permitted.<br>|![way](img/way.png)<br>-tag like any other shared road with/without parking|<a href='https://www.mapillary.com/app/?focus=photo&pKey=AFnTWKXGzqrIFqDCHRUOcg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg'></a>|
+|Resembles a bike lane or paved shoulder,<br>but is typically narrow and, unlike a paved shoulder,<br>includes a curb. Intended to visually narrow the road and calm traffic speeds.<br><br>Not specifically intended for cycling, but may be functional.<br>Parking is typically permitted.<br>|![way](img/way.png)<br>-tag like any other shared road with/without parking|<a href='https://www.mapillary.com/app/?focus=photo&pKey=AFnTWKXGzqrIFqDCHRUOcg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg'></a>|
 
 <h3 id="Service strip">Service strip</h3>
 
 | Description         | OSM Schema          | Mapillary Photo     |
 |---------------------|---------------------|---------------------|
-|Asphalt strip, resembles a cycletrack, but is typically narrow and in poor condition, with no intersection treatments, and may include utility poles. Intended as a low-maintenance surface for snow storage. Also provide width and smoothness tags.<br>|![way](img/way.png)<br>[shoulder](http://wiki.openstreetmap.org/wiki/Key:shoulder)=service_strip<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=\*|<a href='https://www.mapillary.com/app/?focus=photo&pKey=s-IPpAUVbDsSPyDYNceg3Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg'></a>|
+|Asphalt strip, resembles a cycletrack,<br>but is typically narrow and in poor condition,<br>with no intersection treatments, and may include utility poles.<br>Intended as a low-maintenance surface for snow storage.<br>Also provide width and smoothness tags.<br>|![way](img/way.png)<br>[shoulder](http://wiki.openstreetmap.org/wiki/Key:shoulder)=service_strip<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=\*|<a href='https://www.mapillary.com/app/?focus=photo&pKey=s-IPpAUVbDsSPyDYNceg3Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg'></a>|
 
 
 <h2 id="Flooding">Flooding</h2>
