@@ -34,13 +34,12 @@ toc.forEach(filepath => {
   README.write(`<h2 id="${name}">${name}</h2>\n\n`)
   if (introduction) README.write(`${introduction}\n`)
 
+  // Write Table Header
+  README.write('| Feature    | Description         | OSM Schema          | Mapillary Photo     |\n')
+  README.write('|------------|---------------------|---------------------|---------------------|\n')
+
   // Write Each Feature
   features.forEach(({feature, description, osm, elements, mapillary}) => {
-    // Write Table Header
-    README.write(`<h3 id="${feature}">${name} - ${feature}</h3>\n\n`)
-    README.write('| Description         | OSM Schema          | Mapillary Photo     |\n')
-    README.write('|---------------------|---------------------|---------------------|\n')
-
     // Format cells
     osm = formatOSM(osm, elements)
     elements = formatElements(elements)
@@ -48,7 +47,7 @@ toc.forEach(filepath => {
     mapillary = formatMapillary(mapillary)
 
     // Save Row
-    README.write(`|${description}|${elements} ${osm}|${mapillary}|\n\n`)
+    README.write(`|${feature} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
   })
   README.write('\n')
 })
