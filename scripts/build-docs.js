@@ -37,7 +37,7 @@ toc.forEach(filepath => {
   // Write Each Feature
   features.forEach(({feature, description, osm, elements, mapillary}) => {
     // Write Table Header
-    README.write(`<h3 id="${feature}">${feature}</h3>\n\n`)
+    README.write(`<h3 id="${feature}">${name} - ${feature}</h3>\n\n`)
     README.write('| Description         | OSM Schema          | Mapillary Photo     |\n')
     README.write('|---------------------|---------------------|---------------------|\n')
 
