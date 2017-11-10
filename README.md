@@ -102,11 +102,11 @@ or saying definitively that it is absent.
 
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
 |------------|---------------------|---------------------|---------------------|
-|Left | Parking, left side<br> | ![way](img/way.png) [parking:lane:left](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=yes | |
-|Right | Parking, right side<br> | ![way](img/way.png) [parking:lane:right](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=yes | |
-|Both | Parking, both side<br> | ![way](img/way.png) [parking:lane](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=yes | |
-|No Parking | No Parking<br> | ![way](img/way.png) [parking:lane](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=no_parking | |
-|No Stopping | No Stopping<br> | ![way](img/way.png) [parking:lane](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=no_stopping | |
+|Left | Parking, left side<br> | ![way](img/way.png) [parking:lane:left](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=parallel | |
+|Right | Parking, right side<br> | ![way](img/way.png) [parking:lane:right](http://wiki.openstreetmap.org/wiki/Key:parking:lane)=parallel | |
+|Both | Parking, both side<br> | ![way](img/way.png) parking:lane:both=parallel | |
+|No Parking | No Parking<br> | ![way](img/way.png) parking:lane:both=no_parking | |
+|No Stopping | No Stopping<br> | ![way](img/way.png) parking:lane:both=no_stopping | |
 
 <h2 id="Plowing">Plowing</h2>
 
