@@ -3,11 +3,13 @@
 ## Table of Contents
 
 <ul>
-  <li><a href='#Highway'>Highway</a></li>
+  <li><a href='#Off-Road'>Off-Road</a></li>
   <li><a href='#Smoothness'>Smoothness</a></li>
   <li><a href='#Signs'>Signs</a></li>
   <li><a href='#Lane Configuration'>Lane Configuration</a></li>
-  <li><a href='#Shoulder'>Shoulder</a></li>
+  <li><a href='#Physically Protected'>Physically Protected</a></li>
+  <li><a href='#Painted Spaces'>Painted Spaces</a></li>
+  <li><a href='#Mixed Traffic'>Mixed Traffic</a></li>
   <li><a href='#Flooding'>Flooding</a></li>
   <li><a href='#Parking'>Parking</a></li>
   <li><a href='#Plowing'>Plowing</a></li>
@@ -18,7 +20,7 @@
   <li><a href='#Points of Interest (Nodes)'>Points of Interest (Nodes)</a></li>
 </ul>
 
-<h2 id="Highway">Highway</h2>
+<h2 id="Off-Road">Off-Road</h2>
 
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
 |------------|---------------------|---------------------|---------------------|
@@ -80,13 +82,23 @@
 |Width | Most designated MUPs have a width of 3m, though some are wider. Walkways are typically 2m<br> | ![way](img/way.png) [width](http://wiki.openstreetmap.org/wiki/Key:width)=\* | |
 |Speed limit | Only show if the speed is posted different than 50.<br> | ![way](img/way.png) [maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed)=40 | |
 
-<h2 id="Shoulder">Shoulder</h2>
+<h2 id="Physically Protected">Physically Protected</h2>
 
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
 |------------|---------------------|---------------------|---------------------|
 |Shoulder, not signed as a bike lane | A single line of paint delineates the shoulder.<br>No signage or bike symbols present.<br>Parking on the shoulder is typically permitted.<br> | ![way](img/way.png) [shoulder:left/right/both](http://wiki.openstreetmap.org/wiki/Key:shoulder)<br>[shoulder:surface](https://wiki.openstreetmap.org/wiki/Key:surface)=yes/no | <a href='https://www.mapillary.com/app/?focus=photo&pKey=wYO6exNSPsFQM7nZblFMAQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/wYO6exNSPsFQM7nZblFMAQ/thumb-1024.jpg'></a>|
 |Traffic-calming parking lane | Resembles a bike lane or paved shoulder,<br>but is typically narrow and, unlike a paved shoulder,<br>includes a curb. Intended to visually narrow the road and calm traffic speeds.<br><br>Not specifically intended for cycling, but may be functional.<br>Parking is typically permitted.<br> | ![way](img/way.png) -tag like any other shared road with/without parking | <a href='https://www.mapillary.com/app/?focus=photo&pKey=AFnTWKXGzqrIFqDCHRUOcg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg'></a>|
 |Service strip | Asphalt strip, resembles a cycletrack,<br>but is typically narrow and in poor condition,<br>with no intersection treatments, and may include utility poles.<br>Intended as a low-maintenance surface for snow storage.<br>Also provide width and smoothness tags.<br> | ![way](img/way.png) [shoulder](http://wiki.openstreetmap.org/wiki/Key:shoulder)=service_strip<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=\* | <a href='https://www.mapillary.com/app/?focus=photo&pKey=s-IPpAUVbDsSPyDYNceg3Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg'></a>|
+
+<h2 id="Painted Spaces">Painted Spaces</h2>
+
+| Feature    | Description         | OSM Schema          | Mapillary Photo     |
+|------------|---------------------|---------------------|---------------------|
+
+<h2 id="Mixed Traffic">Mixed Traffic</h2>
+
+| Feature    | Description         | OSM Schema          | Mapillary Photo     |
+|------------|---------------------|---------------------|---------------------|
 
 <h2 id="Flooding">Flooding</h2>
 

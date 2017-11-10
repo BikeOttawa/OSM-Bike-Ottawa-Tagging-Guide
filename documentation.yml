@@ -1,9 +1,11 @@
 toc:
-    - schema/Highway.yml
+    - schema/Off-Road.yml
     - schema/Smoothness.yml
     - schema/Signs.yml
     - schema/Lane Configuration.yml
-    - schema/Shoulder.yml
+    - schema/Physically Protected.yml
+    - schema/Painted Spaces.yml
+    - schema/Mixed Traffic.yml
     - schema/Flooding.yml
     - schema/Parking.yml
     - schema/Plowing.yml

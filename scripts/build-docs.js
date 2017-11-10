@@ -39,16 +39,18 @@ toc.forEach(filepath => {
   README.write('|------------|---------------------|---------------------|---------------------|\n')
 
   // Write Each Feature
-  features.forEach(({feature, description, osm, elements, mapillary}) => {
-    // Format cells
-    osm = formatOSM(osm, elements)
-    elements = formatElements(elements)
-    description = formatDescription(description)
-    mapillary = formatMapillary(mapillary)
+  if (features && features[0]) {
+    features.forEach(({feature, description, osm, elements, mapillary}) => {
+      // Format cells
+      osm = formatOSM(osm, elements)
+      elements = formatElements(elements)
+      description = formatDescription(description)
+      mapillary = formatMapillary(mapillary)
 
-    // Save Row
-    README.write(`|${feature} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
-  })
+      // Save Row
+      README.write(`|${feature} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
+    })
+  }
   README.write('\n')
 })
 
