@@ -1,1 +1,35 @@
 features:
+
+- feature: Dooring zone
+  description: |
+    Unique in Ottawa. Painted warning that cyclists should
+    avoid riding close to parked vehicles.
+  elements:
+    - way
+  osm:
+    - tag like any other shared street with parking
+  mapillary: kl9e_LG76Fvzom8PycQHAQ
+
+- feature: Super sharrows
+  description: |
+    Green backgound for enhanced visibility.
+    Indicates lane position cyclists should use on roads
+    where no cycling infrastructure is present.
+  elements:
+    - way
+  osm:
+    - cycleway=mixed_traffic
+  mapillary: Ai2jtWC-HyicF8V_NWbUcA
+
+- feature: Sharrows
+  description: |
+    Bike symbol indicates lane position cyclists should use on roads
+    where no cycling infrastructure is present.
+
+    Require frequent re-painting and may be very faded;
+    it's still of interest to know which roads are intended to have sharrows.
+  elements:
+    - way
+  osm:
+    - cycleway=mixed_traffic
+  mapillary: d-l1qlsZsdb1vJWyeIVeDw
