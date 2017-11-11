@@ -1,19 +1,19 @@
 toc:
     - schema/Off-Road.yml
     - schema/Physically Protected.yml
-    - schema/Smoothness.yml
-    - schema/Signs.yml
-    - schema/Lane Configuration.yml
     - schema/Painted Spaces.yml
     - schema/Mixed Traffic.yml
-    - schema/Flooding.yml
+    - schema/Smoothness.yml
+    - schema/Lane Configuration.yml
     - schema/Parking.yml
+    - schema/Flooding.yml
     - schema/Plowing.yml
     - schema/Filtered Permeability and Pinch-Points.yml
     - schema/Force Dismounts.yml
     - schema/Intersections and other Road Crossings.yml
     - schema/Other tags for ways not shown.yml
     - schema/Points of Interest (Nodes).yml
+    - schema/Signs.yml
 
 images:
     node: img/node.png
