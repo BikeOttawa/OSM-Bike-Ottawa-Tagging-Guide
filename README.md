@@ -5,19 +5,19 @@
 <ul>
   <li><a href='#Off-Road'>Off-Road</a></li>
   <li><a href='#Physically Protected'>Physically Protected</a></li>
-  <li><a href='#Smoothness'>Smoothness</a></li>
-  <li><a href='#Signs'>Signs</a></li>
-  <li><a href='#Lane Configuration'>Lane Configuration</a></li>
   <li><a href='#Painted Spaces'>Painted Spaces</a></li>
   <li><a href='#Mixed Traffic'>Mixed Traffic</a></li>
-  <li><a href='#Flooding'>Flooding</a></li>
+  <li><a href='#Smoothness'>Smoothness</a></li>
+  <li><a href='#Lane Configuration'>Lane Configuration</a></li>
   <li><a href='#Parking'>Parking</a></li>
+  <li><a href='#Flooding'>Flooding</a></li>
   <li><a href='#Plowing'>Plowing</a></li>
   <li><a href='#Filtered Permeability and Pinch-Points'>Filtered Permeability and Pinch-Points</a></li>
   <li><a href='#Force Dismounts'>Force Dismounts</a></li>
   <li><a href='#Intersections and other Road Crossings'>Intersections and other Road Crossings</a></li>
   <li><a href='#Other tags for ways not shown'>Other tags for ways not shown</a></li>
   <li><a href='#Points of Interest (Nodes)'>Points of Interest (Nodes)</a></li>
+  <li><a href='#Signs'>Signs</a></li>
 </ul>
 
 <h2 id="Off-Road">Off-Road</h2>
@@ -57,6 +57,16 @@
 |Traffic-calming parking lane | Resembles a bike lane or paved shoulder,<br>but is typically narrow and, unlike a paved shoulder,<br>includes a curb. Intended to visually narrow the road and calm traffic speeds.<br><br>Not specifically intended for cycling, but may be functional.<br>Parking is typically permitted.<br> | ![way](img/way.png) -tag like any other shared road with/without parking | <a href='https://www.mapillary.com/app/?focus=photo&pKey=AFnTWKXGzqrIFqDCHRUOcg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/AFnTWKXGzqrIFqDCHRUOcg/thumb-1024.jpg'></a>|
 |Service strip | Asphalt strip, resembles a cycletrack,<br>but is typically narrow and in poor condition,<br>with no intersection treatments, and may include utility poles.<br>Intended as a low-maintenance surface for snow storage.<br>Also provide width and smoothness tags.<br> | ![way](img/way.png) [shoulder](http://wiki.openstreetmap.org/wiki/Key:shoulder)=service_strip<br>[width](http://wiki.openstreetmap.org/wiki/Key:width)=\*<br>[smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=\* | <a href='https://www.mapillary.com/app/?focus=photo&pKey=s-IPpAUVbDsSPyDYNceg3Q'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/s-IPpAUVbDsSPyDYNceg3Q/thumb-1024.jpg'></a>|
 
+<h2 id="Painted Spaces">Painted Spaces</h2>
+
+| Feature    | Description         | OSM Schema          | Mapillary Photo     |
+|------------|---------------------|---------------------|---------------------|
+
+<h2 id="Mixed Traffic">Mixed Traffic</h2>
+
+| Feature    | Description         | OSM Schema          | Mapillary Photo     |
+|------------|---------------------|---------------------|---------------------|
+
 <h2 id="Smoothness">Smoothness</h2>
 
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
@@ -71,15 +81,6 @@
 |Very Horrible | Rough-edged stones, many exposed roots, suitable only for fatbikes or full suspension<br> | ![way](img/way.png) [smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=very_horrible | <a href='https://www.mapillary.com/app/?focus=photo&pKey=HsZQPUukTzivaSw1fiUemA'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/HsZQPUukTzivaSw1fiUemA/thumb-1024.jpg'></a>|
 |Impassible | Almost nobody would be able to ride this<br> | ![way](img/way.png) [smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness)=impassible | <a href='https://www.mapillary.com/app/?focus=photo&pKey=N3kAgXz5-4A5G8k3xIxCZQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/N3kAgXz5-4A5G8k3xIxCZQ/thumb-1024.jpg'></a>|
 
-<h2 id="Signs">Signs</h2>
-
-| Feature    | Description         | OSM Schema          | Mapillary Photo     |
-|------------|---------------------|---------------------|---------------------|
-|Share the road sign | Useful to tag as an advocacy target<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
-|Single file sign | Useful to tag as an advocacy target<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | <a href='https://www.mapillary.com/app/?focus=photo&pKey=PWtqLBKAwQl2mMlLj1K6oQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg'></a>|
-|Bike route sign | May be useful as way-finding if they come with a bike route number, but many are just generic green signs<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
-|Walk your Bike | A permissive sign that indicates you may walk your bike. This sign does not make dismounting mandatory.Tagging them will be useful for indicating areas where there is insufficient space to share with pedestrians or where legal road crossing facilities have not been provided.<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
-
 <h2 id="Lane Configuration">Lane Configuration</h2>
 
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
@@ -89,22 +90,6 @@
 |Multiple Lanes | Includes turning lanes<br> | ![way](img/way.png) [lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)=5 | |
 |Width | Most designated MUPs have a width of 3m, though some are wider. Walkways are typically 2m<br> | ![way](img/way.png) [width](http://wiki.openstreetmap.org/wiki/Key:width)=\* | |
 |Speed limit | Only show if the speed is posted different than 50.<br> | ![way](img/way.png) [maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed)=40 | |
-
-<h2 id="Painted Spaces">Painted Spaces</h2>
-
-| Feature    | Description         | OSM Schema          | Mapillary Photo     |
-|------------|---------------------|---------------------|---------------------|
-
-<h2 id="Mixed Traffic">Mixed Traffic</h2>
-
-| Feature    | Description         | OSM Schema          | Mapillary Photo     |
-|------------|---------------------|---------------------|---------------------|
-
-<h2 id="Flooding">Flooding</h2>
-
-| Feature    | Description         | OSM Schema          | Mapillary Photo     |
-|------------|---------------------|---------------------|---------------------|
-|Flood Prone | Use `flood_prone=yes`<br>If the flooding is a predictable annual event,<br>you may wish to add conditional access restrictions to<br>indicate times of the year when the way should be avoided.<br> | ![way](img/way.png) [access:conditional](http://wiki.openstreetmap.org/wiki/Conditional_restrictions)=no @ May 1-15 | |
 
 <h2 id="Parking">Parking</h2>
 
@@ -119,6 +104,12 @@ or saying definitively that it is absent.
 |Both | Parking, both side<br> | ![way](img/way.png) parking:lane:both=parallel | |
 |No Parking | No Parking<br> | ![way](img/way.png) parking:lane:both=no_parking | |
 |No Stopping | No Stopping<br> | ![way](img/way.png) parking:lane:both=no_stopping | |
+
+<h2 id="Flooding">Flooding</h2>
+
+| Feature    | Description         | OSM Schema          | Mapillary Photo     |
+|------------|---------------------|---------------------|---------------------|
+|Flood Prone | Use `flood_prone=yes`<br>If the flooding is a predictable annual event,<br>you may wish to add conditional access restrictions to<br>indicate times of the year when the way should be avoided.<br> | ![way](img/way.png) [access:conditional](http://wiki.openstreetmap.org/wiki/Conditional_restrictions)=no @ May 1-15 | |
 
 <h2 id="Plowing">Plowing</h2>
 
@@ -189,4 +180,13 @@ or saying definitively that it is absent.
 |Bicycle Repair Station |  | ![node](img/node.png) [amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)=bicycle_repair_station | |
 |Bicycle Share Station |  | ![node](img/node.png)  | |
 |Bicycle Counter |  | ![node](img/node.png) [man_made](https://wiki.openstreetmap.org/wiki/Key:man_made)=[monitoring_station](http://wiki.openstreetmap.org/wiki/Key:monitoring:bicycle)<br>monitoring:bicycle=yes | |
+
+<h2 id="Signs">Signs</h2>
+
+| Feature    | Description         | OSM Schema          | Mapillary Photo     |
+|------------|---------------------|---------------------|---------------------|
+|Share the road sign | Useful to tag as an advocacy target<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
+|Single file sign | Useful to tag as an advocacy target<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | <a href='https://www.mapillary.com/app/?focus=photo&pKey=PWtqLBKAwQl2mMlLj1K6oQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg'></a>|
+|Bike route sign | May be useful as way-finding if they come with a bike route number, but many are just generic green signs<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
+|Walk your Bike | A permissive sign that indicates you may walk your bike. This sign does not make dismounting mandatory.Tagging them will be useful for indicating areas where there is insufficient space to share with pedestrians or where legal road crossing facilities have not been provided.<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
 
