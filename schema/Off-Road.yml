@@ -164,6 +164,16 @@ features:
     - cycleway=lane
   mapillary: 3Me8bNEXV5Tkr3OhsLO6Ow
 
+- feature: Pocket bike lane
+  description: |
+    Painted lane positioned between a right-turn lane and a through lane.
+    Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.
+  elements:
+    - way
+  osm:
+    -cycleway:middle=lane
+  mapillary: rjk1bxrfxsRKPZ8Ly9xsIw
+
 - feature: Contraflow lane no separation
   description: |
     On one-way streets, only a yellow line separates two-way bike traffic. If there is physical separation in the form of a barrier or vertical discontinuity, see the enrty on contraflow lanes with physical separation.
@@ -216,46 +226,4 @@ features:
     - cycleway=share_busway
   mapillary: PqTQqISWgK5QbWg5PRvaQA
 
-- feature: Dooring zone
-  description: |
-    Unique in Ottawa. Painted warning that cyclists should
-    avoid riding close to parked vehicles.
-  elements:
-    - way
-  osm:
-    - tag like any other shared street with parking
-  mapillary: kl9e_LG76Fvzom8PycQHAQ
 
-- feature: Super sharrows
-  description: |
-    Green backgound for enhanced visibility.
-    Indicates lane position cyclists should use on roads
-    where no cycling infrastructure is present.
-  elements:
-    - way
-  osm:
-    - sharrows=left/right/both
-  mapillary: Ai2jtWC-HyicF8V_NWbUcA
-
-- feature: Sharrows
-  description: |
-    Bike symbol indicates lane position cyclists should use on roads
-    where no cycling infrastructure is present.
-
-    Require frequent re-painting and may be very faded;
-    it's still of interest to know which roads are intended to have sharrows.
-  elements:
-    - way
-  osm:
-    - sharrows=left/right/both
-  mapillary: d-l1qlsZsdb1vJWyeIVeDw
-
-- feature: Pocket bike lane
-  description: |
-    Painted lane positioned between a right-turn lane and a through lane.
-    Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.
-  elements:
-    - way
-  osm:
-    -cycleway:middle=lane
-  mapillary: rjk1bxrfxsRKPZ8Ly9xsIw
