@@ -4,15 +4,15 @@
 
 <ul>
   <li><a href='#Off-Road'>Off-Road</a></li>
-  <li><a href='#Smoothness'>Smoothness</a></li>
-  <li><a href='#Signs'>Signs</a></li>
-  <li><a href='#Lane Configuration'>Lane Configuration</a></li>
   <li><a href='#Physically Protected'>Physically Protected</a></li>
   <li><a href='#Painted Spaces'>Painted Spaces</a></li>
   <li><a href='#Mixed Traffic'>Mixed Traffic</a></li>
   <li><a href='#Flooding'>Flooding</a></li>
-  <li><a href='#Parking'>Parking</a></li>
   <li><a href='#Plowing'>Plowing</a></li>
+  <li><a href='#Smoothness'>Smoothness</a></li>
+  <li><a href='#Signs'>Signs</a></li>
+  <li><a href='#Lane Configuration'>Lane Configuration</a></li>
+  <li><a href='#Parking'>Parking</a></li>
   <li><a href='#Filtered Permeability and Pinch-Points'>Filtered Permeability and Pinch-Points</a></li>
   <li><a href='#Force Dismounts'>Force Dismounts</a></li>
   <li><a href='#Intersections and other Road Crossings'>Intersections and other Road Crossings</a></li>
