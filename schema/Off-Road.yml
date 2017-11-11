@@ -43,6 +43,45 @@ features:
     - surface=fine_gravel
     - bicycle=yes
   mapillary: 0y0R2Fs6pv3KvTgCEYPabw
+  
+- feature: Desire line
+  description: |
+    Well-worn path in a direct line between popular destinations. Also known as a goat path.
+  elements:
+    - way
+  osm:
+    - highway=path
+    - path=desire
+  mapillary: dmlxBVFdp3OVrLvGr_VNgg
+  
+- feature: Singletrack
+  description: |
+    Recreational in purpose, may be meandering or direct. Most often maintained by users. Often includes technically challenging sections, but some sections may be appropriate for transportation
+  elements:
+    - way
+  osm:
+    -
+  mapillary: dTX27I-QVA84jNZDhjcMiQ
+
+- feature: Track road
+  description: |
+    Also known as doubletrack. Typically direct, but surfaces are often too rough for comfortable cycling. Motor vehicles such as ATVs are often permitted, but track roads are typically not used by conventional cars. May not be maintained.
+  elements:
+    - way
+  osm:
+    -
+  mapillary: cmoaqPU1XpZm1TM5U8gfQA
+
+- feature: Boardwalk
+  description: |
+    May be recreational in purpose, but some sections are suitable for transportation
+  elements:
+    - way
+  osm:
+    - highway=path
+    - bridge=boardwalk
+    - surface=wood
+  mapillary: pnKXylx9EkyyNmtjBHi_0g
 
 - feature: One way protected lanes
   description: |
@@ -127,7 +166,7 @@ features:
 
 - feature: Contraflow lane no separation
   description: |
-    On one-way streets, only a yellow line separates two-way bike traffic.
+    On one-way streets, only a yellow line separates two-way bike traffic. If there is physical separation in the form of a barrier or vertical discontinuity, see the enrty on contraflow lanes with physical separation.
   elements:
     - way
   osm:
@@ -136,39 +175,13 @@ features:
 
 - feature: Contraflow lane with separation
   description: |
-    On one-way streets where there is a physical form of separation.,
+    If the separation is only paint or flex posts, see contraflow lanes in the painted spaces section. On one-way streets where there is a physical form of separation.
   elements:
     - way
   osm:
-    - cycleway=opposite_lane
+    - highway=cycleway
+    - oneway=yes
   mapillary: cW35TfHANRe5DWbbxABJlw
-
-- feature: Advisory bike lane
-  description: |
-    Dashed lines delineate bike lanes on each side of the street,
-    and this functions like any other bike lane for cyclists.
-
-    The remaining roadway is too narrow for two-way motor traffic.
-    Motorists may enter the bike lanes when encountering an oncoming vehicle,
-    but must give priority to cyclists.
-  elements:
-    - way
-  osm:
-    - lanes=1
-    - cycleway=lane
-  mapillary: ok7p-w_Ej9nIG-S9eKK8pg
-
-- feature: Shared bus/bike lane
-  description: |
-    Cyclists will often have these lanes to themselves,
-    but sometimes will need to navigate amidst buses.
-
-    Designated by signage.
-  elements:
-    - way
-  osm:
-    - cycleway=share_busway
-  mapillary: PqTQqISWgK5QbWg5PRvaQA
 
 - feature: Shared sidewalk (signed)
   description: |
@@ -181,6 +194,27 @@ features:
   osm:
     - sidewalk:both/left/right:bicycle=yes
   mapillary: ZP4d2yqBwWWlfbixrztDzA
+
+- feature: Advisory bike lane
+  description: |
+    Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic.
+    Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists.
+  elements:
+    - way
+  osm:
+    - lanes=1
+    - cycleway=lane
+  mapillary: ok7p-w_Ej9nIG-S9eKK8pg
+
+- feature: Shared bus/bike lane
+  description: |
+    Cyclists will often have these lanes to themselves,
+    but sometimes will need to navigate amidst buses. Designated by signage.
+  elements:
+    - way
+  osm:
+    - cycleway=share_busway
+  mapillary: PqTQqISWgK5QbWg5PRvaQA
 
 - feature: Dooring zone
   description: |
@@ -219,51 +253,9 @@ features:
 - feature: Pocket bike lane
   description: |
     Painted lane positioned between a right-turn lane and a through lane.
-    Right turn lane length can be quite variable.
-
-    The cycleway:middle tag is an invention,
-    since there is no convention for this situation.
+    Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.
   elements:
     - way
   osm:
     -cycleway:middle=lane
   mapillary: rjk1bxrfxsRKPZ8Ly9xsIw
-
-- feature: Desire line
-  description: |
-    Well-worn path in a direct line between popular destinations. Also known as a goat path.
-  elements:
-    - way
-  osm:
-    - highway=path
-    - path=desire
-  mapillary: dmlxBVFdp3OVrLvGr_VNgg
-
-- feature: Singletrack
-  description: |
-    Recreational in purpose, may be meandering or direct. Most often maintained by users. Often includes technically challenging sections, but some sections may be appropriate for transportation
-  elements:
-    - way
-  osm:
-    -
-  mapillary: dTX27I-QVA84jNZDhjcMiQ
-
-- feature: Track road
-  description: |
-    Also known as doubletrack. Typically direct, but surfaces are often too rough for comfortable cycling. Motor vehicles such as ATVs are often permitted, but track roads are typically not used by conventional cars. May not be maintained.
-  elements:
-    - way
-  osm:
-    -
-  mapillary: cmoaqPU1XpZm1TM5U8gfQA
-
-- feature: Boardwalk
-  description: |
-    May be recreational in purpose, but some sections are suitable for transportation
-  elements:
-    - way
-  osm:
-    - highway=path
-    - bridge=boardwalk
-    - surface=wood
-  mapillary: pnKXylx9EkyyNmtjBHi_0g
