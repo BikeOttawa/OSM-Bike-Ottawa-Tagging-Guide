@@ -83,64 +83,10 @@ features:
     - surface=wood
   mapillary: pnKXylx9EkyyNmtjBHi_0g
 
-- feature: Buffered bike lane
-  description: |
-    Not to be confused with a protected bike lane (described in the previous section). The bike lane and roadway share a continuous surface but are separated by flimsy treatments that may include:
-    - flex stakes
-    - double paint line
-  elements:
-    - way
-  osm:
-    - cycleway=lane
-    - cycleway:buffer=yes
-  mapillary: sCskYIeAaVOrs6pOvUVddQ
-
-- feature: Painted bike lane, on a divided road
-  description: |
-    A single line of paint delineates the bike lane.
-    Bike symbol may be painted in the lane.
-
-    The lane is reserved for bikes by posted signage.
-  elements:
-    - way
-  osm:
-    - cycleway:right=lane
-  mapillary: IbjORAYAgVQk5oUto7WgsQ
-
-- feature: Painted bike lane, on an undivided road
-  description: |
-    A single line of paint delineates the bike lane.
-    Bike symbol may be painted in the lane.
-
-    The lane is reserved for bikes by posted signage.
-  elements:
-    - way
-  osm:
-    - cycleway=lane
-  mapillary: 3Me8bNEXV5Tkr3OhsLO6Ow
-
-- feature: Pocket bike lane
-  description: |
-    Painted lane positioned between a right-turn lane and a through lane.
-    Right turn lane length can be quite variable. The cycleway:middle tag is an invention, since there is no convention for this situation.
-  elements:
-    - way
-  osm:
-    -cycleway:middle=lane
-  mapillary: rjk1bxrfxsRKPZ8Ly9xsIw
-
-- feature: Contraflow lane no separation
-  description: |
-    On one-way streets, only a yellow line separates two-way bike traffic. If there is physical separation in the form of a barrier or vertical discontinuity, see the enrty on contraflow lanes with physical separation.
-  elements:
-    - way
-  osm:
-    - cycleway=opposite_lane
-  mapillary: JqwzEP2joZHOWy3jhxBMjw
 
 - feature: Contraflow lane with separation
   description: |
-    If the separation is only paint or flex posts, see contraflow lanes in the painted spaces section. On one-way streets where there is a physical form of separation.
+    If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
   elements:
     - way
   osm:
