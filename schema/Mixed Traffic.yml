@@ -34,7 +34,7 @@ features:
     - cycleway=mixed_traffic
   mapillary: d-l1qlsZsdb1vJWyeIVeDw
   
-  - feature: Shared bus/bike lane
+ - feature: Shared bus/bike lane
   description: |
     Cyclists will often have these lanes to themselves,
     but sometimes will need to navigate amidst buses. Designated by signage.
