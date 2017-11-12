@@ -1,1 +1,26 @@
 features:
+- feature: Shoulder, not signed as a bike lane
+  description: |
+    A single line of paint delineates the shoulder.
+    No signage or bike symbols present.
+    Parking on the shoulder is typically permitted.
+  elements:
+    - way
+  osm:
+    - shoulder:left/right/both # TO verifiy
+    - shoulder:surface=yes/no # TO verifiy
+  mapillary: wYO6exNSPsFQM7nZblFMAQ
+
+- feature: Traffic-calming parking lane
+  description: |
+    Resembles a bike lane or paved shoulder,
+    but is typically narrow and, unlike a paved shoulder,
+    includes a curb. Intended to visually narrow the road and calm traffic speeds.
+
+    Not specifically intended for cycling, but may be functional.
+    Parking is typically permitted.
+  elements:
+    - way
+  osm:
+    -tag like any other shared road with/without parking
+  mapillary: AFnTWKXGzqrIFqDCHRUOcg
