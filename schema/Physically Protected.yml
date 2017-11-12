@@ -46,7 +46,7 @@ features:
   
 - feature: Contraflow lane with separation
   description: |
-  If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
+    If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
   elements:
     - way
   osm:
