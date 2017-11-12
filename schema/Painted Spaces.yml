@@ -35,6 +35,17 @@ features:
     - cycleway=lane
   mapillary: 3Me8bNEXV5Tkr3OhsLO6Ow
 
+- feature: Advisory bike lane
+  description: |
+    Dashed lines delineate bike lanes on each side of the street, and this functions like any other bike lane for cyclists. The remaining roadway is too narrow for two-way motor traffic.
+    Motorists may enter the bike lanes when encountering an oncoming vehicle, but must give priority to cyclists.
+  elements:
+    - way
+  osm:
+    - lanes=1
+    - cycleway=lane
+  mapillary: ok7p-w_Ej9nIG-S9eKK8pg
+
 - feature: Pocket bike lane
   description: |
     Painted lane positioned between a right-turn lane and a through lane.
