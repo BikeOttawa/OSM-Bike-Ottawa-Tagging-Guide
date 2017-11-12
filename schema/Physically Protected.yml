@@ -1,30 +1,49 @@
 features:
-- feature: Shoulder, not signed as a bike lane
+- feature: One way protected lanes
   description: |
-    A single line of paint delineates the shoulder.
-    No signage or bike symbols present.
-    Parking on the shoulder is typically permitted.
+    Also known as cycletracks. Separated from the roadway by elevation, pedestrians not permitted.
   elements:
     - way
   osm:
-    - shoulder:left/right/both # TO verifiy
-    - shoulder:surface=yes/no # TO verifiy
-  mapillary: wYO6exNSPsFQM7nZblFMAQ
+    - highway=cycleway
+    - oneway=yes
+  mapillary: GSkPP_J3o-ILEkeoMJMl0A
 
-- feature: Traffic-calming parking lane
+- feature: One way protected lane, on only one side of a two-way road
   description: |
-    Resembles a bike lane or paved shoulder,
-    but is typically narrow and, unlike a paved shoulder,
-    includes a curb. Intended to visually narrow the road and calm traffic speeds.
-
-    Not specifically intended for cycling, but may be functional.
-    Parking is typically permitted.
+    Also known as a cycletrack. Not all roads have cycletracks on both sides. Separated from the roadway, pedestrians not permitted.
   elements:
     - way
   osm:
-    -tag like any other shared road with/without parking
-  mapillary: AFnTWKXGzqrIFqDCHRUOcg
+    - highway=cycleway
+    - cycleway:right=lane
+    - oneway=yes
+  mapillary: 2mC6bW6jTCYHol6aXkcRHw
 
+- feature: Bi-directional protected cycletrack
+  description: |
+    Separate way for the cycletrack.
+  elements:
+    - way
+  osm:
+    - highway=cycleway
+    - oneway=no
+  mapillary: 1xOyTkegYkMF9SapKrqAnQ
+
+- feature: One way physically protected bike lane
+  description: |
+    The bike lane and roadway share a continuous surface but are separated by substantial treatments that may include:
+    - planters
+    - concrete sleepers
+    - jersey barriers
+    - parked cars
+  elements:
+    - way
+  osm:
+    - highway=cycleway
+    - oneway=yes
+  mapillary: 965HdFnmOLCkMao9sTdqIw
+ 
 - feature: Service strip
   description: |
     Asphalt strip, resembles a cycletrack,
