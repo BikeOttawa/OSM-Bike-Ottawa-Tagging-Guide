@@ -83,54 +83,9 @@ features:
     - surface=wood
   mapillary: pnKXylx9EkyyNmtjBHi_0g
 
-- feature: One way protected lanes
-  description: |
-    Also known as cycletracks. Separated from the roadway by elevation, pedestrians not permitted.
-  elements:
-    - way
-  osm:
-    - highway=cycleway
-    - oneway=yes
-  mapillary: GSkPP_J3o-ILEkeoMJMl0A
-
-- feature: One way protected lane, on only one side of a two-way road
-  description: |
-    Also known as a cycletrack. Not all roads have cycletracks on both sides. Separated from the roadway, pedestrians not permitted.
-  elements:
-    - way
-  osm:
-    - highway=cycleway
-    - cycleway:right=lane
-    - oneway=yes
-  mapillary: 2mC6bW6jTCYHol6aXkcRHw
-
-- feature: Bi-directional protected cycletrack
-  description: |
-    Separate way for the cycletrack.
-  elements:
-    - way
-  osm:
-    - highway=cycleway
-    - oneway=no
-  mapillary: 1xOyTkegYkMF9SapKrqAnQ
-
-- feature: One way physically protected bike lane
-  description: |
-    The bike lane and roadway share a continuous surface but are separated by substantial treatments that may include:
-    - planters
-    - concrete sleepers
-    - jersey barriers
-    - parked cars
-  elements:
-    - way
-  osm:
-    - highway=cycleway
-    - oneway=yes
-  mapillary: 965HdFnmOLCkMao9sTdqIw
-
 - feature: Buffered bike lane
   description: |
-    The bike lane and roadway share a continuous surface but are separated by flimsy treatments that may include:
+    Not to be confused with a protected bike lane (described in the previous section). The bike lane and roadway share a continuous surface but are separated by flimsy treatments that may include:
     - flex stakes
     - double paint line
   elements:
