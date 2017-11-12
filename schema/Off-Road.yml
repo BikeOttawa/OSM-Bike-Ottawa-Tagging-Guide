@@ -83,17 +83,6 @@ features:
     - surface=wood
   mapillary: pnKXylx9EkyyNmtjBHi_0g
 
-
-- feature: Contraflow lane with separation
-  description: |
-    If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
-  elements:
-    - way
-  osm:
-    - highway=cycleway
-    - oneway=yes
-  mapillary: cW35TfHANRe5DWbbxABJlw
-
 - feature: Shared sidewalk (signed)
   description: |
     A standard sidewalk, sharing designated by signage.
