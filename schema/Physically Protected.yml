@@ -44,7 +44,7 @@ features:
     - oneway=yes
   mapillary: 965HdFnmOLCkMao9sTdqIw
   
-  - feature: Contraflow lane with separation
+- feature: Contraflow lane with separation
   description: |
   If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
   elements:
