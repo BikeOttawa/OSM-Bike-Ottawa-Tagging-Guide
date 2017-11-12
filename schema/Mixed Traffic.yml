@@ -33,3 +33,13 @@ features:
   osm:
     - cycleway=mixed_traffic
   mapillary: d-l1qlsZsdb1vJWyeIVeDw
+  
+  - feature: Shared bus/bike lane
+  description: |
+    Cyclists will often have these lanes to themselves,
+    but sometimes will need to navigate amidst buses. Designated by signage.
+  elements:
+    - way
+  osm:
+    - cycleway=share_busway
+  mapillary: PqTQqISWgK5QbWg5PRvaQA
