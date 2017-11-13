@@ -10,6 +10,7 @@ features:
     - smoothness=*
     - segregated=no
     - surface=asphalt
+    - centreline=yes
   mapillary: xvX6Bexu1gEE_H9KlfodLQ
 
 - feature: Twinned Path
