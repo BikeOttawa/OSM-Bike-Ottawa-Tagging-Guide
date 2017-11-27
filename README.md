@@ -18,6 +18,8 @@
   <li><a href='#Other tags for ways not shown'>Other tags for ways not shown</a></li>
   <li><a href='#Points of Interest (Nodes)'>Points of Interest (Nodes)</a></li>
   <li><a href='#Signs'>Signs</a></li>
+  <li><a href='#JOSM Tips & Tricks'>JOSM Tips & Tricks</a></li>
+  <li><a href='#Tasking Manager'>Tasking Manager</a></li>
 </ul>
 
 <h2 id="Off-Road">Off-Road</h2>
@@ -189,4 +191,96 @@ or saying definitively that it is absent.
 |Single file sign | Useful to tag as an advocacy target<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | <a href='https://www.mapillary.com/app/?focus=photo&pKey=PWtqLBKAwQl2mMlLj1K6oQ'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/PWtqLBKAwQl2mMlLj1K6oQ/thumb-1024.jpg'></a>|
 |Bike route sign | May be useful as way-finding if they come with a bike route number, but many are just generic green signs<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
 |Walk your Bike | A permissive sign that indicates you may walk your bike. This sign does not make dismounting mandatory.Tagging them will be useful for indicating areas where there is insufficient space to share with pedestrians or where legal road crossing facilities have not been provided.<br> | ![node](img/node.png) [traffic_sign](https://wiki.openstreetmap.org/wiki/Key:traffic_sign)=\* | |
+
+<h2 id="JOSM Tips & Tricks">JOSM Tips & Tricks</h2>
+
+- Enable ["Parking Lanes" style in JOSM](https://blog.mapbox.com/mapping-turn-lanes-in-openstreetmap-5da9bf764f0d) to easily see existing parking tags
+- Apply filter `highway=*` in JOSM (tick checkbox in Inverse column to hide everything but roads) - to avoid clutter and annoying landuse areas that stick to roads
+- Use Google Streetview since you need to look sideways at signs. Just open it in another tab and quickly jump back and forth. Takes a few seconds for each block. If you see parked cars right away - easy. If no cars around - check for sign posts and closest hydro poles. If still nothing - then parking is allowed.
+- Don't bother with conditional parking. If parking is allowed at any point during the day then from stressmap point of view parking is allowed
+- Cut ways if needed, when rules differ between blocks (In JOSM Ctrl-select road and node and press "P")
+- If you have several roads with identical parking rules - just Ctrl-select them and add same tags
+
+<h2 id="Tasking Manager">Tasking Manager</h2>
+
+### References
+
+Before starting this OSM Cycling Task, read the following references to be familiar with the cycling OSM scheme.
+
+- [OSM Bike Ottawa Guide](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide)
+- [LTS Scheme](https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE)
+
+## Tasks
+
+This Tasking Manager will be divided into 2 tasks.
+
+### Task 1 - Parking Lane Configuration and Speed Limits (Beginner)
+
+Mark as `done` in the Tasking Manager.
+
+- [`maxspeed`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#speed-limit)
+- `parking:lane:left`
+- `parking:lane:right`
+- `parking:lane:both`
+
+Possible values: `parallel`, `marked`, `no_stopping`, `no_parking`, `fire_lane`
+
+More description of parking tags: [https://wiki.openstreetmap.org/wiki/Key:parking:lane#Parking_position](https://wiki.openstreetmap.org/wiki/Key:parking:lane#Parking_position)
+
+### Task 2 - Biking Conditions (Advanced)
+
+Mark as `validated` in the Tasking Manager.
+
+- [`highway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
+- [`smoothness`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#smoothness)
+- [`parking:lane:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
+- [`shoulder:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#Shoulder)
+- [`cycleway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#bi-directional-protected-cycletrack)
+- [`cycleway:buffer`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#buffered-bike-lane)
+
+<h2 id="JOSM Tips & Tricks">JOSM Tips & Tricks</h2>
+
+- Enable ["Parking Lanes" style in JOSM](https://blog.mapbox.com/mapping-turn-lanes-in-openstreetmap-5da9bf764f0d) to easily see existing parking tags
+- Apply filter `highway=*` in JOSM (tick checkbox in Inverse column to hide everything but roads) - to avoid clutter and annoying landuse areas that stick to roads
+- Use Google Streetview since you need to look sideways at signs. Just open it in another tab and quickly jump back and forth. Takes a few seconds for each block. If you see parked cars right away - easy. If no cars around - check for sign posts and closest hydro poles. If still nothing - then parking is allowed.
+- Don't bother with conditional parking. If parking is allowed at any point during the day then from stressmap point of view parking is allowed
+- Cut ways if needed, when rules differ between blocks (In JOSM Ctrl-select road and node and press "P")
+- If you have several roads with identical parking rules - just Ctrl-select them and add same tags
+
+<h2 id="Tasking Manager">Tasking Manager</h2>
+
+### References
+
+Before starting this OSM Cycling Task, read the following references to be familiar with the cycling OSM scheme.
+
+- [OSM Bike Ottawa Guide](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide)
+- [LTS Scheme](https://docs.google.com/document/d/1GUjh7mXMvU8DuqyOxof6IMYdlEgGU5Y0-oyUhw3TlHE)
+
+## Tasks
+
+This Tasking Manager will be divided into 2 tasks.
+
+### Task 1 - Parking Lane Configuration and Speed Limits (Beginner)
+
+Mark as `done` in the Tasking Manager.
+
+- [`maxspeed`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#speed-limit)
+- `parking:lane:left`
+- `parking:lane:right`
+- `parking:lane:both`
+
+Possible values: `parallel`, `marked`, `no_stopping`, `no_parking`, `fire_lane`
+
+More description of parking tags: [https://wiki.openstreetmap.org/wiki/Key:parking:lane#Parking_position](https://wiki.openstreetmap.org/wiki/Key:parking:lane#Parking_position)
+
+### Task 2 - Biking Conditions (Advanced)
+
+Mark as `validated` in the Tasking Manager.
+
+- [`highway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#highway)
+- [`smoothness`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#smoothness)
+- [`parking:lane:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#parking)
+- [`shoulder:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#Shoulder)
+- [`cycleway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#bi-directional-protected-cycletrack)
+- [`cycleway:buffer`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#buffered-bike-lane)
 

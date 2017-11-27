@@ -1,0 +1,6 @@
+- Enable ["Parking Lanes" style in JOSM](https://blog.mapbox.com/mapping-turn-lanes-in-openstreetmap-5da9bf764f0d) to easily see existing parking tags
+- Apply filter `highway=*` in JOSM (tick checkbox in Inverse column to hide everything but roads) - to avoid clutter and annoying landuse areas that stick to roads
+- Use Google Streetview since you need to look sideways at signs. Just open it in another tab and quickly jump back and forth. Takes a few seconds for each block. If you see parked cars right away - easy. If no cars around - check for sign posts and closest hydro poles. If still nothing - then parking is allowed.
+- Don't bother with conditional parking. If parking is allowed at any point during the day then from stressmap point of view parking is allowed
+- Cut ways if needed, when rules differ between blocks (In JOSM Ctrl-select road and node and press "P")
+- If you have several roads with identical parking rules - just Ctrl-select them and add same tags
