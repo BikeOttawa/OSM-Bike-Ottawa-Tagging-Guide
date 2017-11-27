@@ -14,6 +14,8 @@ toc:
     - schema/Other tags for ways not shown.yml
     - schema/Points of Interest (Nodes).yml
     - schema/Signs.yml
+    - docs/JOSM Tips & Tricks.md
+    - docs/Tasking Manager.md
 
 images:
     node: img/node.png

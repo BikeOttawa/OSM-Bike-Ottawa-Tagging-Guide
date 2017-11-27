@@ -21,37 +21,54 @@ README.write('</ul>\n\n')
 
 // Iterate & parse over each YAML document
 toc.forEach(filepath => {
-  if (path.parse(filepath).ext !== '.yml') return null
-  filepath = path.join(__dirname, '..', filepath)
-  const {name} = path.parse(filepath)
-  const schema = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'))
+  switch (path.parse(filepath).ext) {
+    case '.yml': {
+      filepath = path.join(__dirname, '..', filepath)
+      const {name} = path.parse(filepath)
+      const schema = yaml.safeLoad(fs.readFileSync(filepath, 'utf8'))
 
-  // Markdown Attributes
-  const introduction = schema.introduction
-  const features = schema.features
+      // Markdown Attributes
+      const introduction = schema.introduction
+      const features = schema.features
 
-  // Write Title
-  README.write(`<h2 id="${name}">${name}</h2>\n\n`)
-  if (introduction) README.write(`${introduction}\n`)
+      // Write Title
+      README.write(`<h2 id="${name}">${name}</h2>\n\n`)
+      if (introduction) README.write(`${introduction}\n`)
 
-  // Write Table Header
-  README.write('| Feature    | Description         | OSM Schema          | Mapillary Photo     |\n')
-  README.write('|------------|---------------------|---------------------|---------------------|\n')
+      // Write Table Header
+      README.write('| Feature    | Description         | OSM Schema          | Mapillary Photo     |\n')
+      README.write('|------------|---------------------|---------------------|---------------------|\n')
 
-  // Write Each Feature
-  if (features && features[0]) {
-    features.forEach(({feature, description, osm, elements, mapillary}) => {
-      // Format cells
-      osm = formatOSM(osm, elements)
-      elements = formatElements(elements)
-      description = formatDescription(description)
-      mapillary = formatMapillary(mapillary)
+      // Write Each Feature
+      if (features && features[0]) {
+        features.forEach(({feature, description, osm, elements, mapillary}) => {
+          // Format cells
+          osm = formatOSM(osm, elements)
+          elements = formatElements(elements)
+          description = formatDescription(description)
+          mapillary = formatMapillary(mapillary)
 
-      // Save Row
-      README.write(`|${feature} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
-    })
+          // Save Row
+          README.write(`|${feature} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
+        })
+      }
+      README.write('\n')
+      break
+    }
+    case '.md': {
+      filepath = path.join(__dirname, '..', filepath)
+      const {name} = path.parse(filepath)
+      const readme = fs.readFileSync(filepath, 'utf8')
+
+      // Write Title
+      README.write(`<h2 id="${name}">${name}</h2>\n\n`)
+      README.write(readme + '\n')
+      break
+    }
+    default: {
+      throw new Error('invalid file extension')
+    }
   }
-  README.write('\n')
 })
 
 // Iterate & parse over each Markdown document

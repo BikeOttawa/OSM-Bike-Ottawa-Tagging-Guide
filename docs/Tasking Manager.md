@@ -32,7 +32,3 @@ Mark as `validated` in the Tasking Manager.
 - [`shoulder:left/right/both`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#Shoulder)
 - [`cycleway`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#bi-directional-protected-cycletrack)
 - [`cycleway:buffer`](https://github.com/osmottawa/OSM-Bike-Ottawa-Tagging-Guide#buffered-bike-lane)
-
-
-
-
