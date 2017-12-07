@@ -13,7 +13,7 @@ This Tasking Manager will be divided into 2 tasks.
 
 Mark as `done` in the Tasking Manager.
 
-- [`maxspeed`](#speed-limit)
+- [`maxspeed`](#feature-Speed-limit)
 - `parking:lane:left`
 - `parking:lane:right`
 - `parking:lane:both`
@@ -26,9 +26,9 @@ More description of parking tags: [https://wiki.openstreetmap.org/wiki/Key:parki
 
 Mark as `validated` in the Tasking Manager.
 
-- [`highway`](#off-road)
-- [`smoothness`](#smoothness)
-- [`parking:lane:left/right/both`](#parking)
-- [`shoulder:left/right/both`](#Shoulder-not-signed-as-a-bike-lane)
-- [`cycleway`](#bi-directional-protected-cycletrack)
-- [`cycleway:buffer`](#buffered-bike-lane)
+- [`highway`](#Off-road)
+- [`smoothness`](#Smoothness)
+- [`parking:lane:left/right/both`](#Parking)
+- [`shoulder:left/right/both`](#feature-Shoulder-not-signed-as-a-bike-lane)
+- [`cycleway`](#feature-Bi-directional-protected-cycletrack)
+- [`cycleway:buffer`](#feature-Buffered-bike-lane)

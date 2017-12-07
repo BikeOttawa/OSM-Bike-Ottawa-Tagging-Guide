@@ -175,6 +175,6 @@ function mapillaryPhoto (mapillary) {
 function formatAnchor (feature) {
   if (!feature) return ''
   //remove parentheses and commas; replace spaces and slashes with hyphens
-  const anchor = feature.replace(/[ \/]/g, '-').replace(/[,\(\)]/g, '')
+  const anchor = 'feature-'+ feature.replace(/[ \/]/g, '-').replace(/[,\(\)]/g, '')
   return `<a name='${anchor}'>${feature}</a>`
 }
