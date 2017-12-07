@@ -47,9 +47,10 @@ toc.forEach(filepath => {
           elements = formatElements(elements)
           description = formatDescription(description)
           mapillary = formatMapillary(mapillary)
+          anchor = formatAnchor(feature)
 
           // Save Row
-          README.write(`|${feature} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
+          README.write(`|${anchor} | ${description} | ${elements} ${osm} | ${mapillary}|\n`)
         })
       }
       README.write('\n')
@@ -69,21 +70,6 @@ toc.forEach(filepath => {
       throw new Error('invalid file extension')
     }
   }
-})
-
-// Iterate & parse over each Markdown document
-toc.forEach(filepath => {
-  if (path.parse(filepath).ext !== '.md') return null
-  filepath = path.join(__dirname, '..', filepath)
-  const markdown = fs.readFileSync(filepath, 'utf8')
-
-  // Markdown Attributes
-  const title = path.parse(filepath).name
-
-  // Write Title
-  README.write(`<h2 id="${title}">${title}</h2>\n\n`)
-  README.write(markdown)
-  README.write('\n')
 })
 
 /**
@@ -178,4 +164,17 @@ function mapillaryPhoto (mapillary) {
   const src = `https://d1cuyjsrcm0gby.cloudfront.net/${mapillary}/thumb-1024.jpg`
   const style = 'min-width:300px;max-width:300px'
   return `<a href='${href}'><img style='${style}' src='${src}'></a>`
+}
+
+/**
+ * Format anchor for Markdown syntax
+ *
+ * @param {string} feature Feature name
+ * @returns {string}
+ */
+function formatAnchor (feature) {
+  if (!feature) return ''
+  //remove parentheses and commas; replace spaces and slashes with hyphens
+  const anchor = 'feature-'+ feature.replace(/[ \/]/g, '-').replace(/[,\(\)]/g, '')
+  return `<a name='${anchor}'>${feature}</a>`
 }

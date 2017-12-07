@@ -85,11 +85,11 @@ features:
     - smoothness=very_horrible
   mapillary: HsZQPUukTzivaSw1fiUemA
 
-- feature: Impassible
+- feature: Impassable
   description: |
     Almost nobody would be able to ride this
   elements:
     - way
   osm:
-    - smoothness=impassible
+    - smoothness=impassable
   mapillary: N3kAgXz5-4A5G8k3xIxCZQ
