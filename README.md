@@ -231,7 +231,7 @@ More description of parking tags: [https://wiki.openstreetmap.org/wiki/Key:parki
 
 Mark as `validated` in the Tasking Manager.
 
-- [`highway`](#Off-Road)
+- [`highway`](#Off-road)
 - [`smoothness`](#Smoothness)
 - [`parking:lane:left/right/both`](#Parking)
 - [`shoulder:left/right/both`](#feature-Shoulder-not-signed-as-a-bike-lane)
