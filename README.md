@@ -1,3 +1,5 @@
+DELETE ME
+
 # OSM Bike Ottawa Tagging Guide
 
 ## Table of Contents
