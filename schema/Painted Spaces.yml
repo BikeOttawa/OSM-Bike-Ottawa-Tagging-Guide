@@ -69,12 +69,12 @@ features:
   description: |
     A single line of paint delineates the shoulder.
     No signage or bike symbols present.
+    Map if there is enough space to bike, i.e. at least 2-3ft wide
     Parking on the shoulder is typically permitted.
   elements:
     - way
   osm:
-    - shoulder:left/right/both # TO verifiy
-    - shoulder:surface=yes/no # TO verifiy
+    - cycleway:left/right/both=shoulder # TO verifiy
   mapillary: wYO6exNSPsFQM7nZblFMAQ
 
 - feature: Traffic-calming parking lane
