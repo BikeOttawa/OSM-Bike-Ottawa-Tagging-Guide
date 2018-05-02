@@ -7,7 +7,7 @@ features:
   elements:
     - way
   osm:
-    - cycleway=mixed_traffic
+    - cycleway=shared_lane
     - otherwise, tag like any other shared street with parking
   mapillary: kl9e_LG76Fvzom8PycQHAQ
 
@@ -19,7 +19,7 @@ features:
   elements:
     - way
   osm:
-    - cycleway=mixed_traffic
+    - cycleway=shared_lane
   mapillary: Ai2jtWC-HyicF8V_NWbUcA
 
 - feature: Sharrows
@@ -30,7 +30,7 @@ features:
   elements:
     - way
   osm:
-    - cycleway=mixed_traffic
+    - cycleway=shared_lane
   mapillary: d-l1qlsZsdb1vJWyeIVeDw
   
 - feature: Shared bus/bike lane
