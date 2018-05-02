@@ -90,3 +90,16 @@ features:
   osm:
     -tag like any other shared road with/without parking
   mapillary: AFnTWKXGzqrIFqDCHRUOcg
+  
+  
+- feature: Pedestrian crossing
+  description: |
+    Controlled/uncontrolled pedestrian crossing often required to connect two non-intersecting ways
+  elements:
+    - way
+  osm:
+    - Draw as a separate way where zebra is
+    - highway=footway
+    - footway=crossing
+    
+  mapillary: 
