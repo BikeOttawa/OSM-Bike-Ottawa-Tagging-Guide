@@ -11,7 +11,7 @@ features:
 - feature: Not maintained
   description: |
     If not plowed, `seasonal=yes` and
-    add a conditional restriction of `access:conditional=no` @ Dec-Mar
+    add a conditional restriction of `access:conditional=no` @ (Dec-Mar)
     to indicate the period when the way is typically unavailable
   elements:
     - way
@@ -22,7 +22,7 @@ features:
 
 - feature: Poorly maintained
   description: |
-    If poorly plowed, add a conditional restriction of `smoothness:conditional=bad` @ Dec-Mar
+    If poorly plowed, add a conditional restriction of `smoothness:conditional=bad` @ (Dec-Mar)
   elements:
     - way
   osm:
