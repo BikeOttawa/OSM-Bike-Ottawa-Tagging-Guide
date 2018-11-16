@@ -117,8 +117,8 @@ or saying definitively that it is absent.
 
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
 |------------|---------------------|---------------------|---------------------|
-|<a name='feature-Maintained'>Maintained</a> | If maintained, `seasonal=no`<br> | ![way](img/way.png) [seasonal](http://wiki.openstreetmap.org/wiki/Key:seasonal)=no | |
-|<a name='feature-Not-maintained'>Not maintained</a> | If not plowed, `seasonal=yes` and<br>add a conditional restriction of `access:conditional=no` @ Dec-Mar<br>to indicate the period when the way is typically unavailable<br> | ![way](img/way.png) [seasonal](http://wiki.openstreetmap.org/wiki/Key:seasonal)=yes<br>[access:conditional](http://wiki.openstreetmap.org/wiki/Conditional_restrictions)=no | |
+|<a name='feature-Maintained'>Maintained</a> | If maintained, `winter_service=no`<br> | ![way](img/way.png) [winter_service](http://wiki.openstreetmap.org/wiki/Key:winter_service)=no | |
+|<a name='feature-Not-maintained'>Not maintained</a> | If not plowed, `winter_service=yes` and<br>add a conditional restriction of `access:conditional=no` @ Dec-Mar<br>to indicate the period when the way is typically unavailable<br> | ![way](img/way.png) [winter_service](http://wiki.openstreetmap.org/wiki/Key:winter_service)=yes<br>[access:conditional](http://wiki.openstreetmap.org/wiki/Conditional_restrictions)=no | |
 |<a name='feature-Poorly-maintained'>Poorly maintained</a> | If poorly plowed, add a conditional restriction of `smoothness:conditional=bad` @ Dec-Mar<br> | ![way](img/way.png) smoothness:conditional=bad | |
 
 <h2 id="Filtered Permeability and Pinch-Points">Filtered Permeability and Pinch-Points</h2>
