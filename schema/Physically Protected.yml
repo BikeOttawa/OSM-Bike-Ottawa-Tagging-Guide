@@ -2,6 +2,7 @@ features:
 - feature: One way protected lane
   description: |
     Also known as cycletrack. Separated from the roadway by elevation, pedestrians not permitted.  Map as a separate way from the road.
+    Add `cycleway=separate` to the road.
   elements:
     - way
   osm:
@@ -12,6 +13,7 @@ features:
 - feature: Bi-directional protected lane
   description: |
     Also known as cycletrack. Separated from the roadway by elevation, pedestrians not permitted.  Map as a separate way from the road.
+    Add `cycleway=separate` to the road.
   elements:
     - way
   osm:
@@ -27,6 +29,7 @@ features:
     - jersey barriers
     - parked cars
     Map as a separate way from the road.
+    Add `cycleway=separate` to the road.
   elements:
     - way
   osm:
@@ -38,6 +41,7 @@ features:
   description: |
     If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
     Map as a separate way from the road.
+    Add `cycleway=separate` to the road.
   elements:
     - way
   osm:
@@ -65,6 +69,7 @@ features:
     A standard sidewalk, sharing designated by signage.
     Surface is often concrete, rather than asphalt.
     Map as a separate way from the road.
+    Add `cycleway=separate` to the road.
   elements:
     - way
   osm:
