@@ -81,3 +81,4 @@ paths:
     ramp:bicycle: http://wiki.openstreetmap.org/wiki/Key:ramp:bicycle
     shoulder:left/right/both: http://wiki.openstreetmap.org/wiki/Key:shoulder
     shoulder:surface: https://wiki.openstreetmap.org/wiki/Key:surface
+    winter_service: http://wiki.openstreetmap.org/wiki/Key:winter_service
