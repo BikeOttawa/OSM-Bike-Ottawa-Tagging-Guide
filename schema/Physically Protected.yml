@@ -16,7 +16,7 @@ features:
     - way
   osm:
     - highway=cycleway
-    - cycleway:right=lane
+    - cycleway:right=track
     - oneway=yes
   mapillary: 2mC6bW6jTCYHol6aXkcRHw
 
