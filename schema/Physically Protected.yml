@@ -1,7 +1,7 @@
 features:
-- feature: One way protected lanes
+- feature: One way protected lane
   description: |
-    Also known as cycletracks. Separated from the roadway by elevation, pedestrians not permitted.
+    Also known as cycletrack. Separated from the roadway by elevation, pedestrians not permitted.  Map as a separate way from the road.
   elements:
     - way
   osm:
@@ -9,20 +9,9 @@ features:
     - oneway=yes
   mapillary: GSkPP_J3o-ILEkeoMJMl0A
 
-- feature: One way protected lane, on only one side of a two-way road
+- feature: Bi-directional protected lane
   description: |
-    Also known as a cycletrack. Not all roads have cycletracks on both sides. Separated from the roadway, pedestrians not permitted.
-  elements:
-    - way
-  osm:
-    - highway=cycleway
-    - cycleway:right=track
-    - oneway=yes
-  mapillary: 2mC6bW6jTCYHol6aXkcRHw
-
-- feature: Bi-directional protected cycletrack
-  description: |
-    Separate way for the cycletrack.
+    Also known as cycletrack. Separated from the roadway by elevation, pedestrians not permitted.  Map as a separate way from the road.
   elements:
     - way
   osm:
@@ -37,6 +26,7 @@ features:
     - concrete sleepers
     - jersey barriers
     - parked cars
+    Map as a separate way from the road.
   elements:
     - way
   osm:
@@ -47,6 +37,7 @@ features:
 - feature: Contraflow lane with separation
   description: |
     If the separation is only paint or flex posts, see contraflow lanes in the "Painted Spaces" section. On one-way streets where there is a physical form of separation.
+    Map as a separate way from the road.
   elements:
     - way
   osm:
@@ -54,7 +45,7 @@ features:
     - oneway=yes
   mapillary: cW35TfHANRe5DWbbxABJlw
  
-- feature: Service strip
+- feature: Service strip (REVIEW NEEDED)
   description: |
     Asphalt strip, resembles a cycletrack,
     but is typically narrow and in poor condition,
@@ -73,11 +64,11 @@ features:
   description: |
     A standard sidewalk, sharing designated by signage.
     Surface is often concrete, rather than asphalt.
-
-    Add the sidewalk tag to the highway=* way
+    Map as a separate way from the road.
   elements:
     - way
   osm:
-    - sidewalk:both/left/right:bicycle=yes
+    - highway=footway
+    - bicycle=yes
+    - surface=concrete
   mapillary: ZP4d2yqBwWWlfbixrztDzA
-
