@@ -118,7 +118,7 @@ or saying definitively that it is absent.
 | Feature    | Description         | OSM Schema          | Mapillary Photo     |
 |------------|---------------------|---------------------|---------------------|
 |<a name='feature-Maintained'>Maintained</a> | If maintained, `winter_service=yes`<br> | ![way](img/way.png) [winter_service](http://wiki.openstreetmap.org/wiki/Key:winter_service)=yes | |
-|<a name='feature-Not-maintained'>Not maintained</a> | If not plowed, `winter_service=no`<br> | ![way](img/way.png) [winter_service](http://wiki.openstreetmap.org/wiki/Key:winter_service)=no| |
+|<a name='feature-Not-maintained'>Not maintained</a> | If not plowed, `winter_service=no`<br> | ![way](img/way.png) [winter_service](http://wiki.openstreetmap.org/wiki/Key:winter_service)=no | |
 |<a name='feature-Poorly-maintained'>Poorly maintained</a> | If poorly plowed, add a conditional restriction of `smoothness:conditional=bad` @ Dec-Mar<br> | ![way](img/way.png) smoothness:conditional=bad | |
 
 <h2 id="Filtered Permeability and Pinch-Points">Filtered Permeability and Pinch-Points</h2>
