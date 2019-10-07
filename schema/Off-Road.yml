@@ -32,6 +32,7 @@ features:
   osm:
     - highway=footway
     - bicycle=yes
+    - segregated=no
   mapillary: fMftKPCR90gDvxZ_3q3V5w
 
 - feature: Unpaved Multi-Use Path (MUP)
@@ -43,6 +44,7 @@ features:
     - highway=path
     - surface=fine_gravel
     - bicycle=yes
+    - segregated=no
   mapillary: 0y0R2Fs6pv3KvTgCEYPabw
   
 - feature: Desire line
