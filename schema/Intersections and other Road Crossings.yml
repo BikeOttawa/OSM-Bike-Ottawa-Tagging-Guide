@@ -85,9 +85,12 @@ features:
 
 - feature: Cycleway crosses highway
   description: |
+     Places where there are both pedestrian and cycling infrastructure to cross a road.
   elements:
-    - node
     - way
   osm:
-    -
-  mapillary:
+    - highway=footway
+    - footway=crossing
+    - bicycle=yes
+    - segregated=yes
+  mapillary: lDGaiSziBCBSXBk9Dy5ZYA&focus=photo
