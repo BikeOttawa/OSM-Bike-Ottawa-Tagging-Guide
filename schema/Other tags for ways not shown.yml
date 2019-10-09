@@ -21,6 +21,7 @@ features:
     - way
   osm:
     - bridge=yes
+    - bridge:name=*
   mapillary: DM_icM01W41ppwECsD0joQ
 
 - feature: Tunnel
