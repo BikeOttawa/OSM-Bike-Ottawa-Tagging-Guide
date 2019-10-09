@@ -1,18 +1,19 @@
 features:
 - feature: All-way stop
   description: |
+     Place stop sign on the intersection in OSM.
   elements:
     - node
   osm:
-    -
-  mapillary:
+    - highway=stop
+  mapillary: i_bpXpcvrlUcJftdbKq_
 
 - feature: Two-way stop
   description: |
   elements:
     - node
   osm:
-    -
+    - highway=stop
   mapillary:
 
 - feature: Pedestrian Crossover
@@ -22,9 +23,12 @@ features:
     They are not crosswalks, which are located at intersections.
     Cyclists may use PXOs, but are required by law to walk their bike.
   elements:
-    - node
+    - way
   osm:
-    -
+    - highway=footway
+    - footway=crossing
+    - bicycle=dismount
+    - segregated=no
   mapillary: BTxXRYVREFm3fy_NMQW5Yg
 
 - feature: Yield
@@ -32,7 +36,7 @@ features:
   elements:
     - node
   osm:
-    -
+    - highway=give_way
   mapillary:
 
 - feature: Traffic circle, no bypass
@@ -82,6 +86,18 @@ features:
   osm:
     -
   mapillary:
+
+- feature: Path or sidewalk crosses highway (without dedicated cycling infrastructure)
+  description: |
+     Places where there is only pedestrian infrastructure to cross a road.
+  elements:
+    - way
+  osm:
+    - highway=footway
+    - footway=crossing
+    - bicycle=dismount
+    - segregated=no
+  mapillary: owHxC0kiaS1fVheKLXny5E
 
 - feature: Cycleway crosses highway
   description: |
