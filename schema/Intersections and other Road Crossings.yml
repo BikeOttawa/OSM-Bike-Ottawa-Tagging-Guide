@@ -6,7 +6,7 @@ features:
     - node
   osm:
     - highway=stop
-  mapillary: i_bpXpcvrlUcJftdbKq_
+  mapillary: Qi_bpXpcvrlUcJftdbKq_g
 
 - feature: Two-way stop
   description: |
