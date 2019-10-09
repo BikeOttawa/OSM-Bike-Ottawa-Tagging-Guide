@@ -14,6 +14,7 @@ features:
     - node
   osm:
     - highway=stop
+    - direction=forward/backward
   mapillary:
 
 - feature: Pedestrian Crossover
@@ -37,6 +38,7 @@ features:
     - node
   osm:
     - highway=give_way
+    - direction=forward/backward
   mapillary:
 
 - feature: Traffic circle, no bypass
