@@ -169,7 +169,7 @@ or saying definitively that it is absent.
 |<a name='feature-Tunnel'>Tunnel</a> |  | ![way](img/way.png) [tunnel](https://wiki.openstreetmap.org/wiki/Key:tunnel)=yes | <a href='https://www.mapillary.com/app/?focus=photo&pKey=BABIQ-uSmxRTk4bkTbjCQg'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/BABIQ-uSmxRTk4bkTbjCQg/thumb-1024.jpg'></a>|
 |<a name='feature-Lighting'>Lighting</a> |  | ![way](img/way.png) [lit](https://wiki.openstreetmap.org/wiki/Key:lit)=yes | <a href='https://www.mapillary.com/app/?focus=photo&pKey=O7G6yB8eP6dBTNKg7Kmnww'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/O7G6yB8eP6dBTNKg7Kmnww/thumb-1024.jpg'></a>|
 |<a name='feature-Operator'>Operator</a> |  | ![operator](undefined) operator=NCC/City of Ottawa/Ville de Gatineau | <a href='https://www.mapillary.com/app/?focus=photo&pKey=d0oNvFSc0G-oWSPsxMwoog'><img style='min-width:300px;max-width:300px' src='https://d1cuyjsrcm0gby.cloudfront.net/d0oNvFSc0G-oWSPsxMwoog/thumb-1024.jpg'></a>|
-|<a name='feature-Official-name'>Official name</a> |  | ![way](img/way.png) ![node](img/node.png) name=\* | |
+|<a name='feature-Official-name'>Official name</a> | Add `name:en` and `name:fr` if there are multilingual names. `name` must match either `name:en` or `name:fr`<br> | ![way](img/way.png) ![node](img/node.png) name=\*<br>name:en=\*<br>name:fr=\* | |
 
 <h2 id="Points of Interest (Nodes)">Points of Interest (Nodes)</h2>
 

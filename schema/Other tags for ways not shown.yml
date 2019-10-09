@@ -50,9 +50,12 @@ features:
 
 - feature: Official name
   description: |
+      Add `name:en` and `name:fr` if there are multilingual names. `name` must match either `name:en` or `name:fr`
   elements:
     - way
     - node
   osm:
     - name=*
+    - name:en=*
+    - name:fr=*
   mapillary:
