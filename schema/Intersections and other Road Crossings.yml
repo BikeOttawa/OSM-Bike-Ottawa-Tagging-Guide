@@ -101,9 +101,10 @@ features:
     - segregated=no
   mapillary: owHxC0kiaS1fVheKLXny5E
 
-- feature: Cycleway crosses highway
+- feature: Cycleway and Footway and crosses highway (with segregated cycling infrastructure)
   description: |
      Places where there are both pedestrian and cycling infrastructure to cross a road.
+     Just put one way and tag it for both pedesrians and cyclists.
   elements:
     - way
   osm:
@@ -112,3 +113,13 @@ features:
     - bicycle=yes
     - segregated=yes
   mapillary: lDGaiSziBCBSXBk9Dy5ZYA
+
+- feature: Cycleway crosses highway
+  description: |
+     Places where dedicated cycling infrastructure to cross a road.
+  elements:
+    - way
+  osm:
+    - highway=cycleway
+    - cycleway=crossing
+  mapillary: G2QXCKYikoE8zXl8KPCJaQ
