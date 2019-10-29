@@ -27,7 +27,26 @@ features:
     - highway=traffic_signals
   mapillary: vkLk3HH7MDYzwbvAaUbhuQ
 
-- feature: Pedestrian Crossover
+- feature: Pedestrian Crossover with signs and road paint and flashing yellow lights
+  description: |
+    Also known as PXOs. These are mid-block crossings,
+    designated by a variety of different signage treatments.
+    They are not crosswalks, which are located at intersections.
+    Cyclists may use PXOs, but are required by law to walk their bike.
+    Either there are yellow lights that are always flashing or there
+    is a button to activate the lights.
+  elements:
+    - way
+  osm:
+    - highway=footway
+    - footway=crossing
+    - crossing=controlled
+    - bicycle=dismount
+    - segregated=no
+    - flashing_lights=always/button
+  mapillary: BTxXRYVREFm3fy_NMQW5Yg
+
+- feature: Pedestrian Crossover with signs and road paint
   description: |
     Also known as PXOs. These are mid-block crossings,
     designated by a variety of different signage treatments.
@@ -41,8 +60,7 @@ features:
     - crossing=controlled
     - bicycle=dismount
     - segregated=no
-    - flashing_lights=button (if it has button activated lights)
-  mapillary: BTxXRYVREFm3fy_NMQW5Yg
+  mapillary: sI24dstl6i6HCnF1YBDJOs
 
 - feature: Yield
   description: |
