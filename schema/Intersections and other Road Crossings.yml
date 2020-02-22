@@ -17,16 +17,6 @@ features:
     - direction=forward/backward
   mapillary:
 
-- feature: Pelican Crossing (NEEDS REVIEW)
-  description: |
-    Mid-block crossing with traffic lights for pedestrians.
-  elements:
-    - node
-  osm:
-    - crossing-pelican
-    - highway=traffic_signals
-  mapillary: vkLk3HH7MDYzwbvAaUbhuQ
-
 - feature: Pedestrian Crossover with signs and road paint and flashing yellow lights
   description: |
     Also known as PXOs. These are mid-block crossings,
