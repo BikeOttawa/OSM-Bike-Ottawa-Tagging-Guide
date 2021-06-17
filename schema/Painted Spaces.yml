@@ -9,6 +9,7 @@ features:
   osm:
     - cycleway=lane
     - cycleway:buffer=yes
+    - cycleway:buffer=0.5
   mapillary: sCskYIeAaVOrs6pOvUVddQ
 
 - feature: Painted bike lane, on a divided road
