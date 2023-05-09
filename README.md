@@ -1,5 +1,7 @@
 # OSM Bike Ottawa Tagging Guide
 
+A guide to tagging cycling infrastructure in Open Street Maps.
+
 ## Table of Contents
 
 <ul>
